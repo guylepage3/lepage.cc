@@ -1,5 +1,3 @@
-# lepage.cc
-
 <p align="center">
   <a href="https://github.com/guylepage3/lepage.cc">
     <img src="https://user-images.githubusercontent.com/1711854/33521969-f239f1ea-d7ae-11e7-8526-1aeeb063e813.png" width=72 height=72>
