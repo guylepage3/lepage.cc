@@ -30,6 +30,13 @@
 - [Creators](#creators)
 - [Copyright and license](#copyright-and-license)
 
+## Status
+<p align="center">
+  <a href="https://twitter.com/intent/follow?screen_name=guylepage3">
+    <img src="https://img.shields.io/twitter/follow/shields_io.svg?style=social" alt="follow on Twitter">
+  </a>
+</p>
+
 ## Finding opportunities to contribute
 
 Visit our issue tracker:
