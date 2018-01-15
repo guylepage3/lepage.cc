@@ -38,7 +38,7 @@
 </p>
 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40fold_left)](https://twitter.com/fold_left)
-
+[![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](https://twitter.com/guylepage3)
 
 ## Finding opportunities to contribute
 
