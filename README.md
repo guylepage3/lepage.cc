@@ -33,10 +33,9 @@
 ## Status
 <p align="center">
   <a href="https://twitter.com/intent/follow?screen_name=guylepage3">
-    <img src="https://img.shields.io/twitter/follow/guylepage3.svg?style=social" alt="follow on Twitter">
+    <img src="https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow" alt="follow on Twitter">
   </a>
 </p>
-[![Twitter Follow](https://img.shields.io/twitter/follow/espadrine.svg?style=social&label=Follow)](http://twitter.com/guylepage3)
 
 ## Finding opportunities to contribute
 
