@@ -16,7 +16,7 @@
     </a>
     &nbsp;&middot;&nbsp;
     <a href="https://github.com/guylepage3">
-      <img src="https://img.shields.io/github/url/guylepage3.svg?style=social&label=Follow&logo=github" alt="follow on GitHub">
+      <img src="https://img.shields.io/github/url/https/github.com/guylepage3.svg?style=social&label=Follow&logo=github" alt="follow on GitHub">
     </a>
   </p>
 </p>
