@@ -15,8 +15,8 @@
       <img src="https://img.shields.io/twitter/url/https/twitter.com/guylepage3.svg?style=social&label=Follow%20%40guylepage3&logo=twitter" alt="follow on Twitter">
     </a>
     &middot;
-    <a href="https://github.com/follow?guylepage3">
-      <img src="https://img.shields.io/github/followers/espadrine.svg?style=social&label=Follow&logo=github" alt="follow on GitHub">
+    <a href="https://github.com/guylepage3">
+      <img src="https://img.shields.io/github/followers/guylepage3.svg?style=social&label=Follow&logo=github" alt="follow on GitHub">
     </a>
   </p>
 </p>
