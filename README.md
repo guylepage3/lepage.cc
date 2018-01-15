@@ -37,6 +37,9 @@
   </a>
 </p>
 
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40fold_left)](https://twitter.com/fold_left)
+
+
 ## Finding opportunities to contribute
 
 Visit our issue tracker:
