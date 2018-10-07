@@ -42,7 +42,7 @@ This project was bootstrapped with [Create React App `v2.0`](https://github.com/
 - Created [Heroku Buildpack for create-react-app](https://elements.heroku.com/buildpacks/nhutphuongit/create-react-app-buildpack).
 - Installed and setup [Create React App](https://github.com/facebookincubator/create-react-app).
 
-[![Lepage.cc version](https://img.shields.io/badge/Universe.engineering-v0.1.0-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/guylepage3/lepage.cc)
+[![Lepage.cc version](https://img.shields.io/badge/Lepage.cc-v0.1.0-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/guylepage3/lepage.cc)
 
 [![ajv version](https://img.shields.io/badge/ajv-v6.5.4-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/ajv)
 [![npm version](https://img.shields.io/badge/npm-v6.4.1-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/npm)
