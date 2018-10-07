@@ -21,7 +21,10 @@
   </p>
 </p>
 
-<br>
+<br/>
+
+This project was bootstrapped with [Create React App `v2.0`](https://github.com/facebookincubator/create-react-app).
+
 
 ## Table of contents
 
