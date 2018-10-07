@@ -48,7 +48,7 @@ This project was bootstrapped with [Create React App `v2.0`](https://github.com/
 [![npm version](https://img.shields.io/badge/npm-v6.4.1-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/npm)
 [![React version](https://img.shields.io/badge/React-v16.5.2-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react)
 [![ReactDom version](https://img.shields.io/badge/ReactDom-v16.5.2-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react-dom)
-[![React Scripts version](https://img.shields.io/badge/React_Scripts-v2.0.3-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react-scripts)
+[![React Scripts version](https://img.shields.io/badge/React_Scripts-v2.0.4-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react-scripts)
 
 ## Finding opportunities to contribute
 
