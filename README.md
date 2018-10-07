@@ -1,12 +1,12 @@
 <p align="center">
-  <a href="https://github.com/guylepage3/lepage.cc">
+  <a href="https://lepage.cc">
     <img src="https://user-images.githubusercontent.com/1711854/33521969-f239f1ea-d7ae-11e7-8526-1aeeb063e813.png" width=72 height=72>
   </a>
 
-  <h3 align="center">Guy Lepage</h3>
+  <h3 align="center">Guy Lepage Portfolio</h3>
 
   <p align="center">
-    This is the repository for Guy Lepage's portfolio and blog
+    Guy Lepage's portfolio
     <br>
     <a href="https://github.com/guylepage3/lepage.cc"><strong>Explore docs &raquo;</strong></a>
     <br>
@@ -15,8 +15,8 @@
       <img src="https://img.shields.io/twitter/url/https/twitter.com/guylepage3.svg?style=social&label=Follow%20%40guylepage3&logo=twitter" alt="follow on Twitter">
     </a>
     &nbsp;&middot;&nbsp;
-    <a href="https://github.com/guylepage3">
-      <img src="https://img.shields.io/github/followers/guylepage3.svg?style=social&label=Follow&logo=github" alt="follow on GitHub">
+    <a href="https://github.com/guylepage3/lepage.cc/stargazers">
+      <img src="https://img.shields.io/github/stars/guylepage3/lepage.cc.svg?style=social&label=Star&maxAge=2592000" alt="Star Repo">
     </a>
   </p>
 </p>
