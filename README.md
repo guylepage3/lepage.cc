@@ -14,15 +14,15 @@
     <a href="https://twitter.com/guylepage3">
       <strong>Twitter</strong>
     </a>
-    &nbsp;&middot;&nbsp;
+    &middot;
     <a href="https://github.com/guylepage3">
       <strong>GitHub</strong></a>
     </a>
-    &nbsp;&middot;&nbsp;
+    &middot;
     <a href="https://www.linkedin.com/in/guylepage/">
       <strong>LinkedIn</strong></a>
     </a>
-    &nbsp;&middot;&nbsp;
+    &middot;
     <a href="https://medium.com/@guylepage3">
       <strong>Medium</strong></a>
     </a>
@@ -31,7 +31,7 @@
     <a href="https://github.com/guylepage3/lepage.cc/issues/new">
       <strong>Report bug</strong>
     </a>
-    &nbsp;&middot;&nbsp;
+    &middot;
     <a href="mailto:guylepage698@gmail.com?subject=[From GitHub README.md]">
       <strong>Contact</strong>
     </a>
