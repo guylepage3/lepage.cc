@@ -16,15 +16,15 @@
     </a>
     &nbsp;&middot;&nbsp;
     <a href="https://github.com/guylepage3">
-      <strong></strong>GitHub</strong></a>
+      <strong>GitHub</strong></a>
     </a>
     &nbsp;&middot;&nbsp;
     <a href="https://www.linkedin.com/in/guylepage/">
-      <strong></strong>LinkedIn</strong></a>
+      <strong>LinkedIn</strong></a>
     </a>
     &nbsp;&middot;&nbsp;
     <a href="https://medium.com/@guylepage3">
-      <strong></strong>Medium</strong></a>
+      <strong>Medium</strong></a>
     </a>
   </p>
   <p align="center">
