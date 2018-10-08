@@ -26,8 +26,8 @@
     <a href="https://medium.com/@guylepage3">
       <strong></strong>Medium</strong></a>
     </a>
-    <br/>
-    <br/>
+  </p>
+  <p align="center">
     <a href="https://github.com/guylepage3/lepage.cc/issues/new">
       <strong>Report bug</strong>
     </a>
