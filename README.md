@@ -29,11 +29,11 @@
   </p>
   <p align="center">
     <a href="https://github.com/guylepage3/lepage.cc/issues/new">
-      <strong>Report bug</strong>
+      Report bug
     </a>
     &middot;
     <a href="mailto:guylepage698@gmail.com?subject=[From GitHub README.md]">
-      <strong>Contact</strong>
+      Contact
     </a>
     <br/>
     <br/>
