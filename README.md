@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://lepage.cc">
-    <img src="https://user-images.githubusercontent.com/1711854/46634191-1ebd9b00-cb1e-11e8-8c40-d0b8146d9396.png" width=80>
+    <img src="https://user-images.githubusercontent.com/1711854/46634191-1ebd9b00-cb1e-11e8-8c40-d0b8146d9396.png" width=110>
   </a>
   <br/>
   <a href="https://lepage.cc">
