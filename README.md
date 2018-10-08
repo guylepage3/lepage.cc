@@ -10,6 +10,7 @@
   <p align="center">
     This is the repository for Guy Lepage's resume/cv and portfolio
     <br/>
+    <br/>
     <a href="https://twitter.com/guylepage3">
       <strong>Twitter</strong>
     </a>
@@ -25,6 +26,7 @@
     <a href="https://medium.com/@guylepage3">
       <strong></strong>Medium</strong></a>
     </a>
+    <br/>
     <br/>
     <a href="https://github.com/guylepage3/lepage.cc/issues/new">
       <strong>Report bug</strong>
