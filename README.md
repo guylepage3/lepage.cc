@@ -2,6 +2,9 @@
 
 <p align="center">
   <a href="https://lepage.cc">
+    <img src="https://user-images.githubusercontent.com/1711854/46634191-1ebd9b00-cb1e-11e8-8c40-d0b8146d9396.png" width=80>
+  </a>
+  <a href="https://lepage.cc">
     <img src="https://user-images.githubusercontent.com/1711854/46634061-b79fe680-cb1d-11e8-9d83-32f563fa8acc.png" width=210>
   </a>
 
