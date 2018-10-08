@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://lepage.cc">
-    <img src="https://user-images.githubusercontent.com/1711854/33521969-f239f1ea-d7ae-11e7-8526-1aeeb063e813.png" width=72 height=72>
+    <img src="https://user-images.githubusercontent.com/1711854/46633984-70b1f100-cb1d-11e8-8ee8-78f402417b42.png" width=72 height=72>
   </a>
 
   <h3 align="center">Guy Lepage Portfolio</h3>
