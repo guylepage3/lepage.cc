@@ -2,10 +2,6 @@
 
 <p align="center">
   <a href="https://lepage.cc">
-    <img src="https://user-images.githubusercontent.com/1711854/46634191-1ebd9b00-cb1e-11e8-8c40-d0b8146d9396.png" width=110>
-  </a>
-  <br/>
-  <a href="https://lepage.cc">
     <img src="https://user-images.githubusercontent.com/1711854/46634061-b79fe680-cb1d-11e8-9d83-32f563fa8acc.png" width=210>
   </a>
 
@@ -13,10 +9,29 @@
 
   <p align="center">
     Guy Lepage's portfolio
-    <br>
-    <a href="https://github.com/guylepage3/lepage.cc"><strong>Explore docs &raquo;</strong></a>
-    <br>
-    <br>
+    <br/>
+    <br/>
+    <a href="https://twitter.com/guylepage3">
+      Twitter
+    </a>
+    &nbsp;&middot;&nbsp;
+    <a href="https://github.com/guylepage3">
+      GitHub
+    </a>
+    &nbsp;&middot;&nbsp;
+    <a href="https://www.linkedin.com/in/guylepage/">
+      LinkedIn
+    </a>
+    &nbsp;&middot;&nbsp;
+    <a href="https://github.com/universelabs/">
+      Explore
+    </a>
+    &nbsp;&middot;&nbsp;
+    <a href="https://medium.com/@guylepage3">
+      Medium
+    </a>
+    <br/>
+    <br/>
     <a href="https://twitter.com/intent/follow?screen_name=guylepage3">
       <img src="https://img.shields.io/twitter/url/https/twitter.com/guylepage3.svg?style=social&label=Follow%20%40guylepage3&logo=twitter" alt="follow on Twitter">
     </a>
