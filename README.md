@@ -5,12 +5,21 @@
     <img src="https://user-images.githubusercontent.com/1711854/46634061-b79fe680-cb1d-11e8-9d83-32f563fa8acc.png" width=210>
   </a>
 
-  <h3 align="center">Guy Lepage Portfolio</h3>
+  <h3>Guy Lepage Portfolio</h3>
 
-  <p align="center">
-    Guy Lepage's portfolio
+  <p>
+    This is the repository for Guy Lepage's resume/cv and portfolio
     <br/>
     <br/>
+    <a href="https://github.com/guylepage3/lepage.cc/issues/new">
+      <strong>Report bug</strong>
+    </a>
+  </p>
+  <p>
+    <a href="https://twitter.com/guylepage3">
+      <strong>Social ›› </strong>
+    </a>
+    &nbsp;&middot;&nbsp;
     <a href="https://twitter.com/guylepage3">
       Twitter
     </a>
@@ -23,10 +32,6 @@
       LinkedIn
     </a>
     &nbsp;&middot;&nbsp;
-    <a href="https://github.com/universelabs/">
-      Explore
-    </a>
-    &nbsp;&middot;&nbsp;
     <a href="https://medium.com/@guylepage3">
       Medium
     </a>
@@ -37,7 +42,7 @@
     </a>
     &nbsp;&middot;&nbsp;
     <a href="https://github.com/guylepage3/lepage.cc/stargazers">
-      <img src="https://img.shields.io/github/stars/guylepage3/lepage.cc.svg?style=social&label=Star&maxAge=2592000" alt="Star Repo">
+      <img src="https://img.shields.io/github/stars/guylepage3/lepage.cc.svg?style=social&label=Stars&maxAge=2592000" alt="Star Repo">
     </a>
   </p>
 </p>
