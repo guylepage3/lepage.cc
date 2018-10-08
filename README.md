@@ -11,6 +11,10 @@
     This is the repository for Guy Lepage's resume/cv and portfolio
     <br/>
     <br/>
+    <a href="https://lepage.cc">
+      <strong>Website</strong>
+    </a>
+    &middot;
     <a href="https://twitter.com/guylepage3">
       <strong>Twitter</strong>
     </a>
