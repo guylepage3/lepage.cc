@@ -10,6 +10,21 @@
   <p align="center">
     This is the repository for Guy Lepage's resume/cv and portfolio
     <br/>
+    <a href="https://twitter.com/guylepage3">
+      <strong>Twitter</strong>
+    </a>
+    &nbsp;&middot;&nbsp;
+    <a href="https://github.com/guylepage3">
+      <strong></strong>GitHub</strong></a>
+    </a>
+    &nbsp;&middot;&nbsp;
+    <a href="https://www.linkedin.com/in/guylepage/">
+      <strong></strong>LinkedIn</strong></a>
+    </a>
+    &nbsp;&middot;&nbsp;
+    <a href="https://medium.com/@guylepage3">
+      <strong></strong>Medium</strong></a>
+    </a>
     <br/>
     <a href="https://github.com/guylepage3/lepage.cc/issues/new">
       <strong>Report bug</strong>
@@ -17,23 +32,6 @@
     &nbsp;&middot;&nbsp;
     <a href="mailto:guylepage698@gmail.com?subject=[From GitHub README.md]">
       <strong>Contact</strong>
-    </a>
-  </p>
-  <p align="center">
-    <a href="https://twitter.com/guylepage3">
-      Twitter
-    </a>
-    &nbsp;&middot;&nbsp;
-    <a href="https://github.com/guylepage3">
-      GitHub
-    </a>
-    &nbsp;&middot;&nbsp;
-    <a href="https://www.linkedin.com/in/guylepage/">
-      LinkedIn
-    </a>
-    &nbsp;&middot;&nbsp;
-    <a href="https://medium.com/@guylepage3">
-      Medium
     </a>
     <br/>
     <br/>
