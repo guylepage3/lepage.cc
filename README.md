@@ -40,7 +40,7 @@
     <br/>
     <br/>
     <a href="https://twitter.com/intent/follow?screen_name=guylepage3">
-      <img src="https://img.shields.io/twitter/follow/guylepage3.svg?style=social&logo=twitter" alt="follow on Twitter">
+      <img src="https://img.shields.io/twitter/url/https/twitter.com/guylepage3.svg?style=social&label=Follow%20%40guylepage3&logo=twitter" alt="follow on Twitter">
     </a>
     &nbsp;&middot;&nbsp;
     <a href="https://github.com/guylepage3/lepage.cc/stargazers/">
