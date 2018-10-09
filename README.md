@@ -45,7 +45,7 @@
     </a>
     &nbsp;&middot;&nbsp;
     <a href="https://github.com/guylepage3/lepage.cc/stargazers">
-      <img src="https://img.shields.io/github/stars/guylepage3/lepage.cc.svg?style=social&label=Stars&maxAge=2592000" 
+      <img src="https://img.shields.io/github/stars/guylepage3/lepage.cc.svg?style=social&label=Star&maxAge=2592000" 
         alt="Star Repo">
     </a>
   </p>
