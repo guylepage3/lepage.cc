@@ -34,7 +34,7 @@
       Report bug
     </a>
     &middot;
-    <a href="mailto:guylepage698@gmail.com?subject=[From GitHub README.md]">
+    <a href="https://goo.gl/forms/2LvYYCg1VViD6FWm2">
       Contact
     </a>
     <br/>
