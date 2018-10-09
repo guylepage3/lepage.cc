@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Hero from './components/Hero';
 import './App.css';
 
 class App extends Component {
@@ -10,6 +11,7 @@ class App extends Component {
             paddingTop: '40px'
           }}>
         </div>
+        <Hero />
       </div>
     );
   }
