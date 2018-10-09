@@ -40,13 +40,11 @@
     <br/>
     <br/>
     <a href="https://twitter.com/intent/follow?screen_name=guylepage3">
-      <img src="https://img.shields.io/twitter/follow/guylepage3.svg?style=social&logo=twitter"
-        alt="follow on Twitter">
+      <img src="https://img.shields.io/twitter/follow/guylepage3.svg?style=social&logo=twitter" alt="follow on Twitter">
     </a>
     &nbsp;&middot;&nbsp;
     <a href="https://github.com/guylepage3/lepage.cc/stargazers">
-      <img src="https://img.shields.io/github/stars/guylepage3/lepage.cc.svg?style=social&label=Star&maxAge=2592000" 
-        alt="Star Repo">
+      <img src="https://img.shields.io/github/stars/guylepage3/lepage.cc.svg?style=social&label=Star&maxAge=2592000" alt="Star Repo">
     </a>
   </p>
 </p>
