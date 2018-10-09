@@ -66,7 +66,7 @@ This project was bootstrapped with [Create React App `v2.0`](https://github.com/
 - Installed and setup [Create React App](https://github.com/facebookincubator/create-react-app).
 - Installed Bootstrap v4.1.3 and peer dependencies.
 
-[![Lepage.cc version](https://img.shields.io/badge/Lepage.cc-v0.3.1-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/guylepage3/lepage.cc)
+[![Lepage.cc version](https://img.shields.io/badge/Lepage.cc-v1.0.0-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/guylepage3/lepage.cc)
 
 [![ajv version](https://img.shields.io/badge/ajv-v6.5.4-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/ajv)
 [![Bootstrap version](https://img.shields.io/badge/Bootstrap-v4.1.3-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/bootstrap)
@@ -94,6 +94,7 @@ app
    └── components
    │  └── Header.js
    │  └── Hero.js
+   │  └── Footer.js
    └── components
    └── index.js
    └── registerServiceWorker.js
