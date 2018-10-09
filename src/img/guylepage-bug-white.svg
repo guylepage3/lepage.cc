@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>logo/rgb/guylepage-bug-white</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo/rgb/guylepage-bug-white" fill="#FFFFFF">
+            <g id="guylepage-bug-white">
+                <g transform="translate(83.000000, 61.000000)">
+                    <polygon id="underscore" points="0 133.628 90 133.628 90 115.999 0 115.999"></polygon>
+                    <path d="M46.8826,97.2863 C17.9966,97.2863 0.5996,79.4353 0.5996,48.6673 C0.5996,18.2873 17.9966,0.3713 46.2986,0.3713 C69.0176,0.3713 86.0246,13.8083 88.4266,32.8933 L64.8636,32.8933 C62.5266,24.5843 55.5156,19.5213 46.3626,19.5213 C32.8616,19.5213 24.8766,30.1013 24.8766,48.3423 C24.8766,66.9073 33.7056,78.1373 47.4016,78.1373 C58.1776,78.1373 65.7076,71.7763 66.3566,62.3633 L66.4216,60.9353 L49.2846,60.9353 L49.2846,44.5773 L89.4006,44.5773 L89.4006,56.0673 C89.4006,81.6423 73.5616,97.2863 46.8826,97.2863" id="outline"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
