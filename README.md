@@ -39,6 +39,7 @@
     </a>
     <br/>
     <br/>
+    [![GitHub stars](https://img.shields.io/github/stars/guylepage3/lepage.cc.svg?style=social&label=Star&maxAge=2592000)](https://github.com/guylepage3/lepage.cc/stargazers/)
     <a href="https://twitter.com/intent/follow?screen_name=guylepage3">
       <img src="https://img.shields.io/twitter/follow/guylepage3.svg?style=social&logo=twitter" alt="follow on Twitter">
     </a>
