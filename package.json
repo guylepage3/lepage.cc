@@ -1,6 +1,6 @@
 {
   "name": "lepage",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "private": true,
   "dependencies": {
     "ajv": "^6.5.4",
