@@ -1,6 +1,6 @@
 {
   "name": "lepage",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "private": true,
   "dependencies": {
     "ajv": "^6.5.4",
@@ -10,7 +10,8 @@
     "popper.js": "^1.14.4",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "2.0.4"
+    "react-scripts": "2.0.4",
+    "serve": "^10.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
