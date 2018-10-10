@@ -5,7 +5,7 @@ class Hero extends Component {
     return (
       <main 
         role="main" 
-        className="mx-auto text-center content-hero mt-auto mb-auto"
+        className="mx-auto text-center mt-auto mb-auto anima-slidein"
         style={{
           maxWidth: '685px'
         }}>
@@ -13,7 +13,12 @@ class Hero extends Component {
         </h1>
         <div className="lead text-white">
           <p>
-            <i>Content coming soon...</i>
+            <span className="anima-fadein">
+              <i>“Don’t try to be original. </i>
+            </span>
+            <span className="anima-fadein anima-fadein-delay-1700">
+              <i>Just try to be good.” ~ Paul Rand</i>
+            </span>
           </p>
         </div>
       </main>

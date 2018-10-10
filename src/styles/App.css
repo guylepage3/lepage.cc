@@ -10,26 +10,29 @@
 
 .lead {
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 0.025em;
+  opacity: 0.9;
 }
 
 .text-footer {
   font-size: 80%;
 }
 
-.content-hero {
-  animation-name: fadein, slidein;
-  animation-duration: 2.3s, 1.3s;
+.anima-slidein {
+  animation-name: slidein;
+  animation-duration: 1.3s;
 }
 
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+.anima-fadein {
+  animation-name: anima-fadein;
+  animation-duration: 2.3s;
+  animation-fill-mode: forwards;
+}
+
+.anima-fadein-delay-1700 {
+  animation-delay: 1700ms;
+  opacity: 0;
 }
 
 @keyframes slidein {
@@ -38,6 +41,24 @@
   }
   to {
     padding-top: 0px;
+  }
+}
+
+@keyframes anima-fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes anima-fadein-delay-1700 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 
