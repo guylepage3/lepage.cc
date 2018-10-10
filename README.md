@@ -69,7 +69,7 @@ This project was bootstrapped with [Create React App `v2.0`](https://github.com/
 - Added CircleCI build tests.
 - Added CircleCI live build test status badge with API token.
 
-[![Lepage.cc version](https://img.shields.io/badge/Lepage.cc-v1.1.0-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/guylepage3/lepage.cc)
+[![Lepage.cc version](https://img.shields.io/badge/Lepage.cc-v1.2.0-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/guylepage3/lepage.cc)
 
 [![CircleCI](https://circleci.com/gh/guylepage3/lepage.cc.svg?style=svg&circle-token=08110c1289dd045892c46ae6cb36a681b0be7abb)](https://circleci.com/gh/guylepage3/lepage.cc)
 [![ajv version](https://img.shields.io/badge/ajv-v6.5.4-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/ajv)
