@@ -11,10 +11,7 @@ class Hero extends Component {
         }}>
         <h1 className="display-3 text-white font-weight-bold">
         </h1>
-        <div className="lead text-white-50">
-          <p className="text-white">
-            Welcome to the resume and portfolio for Guy Lepage.
-          </p>
+        <div className="lead text-white">
           <p>
             <i>Content coming soon...</i>
           </p>
