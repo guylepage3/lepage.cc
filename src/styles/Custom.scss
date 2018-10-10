@@ -1,0 +1,20 @@
+// Custom UI (v0.0.1)
+
+// Custom UI is a custom base theme for the Bootstrap UI framework.
+
+// Visit the Bootstrap Theming and the Create React App Bootstrap Theming
+// documentation for information:
+// http://getbootstrap.com/docs/4.1/getting-started/theming/
+// https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#using-a-custom-theme
+
+// Usage
+// To manually compile Sass using Sass, run;
+// `$ sass src/styles/Custom.scss src/styles/Custom.css`
+
+// Override default variables before the import
+
+$body-bg: #000;
+
+// Import Bootstrap and its default variables
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
