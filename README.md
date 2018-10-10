@@ -70,7 +70,7 @@ This project was bootstrapped with [Create React App `v2.0`](https://github.com/
 - Added [CircleCI](https://circleci.com/) live build test status badge with API token.
 - Installed all Apple and support icons.
 
-[![Lepage.cc version](https://img.shields.io/badge/Lepage.cc-v1.2.5-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/guylepage3/lepage.cc)
+[![Lepage.cc version](https://img.shields.io/badge/Lepage.cc-v1.2.6-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/guylepage3/lepage.cc)
 
 [![CircleCI](https://circleci.com/gh/guylepage3/lepage.cc.svg?style=svg&circle-token=08110c1289dd045892c46ae6cb36a681b0be7abb)](https://circleci.com/gh/guylepage3/lepage.cc)
 [![ajv version](https://img.shields.io/badge/ajv-v6.5.4-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/ajv)
@@ -79,6 +79,7 @@ This project was bootstrapped with [Create React App `v2.0`](https://github.com/
 [![Node Sass version](https://img.shields.io/badge/Node_Sass-v4.9.3-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/node-sass)
 [![npm version](https://img.shields.io/badge/npm-v6.4.1-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/npm)
 [![Popper version](https://img.shields.io/badge/Popper.js-v1.14.4-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/popper.js)
+[![px-rem-reference version](https://img.shields.io/badge/PX--REM_Reference-v1.2.2-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/px-rem-reference)
 [![React version](https://img.shields.io/badge/React-v16.5.2-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react)
 [![ReactDom version](https://img.shields.io/badge/ReactDom-v16.5.2-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react-dom)
 [![React Scripts version](https://img.shields.io/badge/React_Scripts-v2.0.4-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react-scripts)

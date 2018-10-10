@@ -1,6 +1,6 @@
 {
   "name": "lepage",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "private": true,
   "dependencies": {
     "ajv": "^6.5.4",
@@ -27,5 +27,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "px-rem-reference": "^1.2.2"
+  }
 }
