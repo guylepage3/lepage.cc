@@ -10,10 +10,10 @@ class Hero extends Component {
           maxWidth: '685px'
         }}>
         <h1 className="display-3 text-white font-weight-bold">
-          Guy Lepage
         </h1>
         <div className="lead text-white-50">
-          Welcome to the resume and portfolio for Guy Lepage.
+          Welcome to the resume and portfolio for Guy Lepage.<br />
+          Content coming soon...
         </div>
       </main>
     );
