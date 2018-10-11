@@ -5,11 +5,23 @@ class Hero extends Component {
     return (
       <main 
         role="main" 
-        className="mx-auto text-center mt-auto mb-auto anima-slidein"
+        className="
+          mx-auto 
+          text-center 
+          mt-auto 
+          mb-auto 
+          anima-slidein
+        "
         style={{
           maxWidth: '685px'
         }}>
-        <h1 className="text-white font-weight-bold font-italic anima-fadein hero-quote">
+        <h1 
+          className="
+            text-white 
+            font-weight-bold 
+            font-italic 
+            anima-fadein 
+          ">
           "Less, but better."
         </h1>
         <div className="lead text-white">

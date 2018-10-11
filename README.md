@@ -61,7 +61,6 @@ This project was bootstrapped with [Create React App `v2.0`](https://github.com/
 - [Repository maintainers](#repository-maintainers)
 
 ## Status
-- Setup [Heroku](https://www.heroku.com/) Universe team account.
 - Created [Heroku Buildpack for create-react-app](https://elements.heroku.com/buildpacks/nhutphuongit/create-react-app-buildpack).
 - Installed and setup [Create React App](https://github.com/facebookincubator/create-react-app).
 - Installed [Bootstrap v4.1.3](http://getbootstrap.com/) and peer dependencies.
@@ -71,7 +70,7 @@ This project was bootstrapped with [Create React App `v2.0`](https://github.com/
 - Installed all Apple and support icons.
 - Installed [Source Map Explorer](https://www.npmjs.com/package/source-map-explorer) package to analyze bundle size and code bloat.
 
-[![Lepage.cc version](https://img.shields.io/badge/Lepage.cc-v1.2.7-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/guylepage3/lepage.cc)
+[![Lepage.cc version](https://img.shields.io/badge/Lepage.cc-v1.2.8-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/guylepage3/lepage.cc)
 
 [![CircleCI](https://circleci.com/gh/guylepage3/lepage.cc.svg?style=svg&circle-token=08110c1289dd045892c46ae6cb36a681b0be7abb)](https://circleci.com/gh/guylepage3/lepage.cc)
 [![ajv version](https://img.shields.io/badge/ajv-v6.5.4-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/ajv)
