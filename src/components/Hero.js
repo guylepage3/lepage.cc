@@ -21,6 +21,7 @@ class Hero extends Component {
             font-weight-bold 
             font-italic 
             anima-fadein 
+            hero-quote
           ">
           "Less, but better."
         </h1>
