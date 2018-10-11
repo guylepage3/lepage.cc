@@ -9,8 +9,8 @@
   width: 120px;
 }
 
-.display-3 {
-  font-size: 4.25rem;
+.hero-quote {
+  font-size: 2.05rem;
 }
 
 .lead {
@@ -72,6 +72,9 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+  .hero-quote {
+    font-size: 2.5rem; /* Reset back to default */
+  }
   .lead {
     font-size: 1.25rem;
     letter-spacing: 0.025em;
@@ -96,18 +99,10 @@
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  .display-3 {
-    font-size: 5.5rem;
-  }
-}
+@media (min-width: 1200px) {}
 
 /* Extra Extra small devices devices */
-@media (max-width:348px) {
-  .display-3 {
-    font-size: 3.5rem;
-  }
-}
+@media (max-width:348px) {}
 
 
 /* Extra small devices (portrait phones, less than 576px)*/
