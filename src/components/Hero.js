@@ -9,17 +9,13 @@ class Hero extends Component {
         style={{
           maxWidth: '685px'
         }}>
-        <h1 className="display-3 text-white font-weight-bold">
+        <h1 className="text-white font-weight-bold font-italic anima-fadein">
+          "Less, but better."
         </h1>
         <div className="lead text-white">
-          <p>
-            <span className="anima-fadein">
-              <i>“Don’t try to be original. </i>
-            </span>
-            <span className="anima-fadein anima-fadein-delay-1700">
-              <i>Just try to be good.” ~ Paul Rand</i>
-            </span>
-          </p>
+          <div className="anima-fadein anima-fadein-delay-1700">
+            <i>~ Dieter Rams</i>
+          </div>
         </div>
       </main>
     );
