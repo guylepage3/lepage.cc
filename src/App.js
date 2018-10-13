@@ -7,10 +7,12 @@ import './styles/App.css';
 class App extends Component {
   render() {
     return (
-      <Switch>
-        <Route path="/Intro" component={Intro} />
-        <Route exact path="/" component={Home} />
-      </Switch>
+      <div className="App">
+        <Switch>
+          <Route exact path="/" component={Intro} />
+          <Route path="/Home" component={Home} />
+        </Switch>
+      </div>
     );
   }
 }
