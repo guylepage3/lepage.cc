@@ -44,7 +44,13 @@ class Footer extends Component {
           </a>
         </div>
         <div className="text-footer text-white-50 font-weight-normal">
-          &copy; 2018
+          <a 
+            href="https://goo.gl/forms/2LvYYCg1VViD6FWm2" 
+            alt="Contact Guy"
+            className="text-white font-weight-bold">
+            Contact
+          </a>
+          &nbsp;&nbsp;&copy; 2018
         </div>
       </footer>
     );
