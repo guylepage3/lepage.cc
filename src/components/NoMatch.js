@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import Footer from './Footer';
+import NotFound from './NotFound';
 
 class NoMatch extends Component {
   render() {
@@ -12,6 +13,7 @@ class NoMatch extends Component {
             paddingTop: '40px'
           }}>
         </div>
+        <NotFound />
         <Footer />
       </div>
     );
