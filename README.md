@@ -67,7 +67,7 @@ This project was bootstrapped with [Create React App `v2.0`](https://github.com/
 ## Status
 - Installed [React Router DOM](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom) and [React Router](https://github.com/ReactTraining/react-router/tree/master/packages/react-router).
 
-[![Lepage.cc version](https://img.shields.io/badge/Lepage.cc-v1.3.7-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/guylepage3/lepage.cc)
+[![Lepage.cc version](https://img.shields.io/badge/Lepage.cc-v1.3.8-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/guylepage3/lepage.cc)
 <a href="https://opensource.guide/how-to-contribute/#why-contribute-to-open-source">
   <img src="https://badges.frapsoft.com/os/v3/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/" alt="Open Source">
 </a>
@@ -104,13 +104,13 @@ app
    └── App.js
    └── App.test.js
    └── components
-   │  └── 404.js
    │  └── Header.js
    │  └── Hero.js
    │  └── Home.js
    │  └── Intro.js
    │  └── Footer.js
    │  └── NoMatch.js
+   │  └── NotFound.js
    └── components
    └── index.js
    └── registerServiceWorker.js
