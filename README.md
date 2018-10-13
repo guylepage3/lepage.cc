@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://lepage.cc">
-    <img src="https://user-images.githubusercontent.com/1711854/46634061-b79fe680-cb1d-11e8-9d83-32f563fa8acc.png" width=210>
+    <img src="https://user-images.githubusercontent.com/1711854/46634061-b79fe680-cb1d-11e8-9d83-32f563fa8acc.png" width=205>
   </a>
 
   <p align="center">
@@ -63,7 +63,10 @@ This project was bootstrapped with [Create React App `v2.0`](https://github.com/
 ## Status
 - Installed [React Router DOM](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom) and [React Router](https://github.com/ReactTraining/react-router/tree/master/packages/react-router).
 
-[![Lepage.cc version](https://img.shields.io/badge/Lepage.cc-v1.3.2-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/guylepage3/lepage.cc)
+[![Lepage.cc version](https://img.shields.io/badge/Lepage.cc-v1.3.3-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/guylepage3/lepage.cc)
+<a href="https://opensource.guide/how-to-contribute/#why-contribute-to-open-source">
+  <img src="https://badges.frapsoft.com/os/v3/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/" alt="Open Source">
+</a>
 
 [![CircleCI](https://circleci.com/gh/guylepage3/lepage.cc.svg?style=svg&circle-token=08110c1289dd045892c46ae6cb36a681b0be7abb)](https://circleci.com/gh/guylepage3/lepage.cc)
 [![ajv version](https://img.shields.io/badge/ajv-v6.5.4-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/ajv)
@@ -142,10 +145,3 @@ $ npm start
 **Guy Lepage**
 - <https://twitter.com/guylepage3>
 - <https://github.com/guylepage3>
-
-
-<div align="right">
-  <a href="https://opensource.guide/how-to-contribute/#why-contribute-to-open-source">
-    <img src="https://badges.frapsoft.com/os/v3/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/" alt="Open Source">
-  </a>
-</div>
