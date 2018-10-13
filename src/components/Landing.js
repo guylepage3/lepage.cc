@@ -26,16 +26,16 @@ class Landing extends Component {
               anima-fadein 
               hero-quote
             ">
-            Simple, clean, consise experiences that keep the user coming back, 
+            Simple, clean, concise experiences that keep the user coming back, 
             time and time again.
           </h1>
           <div className="lead text-white">
             <div className="anima-fadein">
               I'm Guy Lepage, a Senior Product UX/UI Designer and Front-End 
               Developer with 20 years of industry experience, specializing in 
-              developing pixel perfect digital products, web apps, websites 
-              quickly without sacrificing code quality and ensuring 
-              that users have the best experience.
+              designing and developing pixel perfect digital products, web 
+              apps, websites, etc. quickly without sacrificing code quality 
+              and ensuring that users have the best experience.
             </div>
           </div>
         </div>
