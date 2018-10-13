@@ -3,7 +3,7 @@ import Header from './Header';
 import Hero from './Hero';
 import Footer from './Footer';
 
-class AppFullPage extends Component {
+class Landing extends Component {
   render() {
     return (
       <div className="d-flex w-100 h-100 mx-auto p-4 flex-column">
@@ -20,4 +20,4 @@ class AppFullPage extends Component {
   }
 }
 
-export default AppFullPage;
+export default Landing;

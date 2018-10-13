@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from './Header';
 import Footer from './Footer';
 
-class AppContainer extends Component {
+class Home extends Component {
   render() {
     return (
       <div className="d-flex w-100 h-100 mx-auto p-4 flex-column">
@@ -18,4 +18,4 @@ class AppContainer extends Component {
   }
 }
 
-export default AppContainer;
+export default Home;
