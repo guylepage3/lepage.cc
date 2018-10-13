@@ -40,6 +40,10 @@
   opacity: 0;
 }
 
+.Content {
+  
+}
+
 @keyframes slidein {
   from {
     padding-top: 55px;
