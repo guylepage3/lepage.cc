@@ -76,16 +76,16 @@ This project was bootstrapped with [Create React App `v2.0`](https://github.com/
 [![ajv version](https://img.shields.io/badge/ajv-v6.5.4-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/ajv)
 [![Bootstrap version](https://img.shields.io/badge/bootstrap-v4.1.3-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/bootstrap)
 [![jQuery version](https://img.shields.io/badge/jquery-v3.3.1-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/jquery)
-[![Node Sass version](https://img.shields.io/badge/node-sass-v4.9.3-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/node-sass)
+[![Node Sass version](https://img.shields.io/badge/node--sass-v4.9.3-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/node-sass)
 [![npm version](https://img.shields.io/badge/npm-v6.4.1-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/npm)
 [![Popper version](https://img.shields.io/badge/popper.js-v1.14.4-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/popper.js)
-[![px-rem-reference version](https://img.shields.io/badge/px-rem-reference-v1.2.2-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/px-rem-reference)
+[![px-rem-reference version](https://img.shields.io/badge/px--rem--reference-v1.2.2-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/px-rem-reference)
 [![React version](https://img.shields.io/badge/react-v16.5.2-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react)
-[![React DOM version](https://img.shields.io/badge/react-dom-v16.5.2-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react-dom)
-[![React Router DOM version](https://img.shields.io/badge/react-router-dom-v4.3.1-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react-router-dom)
-[![React Scripts version](https://img.shields.io/badge/react-scripts-v2.0.4-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react-scripts)
+[![React DOM version](https://img.shields.io/badge/react--dom-v16.5.2-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react-dom)
+[![React Router DOM version](https://img.shields.io/badge/react--router--dom-v4.3.1-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react-router-dom)
+[![React Scripts version](https://img.shields.io/badge/react--scripts-v2.0.4-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react-scripts)
 [![Serve version](https://img.shields.io/badge/serve-v10.0.2-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/serve)
-[![Source Map Explorer version](https://img.shields.io/badge/source-map-explorer-v1.6.0-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/source-map-explorer)
+[![Source Map Explorer version](https://img.shields.io/badge/source--map--explorer-v1.6.0-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/source-map-explorer)
 
 
 ```
