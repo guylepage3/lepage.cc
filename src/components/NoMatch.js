@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import Footer from './Footer';
-import NotFound from './NotFound';
+import Page404 from './Page404';
 
 class NoMatch extends Component {
   render() {
@@ -13,7 +13,7 @@ class NoMatch extends Component {
             paddingTop: '40px'
           }}>
         </div>
-        <NotFound />
+        <Page404 />
         <Footer />
       </div>
     );

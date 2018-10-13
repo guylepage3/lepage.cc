@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class NotFound extends Component {
+class Page404 extends Component {
   render() {
     return (
       <main 
@@ -30,7 +30,7 @@ class NotFound extends Component {
             Ooops!
           </h1>
           <div className="lead text-white">
-            <div className="anima-fadein anima-fadein-delay-1700">
+            <div className="anima-fadein">
               We can't seem to find the page you're looking for.<br />
               Error 404.
             </div>
@@ -41,4 +41,4 @@ class NotFound extends Component {
   }
 }
 
-export default NotFound;
+export default Page404;
