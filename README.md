@@ -21,6 +21,10 @@
       <strong>GitHub</strong></a>
     </a>
     &middot;
+    <a href="https://www.npmjs.com/~guylepage3">
+      <strong>npm</strong></a>
+    </a>
+    &middot;
     <a href="https://www.linkedin.com/in/guylepage/">
       <strong>LinkedIn</strong></a>
     </a>
@@ -63,7 +67,7 @@ This project was bootstrapped with [Create React App `v2.0`](https://github.com/
 ## Status
 - Installed [React Router DOM](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom) and [React Router](https://github.com/ReactTraining/react-router/tree/master/packages/react-router).
 
-[![Lepage.cc version](https://img.shields.io/badge/Lepage.cc-v1.3.4-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/guylepage3/lepage.cc)
+[![Lepage.cc version](https://img.shields.io/badge/Lepage.cc-v1.3.5-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/guylepage3/lepage.cc)
 <a href="https://opensource.guide/how-to-contribute/#why-contribute-to-open-source">
   <img src="https://badges.frapsoft.com/os/v3/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/" alt="Open Source">
 </a>
