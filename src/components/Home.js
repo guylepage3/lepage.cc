@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import Footer from './Footer';
+import Landing from './Landing';
 
 class Home extends Component {
   render() {
@@ -12,6 +13,7 @@ class Home extends Component {
             paddingTop: '40px'
           }}>
         </div>
+        <Landing />
         <Footer />
       </div>
     );
