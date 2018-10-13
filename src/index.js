@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 // In order to have styles cascade correctly, styles must be imported 
 // before App.js as App.js has a style sheet to be imported last
 import './styles/Custom.scss'; 
