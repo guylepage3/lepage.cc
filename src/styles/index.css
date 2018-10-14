@@ -27,6 +27,6 @@ code {
   height: 100%;
 }
 
-.App {
+.App, div > div.App {
   height: 100%;
 }
