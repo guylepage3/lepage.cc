@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
+import HttpsRedirect from 'react-https-redirect';
 import './styles/Custom.scss';
 import './styles/index.css';
 import App from './App';
@@ -8,7 +9,9 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <BrowserRouter>
-    <App />
+    <HttpsRedirect>
+      <App />
+    </HttpsRedirect>
   </BrowserRouter>,
   document.getElementById('root')
 );
