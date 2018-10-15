@@ -55,6 +55,12 @@
 
 <br/>
 
+<p align="center">
+  <img width="800" alt="lepage.cc-v1.4.1" src="https://user-images.githubusercontent.com/1711854/46953198-28ce2500-d05b-11e8-83d7-c5b6d5d4c4f4.png">
+</p>
+
+<br/>
+
 This project was bootstrapped with [Create React App `v2.0`](https://github.com/facebookincubator/create-react-app).
 
 
