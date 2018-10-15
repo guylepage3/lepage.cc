@@ -67,10 +67,10 @@ This project was bootstrapped with [Create React App `v2.0`](https://github.com/
 ## Status
 - Installed [React Router DOM](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom) and [React Router](https://github.com/ReactTraining/react-router/tree/master/packages/react-router).
 - Added more components to support content.
-- Added https redirect.
-- Upgraded to [Create React App `v2.0.5`](https://github.com/facebook/create-react-app/releases/tag/v2.0.5)
+- Upgraded to [Create React App `v2.0.5`](https://github.com/facebook/create-react-app/releases/tag/v2.0.5).
+- Added https enforcement with downgrade attack prevention.
 
-[![Lepage.cc version](https://img.shields.io/badge/Lepage.cc-v1.4.0-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/guylepage3/lepage.cc)
+[![Lepage.cc version](https://img.shields.io/badge/Lepage.cc-v1.4.1-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/guylepage3/lepage.cc)
 <a href="https://opensource.guide/how-to-contribute/#why-contribute-to-open-source">
   <img src="https://badges.frapsoft.com/os/v3/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/" alt="Open Source">
 </a>
@@ -85,7 +85,6 @@ This project was bootstrapped with [Create React App `v2.0`](https://github.com/
 [![px-rem-reference version](https://img.shields.io/badge/px--rem--reference-v1.2.2-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/px-rem-reference)
 [![React version](https://img.shields.io/badge/react-v16.5.2-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react)
 [![React DOM version](https://img.shields.io/badge/react--dom-v16.5.2-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react-dom)
-[![React https Redirect version](https://img.shields.io/badge/react--https--redirect-v1.0.10-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react-https-redirect)
 [![React Router DOM version](https://img.shields.io/badge/react--router--dom-v4.3.1-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react-router-dom)
 [![React Scripts version](https://img.shields.io/badge/react--scripts-v2.0.5-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react-scripts)
 [![Serve version](https://img.shields.io/badge/serve-v10.0.2-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/serve)
@@ -105,23 +104,24 @@ app
 │  └── manifest.json
 ├── README.md
 └── src
-   └── App.js
-   └── App.test.js
-   └── components
-   │  └── Footer.js
-   │  └── Header.js
-   │  └── Hero.js
-   │  └── Home.js
-   │  └── Intro.js
-   │  └── Landing.js
-   │  └── NoMatch.js
-   │  └── Page404.js
-   └── components
-   └── index.js
-   └── registerServiceWorker.js
-   └── styles
-      └── App.css
-      └── index.css
+│  └── App.js
+│  └── App.test.js
+│  └── components
+|  │  └── Footer.js
+|  │  └── Header.js
+|  │  └── Hero.js
+|  │  └── Home.js
+|  │  └── Intro.js
+|  │  └── Landing.js
+|  │  └── NoMatch.js
+|  │  └── Page404.js
+│  └── components
+│  └── index.js
+│  └── registerServiceWorker.js
+│  └── styles
+|     └── App.css
+|     └── index.css
+└── static.json
 ```
 
 
