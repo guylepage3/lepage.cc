@@ -67,7 +67,7 @@ This project was bootstrapped with [Create React App `v2.0`](https://github.com/
 ## Status
 - Installed [React Router DOM](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom) and [React Router](https://github.com/ReactTraining/react-router/tree/master/packages/react-router).
 
-[![Lepage.cc version](https://img.shields.io/badge/Lepage.cc-v1.3.11-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/guylepage3/lepage.cc)
+[![Lepage.cc version](https://img.shields.io/badge/Lepage.cc-v1.4.0-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/guylepage3/lepage.cc)
 <a href="https://opensource.guide/how-to-contribute/#why-contribute-to-open-source">
   <img src="https://badges.frapsoft.com/os/v3/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/" alt="Open Source">
 </a>
@@ -84,7 +84,7 @@ This project was bootstrapped with [Create React App `v2.0`](https://github.com/
 [![React DOM version](https://img.shields.io/badge/react--dom-v16.5.2-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react-dom)
 [![React https Redirect version](https://img.shields.io/badge/react--https--redirect-v1.0.10-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react-https-redirect)
 [![React Router DOM version](https://img.shields.io/badge/react--router--dom-v4.3.1-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react-router-dom)
-[![React Scripts version](https://img.shields.io/badge/react--scripts-v2.0.4-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react-scripts)
+[![React Scripts version](https://img.shields.io/badge/react--scripts-v2.0.5-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react-scripts)
 [![Serve version](https://img.shields.io/badge/serve-v10.0.2-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/serve)
 [![Source Map Explorer version](https://img.shields.io/badge/source--map--explorer-v1.6.0-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/source-map-explorer)
 
