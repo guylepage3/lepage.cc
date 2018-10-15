@@ -66,6 +66,9 @@ This project was bootstrapped with [Create React App `v2.0`](https://github.com/
 
 ## Status
 - Installed [React Router DOM](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom) and [React Router](https://github.com/ReactTraining/react-router/tree/master/packages/react-router).
+- Added more components to support content.
+- Added https redirect.
+- Upgraded to [Create React App `v2.0.5`](https://github.com/facebook/create-react-app/releases/tag/v2.0.5)
 
 [![Lepage.cc version](https://img.shields.io/badge/Lepage.cc-v1.4.0-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/guylepage3/lepage.cc)
 <a href="https://opensource.guide/how-to-contribute/#why-contribute-to-open-source">
