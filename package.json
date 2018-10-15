@@ -12,7 +12,7 @@
     "react-dom": "^16.5.2",
     "react-https-redirect": "^1.0.10",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.0.4",
+    "react-scripts": "2.0.5",
     "serve": "^10.0.2",
     "source-map-explorer": "^1.6.0"
   },
