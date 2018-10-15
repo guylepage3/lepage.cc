@@ -1,0 +1,10 @@
+{
+  "root": "build/",
+  "https_only": true
+}
+{
+  "root": "build/",
+  "routes": {
+    "/**": "index.html"
+  }
+}
