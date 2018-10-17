@@ -1,6 +1,6 @@
-:root {
+/*:root {
   background-color: #000;
-}
+}*/
 
 html, body {
   height: 100%;
@@ -29,7 +29,7 @@ code {
 
 #root {
   height: 100%;
-  background-color: #000;
+  /*background-color: #000;*/
 }
 
 .App {

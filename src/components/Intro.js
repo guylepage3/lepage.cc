@@ -10,6 +10,9 @@ class Intro extends Component {
       history.push('/home')
     }, 5000);
   }
+  componentWillUnmount() {
+    clearTimeout(this.redirectTimeout);
+  }
   render() {
     return (
       <div className="d-flex w-100 h-100 mx-auto p-4 flex-column">
