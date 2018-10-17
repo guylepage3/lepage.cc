@@ -1,6 +1,6 @@
 {
-  "name": "Guy_Lepage",
-  "version": "1.4.3",
+  "name": "lepage.cc",
+  "version": "1.4.4",
   "private": true,
   "dependencies": {
     "ajv": "^6.5.4",
