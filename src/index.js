@@ -6,6 +6,10 @@ import './styles/index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
+const root = {
+  backgroundColor: '#000'
+}
+
 ReactDOM.render(
   <BrowserRouter>
     <App />
