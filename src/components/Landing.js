@@ -13,7 +13,7 @@ class Landing extends Component {
           anima-slidein
         ">
         <div className="row">
-          <div className="col-lg-7 mx-auto">
+          <div className="col-lg-7 mx-auto pt-4">
             <h1 
               className="
                 text-white 
@@ -22,18 +22,16 @@ class Landing extends Component {
                 anima-fadein 
                 hero-quote
               ">
-              Simple, clean, concise experiences that keep the user coming back, 
-              time and time again.
+              Simple, clean, concise experiences that keep the user coming 
+              back, time and time again.
             </h1>
-            <div className="lead text-white">
-              <div className="anima-fadein">
-                I'm Guy Lepage, a Senior Product UX/UI Designer and Front-end 
-                Developer with 19 years of industry experience, specializing 
-                in designing and developing pixel perfect digital products, 
-                web apps, mobile apps, websites, and more. My focus is on 
-                ensuring that users have the best experiences without 
-                sacrificing code quality.
-              </div>
+            <div className="lead text-white anima-fadein pb-4">
+              I'm Guy Lepage, a Senior Product UX/UI Designer and Front-end 
+              Developer with 19 years of industry experience, specializing in 
+              designing and developing pixel perfect digital products, web 
+              apps, mobile apps, websites, and more. My focus is on ensuring 
+              that users have the best experiences without sacrificing code 
+              quality.
             </div>
           </div>
         </div>

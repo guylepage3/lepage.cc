@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Hero extends Component {
+class Splash extends Component {
   render() {
     return (
       <main 
@@ -14,22 +14,30 @@ class Hero extends Component {
           anima-slidein
         ">
         <div className="row">
-          <div className="container-fluid">
+          <div 
+            className="
+              container-fluid
+            ">
             <h1 
               className="
                 text-white 
                 font-weight-bold 
                 font-italic 
                 anima-fadein 
-                hero-quote
+                quote
               ">
               "Less, but better."
             </h1>
           </div>
-          <div className="container-fluid lead text-white">
-            <div className="anima-fadein anima-fadein-delay-1700">
-              <i>~ Dieter Rams</i>
-            </div>
+          <div 
+            className="
+            container-fluid 
+            lead 
+            anima-fadein 
+            anima-fadein-delay-1700 
+            text-white
+          ">
+            <i>~ Dieter Rams</i>
           </div>
         </div>
       </main>
@@ -37,4 +45,4 @@ class Hero extends Component {
   }
 }
 
-export default Hero;
+export default Splash;

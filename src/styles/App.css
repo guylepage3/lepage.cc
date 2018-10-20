@@ -6,10 +6,10 @@
 }
 
 .navbar-brand-img {
-  width: 120px;
+  width: 135px;
 }
 
-.hero-quote {
+.quote {
   font-size: 2.05rem;
 }
 
@@ -72,7 +72,7 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-  .hero-quote {
+  .quote {
     font-size: 2.5rem; /* Reset back to default */
   }
   .lead {

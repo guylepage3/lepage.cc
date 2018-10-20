@@ -6,34 +6,39 @@ class Page404 extends Component {
       <main 
         role="main" 
         className="
-          Content 
+          container
+          mx-auto 
+          text-center 
+          mt-auto 
           mb-auto 
-          mt-auto
-        ">        
-        <div 
-          className="
-            mx-auto 
-            text-center
-            anima-slidein
-          "
-          style={{
-            maxWidth: '685px'
-          }}>
-          <h1 
+          anima-slidein
+        ">
+        <div className="row">
+          <div 
             className="
-              text-white 
-              font-weight-bold 
-              font-italic 
-              anima-fadein 
-              hero-quote
+              container-fluid
             ">
-            Ooops!
-          </h1>
-          <div className="lead text-white">
-            <div className="anima-fadein">
-              We can't seem to find the page you're looking for.<br />
-              Error 404.
-            </div>
+            <h1 
+              className="
+                text-white 
+                font-weight-bold 
+                font-italic 
+                anima-fadein 
+                quote
+              ">
+              Ooops!
+            </h1>
+          </div>
+          <div 
+            className="
+            container-fluid  
+            lead 
+            anima-fadein 
+            text-white
+          ">
+            We can't seem to find the page you're looking for.
+            <br />
+            Error 404.
           </div>
         </div>
       </main>

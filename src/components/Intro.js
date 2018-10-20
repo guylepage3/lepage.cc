@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header';
-import Hero from './Hero';
+import Splash from './Splash';
 import Footer from './Footer';
 
 class Intro extends Component {
@@ -22,7 +22,7 @@ class Intro extends Component {
             paddingTop: '40px'
           }}>
         </div>
-        <Hero />
+        <Splash />
         <Footer />
       </div>
     );
