@@ -19,7 +19,7 @@ class Intro extends Component {
         <Header />
         <div 
           style={{
-            paddingTop: '40px'
+            paddingTop: '32px'
           }}>
         </div>
         <Splash />

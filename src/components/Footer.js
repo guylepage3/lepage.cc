@@ -4,8 +4,8 @@ import logoBug from './../img/guylepage-bug-white.svg';
 class Footer extends Component {
   render() {
     return (
-      <footer className="mx-auto text-center mb-2">
-        <div className="container-fluid mx-auto mb-3 d-none d-md-block">
+      <footer className="container-fluid mx-auto text-center mb-2">
+        <div className="mx-auto mb-3 d-none d-md-block">
           <img src={logoBug}
             alt="Guy Lepage Logo Bug"
             width="55"

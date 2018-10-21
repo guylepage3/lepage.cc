@@ -16,7 +16,7 @@ class Page404 extends Component {
         <div className="row">
           <div 
             className="
-              container-fluid
+              container
             ">
             <h1 
               className="
@@ -31,14 +31,22 @@ class Page404 extends Component {
           </div>
           <div 
             className="
-            container-fluid  
+            container  
             lead 
             anima-fadein 
             text-white
           ">
             We can't seem to find the page you're looking for.
             <br />
-            Error 404.
+            <p>
+              Error code: 404.
+            </p>
+            <p className="">
+              Here are some helpful links instead:
+            </p>
+            <p>
+              <a href="/home" alt="Home">Home</a>
+            </p>
           </div>
         </div>
       </main>
