@@ -13,7 +13,7 @@ class Landing extends Component {
           anima-slidein
         ">
         <div className="row">
-          <div className="col-lg-7 mx-auto pt-4 pb-4">
+          <div className="col-lg-9 col-xl-7 mx-auto pt-4">
             <h1 
               className="
                 text-white 
