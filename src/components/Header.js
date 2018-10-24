@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './../img/guylepage-logo-wordmark-white.svg';
 
-class Header extends Component {
+class HeaderLight extends Component {
   render() {
     return (
       <nav 
@@ -34,4 +34,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default HeaderLight;

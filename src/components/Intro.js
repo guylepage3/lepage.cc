@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from './Header';
+import HeaderLight from './HeaderLight';
 import Splash from './Splash';
 import Footer from './Footer';
 
@@ -16,7 +16,7 @@ class Intro extends Component {
   render() {
     return (
       <div className="d-flex w-100 h-100 mx-auto p-4 flex-column">
-        <Header />
+        <HeaderLight />
         <div 
           style={{
             paddingTop: '32px'
