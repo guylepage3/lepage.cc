@@ -76,7 +76,7 @@ This project was bootstrapped with [Create React App `v2.0`](https://github.com/
 - Upgraded to [Create React App `v2.0.5`](https://github.com/facebook/create-react-app/releases/tag/v2.0.5).
 - Added https enforcement with downgrade attack prevention.
 
-[![Lepage.cc version](https://img.shields.io/badge/Lepage.cc-v1.4.4-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/guylepage3/lepage.cc)
+[![Lepage.cc version](https://img.shields.io/badge/Lepage.cc-v2.0.0-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/guylepage3/lepage.cc)
 <a href="https://opensource.guide/how-to-contribute/#why-contribute-to-open-source">
   <img src="https://badges.frapsoft.com/os/v3/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/" alt="Open Source">
 </a>
