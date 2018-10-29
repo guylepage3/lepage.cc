@@ -1,19 +1,9 @@
 import React, { Component } from 'react';
-import logoBug from './../img/guylepage-bug-white.svg';
 
 class Footer extends Component {
   render() {
     return (
       <footer className="container-fluid mx-auto text-center mb-2">
-        <div className="mx-auto mb-3 d-none d-md-block">
-          <img src={logoBug}
-            alt="Guy Lepage Logo Bug"
-            width="55"
-            style={{
-              opacity: '0.2'
-            }}
-          />
-        </div>
         <div className="mb-2 text-white-50 text-footer font-weight-bold">
           <a 
             href="https://github.com/guylepage3/" 
