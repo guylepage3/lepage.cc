@@ -178,23 +178,25 @@ $yiq-text-light:            $white; // !default
 // variables. Mostly focused on spacing.
 // You can add more entries to the $spacers map, should you need more variation.
 
-$spacer: 1rem;
-$spacers: ();
+$spacer: 1rem; // !default
+$spacers: (); // !default
 // stylelint-disable-next-line scss/dollar-variable-default
 $spacers: map-merge(
   (
-    n: 0,
-    0: ($spacer * .5),
-    1: $spacer,
-    2: ($spacer * 1.5),
-    3: ($spacer * 2),
-    4: ($spacer * 2.5),
-    5: ($spacer * 3),
-    6: ($spacer * 3.5),
-    7: ($spacer * 4),
-    8: ($spacer * 4.5),
-    9: ($spacer * 5),
-    auto: auto
+    0:  0,
+    1:  ($spacer * .25),
+    2:  ($spacer * .5),
+    3:  $spacer,
+    4:  ($spacer * 1.5),
+    4b: ($spacer * 2),    // Custom variable
+    5:  ($spacer * 3),
+    6:  ($spacer * 3.5),  // Custom variable
+    7:  ($spacer * 4),    // Custom variable
+    8:  ($spacer * 4.5),  // Custom variable
+    9:  ($spacer * 5),    // Custom variable
+    10: ($spacer * 5.5),  // Custom variable
+    11: ($spacer * 6),    // Custom variable
+    auto: auto            // Custom variable
   ),
   $spacers
 );

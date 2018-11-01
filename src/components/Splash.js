@@ -25,6 +25,7 @@ class Splash extends Component {
                 font-italic 
                 anima-fadein 
                 quote
+                my-0
               ">
               "Less, but better."
             </h1>
@@ -36,6 +37,7 @@ class Splash extends Component {
             anima-fadein 
             anima-fadein-delay-1700 
             text-white
+            my-0
           ">
             <i>~ Dieter Rams</i>
           </div>
