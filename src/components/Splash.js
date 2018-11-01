@@ -31,7 +31,7 @@ class Splash extends Component {
             anima-fadein 
             anima-fadein-delay-1700 
             text-white-90
-            my-0
+            mt-0
           ">
             <i>~ Dieter Rams</i>
           </div>

@@ -5,14 +5,7 @@ class Page404 extends Component {
     return (
       <main 
         role="main" 
-        className="
-          container
-          mx-auto 
-          text-center 
-          mt-auto 
-          mb-auto 
-          anima-slidein
-        ">
+        className="container text-center mx-auto my-auto anima-slidein">
         <div className="row">
           <div 
             className="
@@ -25,6 +18,8 @@ class Page404 extends Component {
                 font-italic 
                 anima-fadein 
                 quote
+                mt-0
+                mb-2
               ">
               Ooops!
             </h1>

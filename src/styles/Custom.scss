@@ -1,9 +1,10 @@
-// Lepage UI (v1.3.2)
+// Lepage UI (v1.3.3)
 // Lepage UI is a custom base theme for the Bootstrap UI framework.
 
 // How to use Lepage UI with Sass
 // To manually compile Sass using Sass, run;
 // `$ sass src/styles/Custom.scss src/styles/Custom.css`
+
 
 //
 // Color system
@@ -220,21 +221,17 @@ $body-color:                $gray-900 !default;
 //    (ie. promotional pages, blog posts, documentation, etc.).
 // 2. Graphical UI type - Graphical user interface type within the GUI itself. 
 //    (ie. List of songs, play button, settings).
-//
-// margin-top is applied to;
-// h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .lead, p
+
 
 // Communication Typography
 
 // Base Typography
 //
-// Important! < ---------------------------------------------------------- !
-// Changes in the base font-size or line-height significantly affect the all 
+// Important! < ------------------! Important ! -------------------------- !
+// Changes to the base font-size or line-height significantly affect the all 
 // other typography.
-//
-// Font Base
+
 $font-size-base:              1rem; // !default
-// $font-size-base:              1.0625rem; // Sets new default == 17px
 $line-height-base:            1.75; // Multiplied by the element's font-size
 $font-weight-normal:          500; // default weight = Medium
 
@@ -248,46 +245,34 @@ $headings-letter-spacing:     -0.005em;
 $headings-line-height:        1.2; // !default
 $headings-margin-bottom:      (1.0625rem * 1.5);
 
-$h1-font-size:                $font-size-base * 3;
-                              // 3rem       == 48px      (1rem == 16px)
-                              // 3.1875rem  == 51px      (1.0625rem == 17px)
-$h2-font-size:                $font-size-base * 2.5;
-                              // 2.5rem     == 40px      (1rem == 16px)
-                              // 2.65625rem == 42.5px    (1.0625rem == 17px)
-$h3-font-size:                $font-size-base * 2;
-                              // 2rem       == 32px      (1rem == 16px)
-                              // 2.125rem   == 34px      (1.0625rem == 17px)
-$h4-font-size:                $font-size-base * 1.75;
-                              // 1.75rem    == 28px      (1rem == 16px)
-                              // 1.85938rem == 9.7501px  (1.0625rem == 17px)
-$h5-font-size:                $font-size-base * 1.5;
-                              // 1.5rem     == 24px      (1rem == 16px)
-                              // 1.59375rem == 25.5px    (1.0625rem == 17px)
-$h6-font-size:                $font-size-base * 1.25;
-                              // 1.25rem    == 20px      (1rem == 16px)
-                              // 1.32812rem == 21.2499px (1.0625rem == 17px)
+$h1-font-size:                $font-size-base * 2.5;
+                              // 2.5rem == 40px
+$h2-font-size:                $font-size-base * 2;
+                              // 2rem == 32px
+$h3-font-size:                $font-size-base * 1.75;
+                              // 1.75rem == 28px
+$h4-font-size:                $font-size-base * 1.5;
+                              // 1.5rem == 24px
+$h5-font-size:                $font-size-base * 1.25;
+                              // 1.25rem == 20px
+$h6-font-size:                $font-size-base * 1;
+                              // 1rem == 16px
 
 // Descending margin-top
 // For descending margin-top values, use the following method
 
 h1, .h1 { margin-top: ($h1-font-size * 2.25)!important; }
-                       // 6.75rem    == 108px     (1rem == 16px)
-                       // 7.17188rem == 114.75px  (1.0625rem == 17px)
+                      // 5.625rem == 90px
 h2, .h2 { margin-top: ($h2-font-size * 2.25)!important; }
-                       // 2.5rem     == 90px      (1rem == 16px)
-                       // 5.97656rem == 95.625px  (1.0625rem == 17px)
+                      // 4.5rem == 72px
 h3, .h3 { margin-top: ($h3-font-size * 2.25)!important; }
-                       // 4.5rem     == 72px      (1rem == 16px)
-                       // 4.78125rem == 76.5px    (1.0625rem == 17px)
+                      // 3.9375rem == 63px
 h4, .h4 { margin-top: ($h4-font-size * 2.25)!important; }
-                       // 3.9375rem  == 63px      (1rem == 16px)
-                       // 4.18359rem == 66.9374px (1.0625rem == 17px)
+                      // 3.375rem == 54px
 h5, .h5 { margin-top: ($h5-font-size * 2.25)!important; }
-                       // 3.375rem   == 54px      (1rem == 16px)
-                       // 3.58594rem == 57.375px  (1.0625rem == 17px)
+                      // 2.8125rem == 45px
 h6, .h6 { margin-top: ($h6-font-size * 2.25)!important; }
-                       // 2.8125rem  == 45px      (1rem == 16px)
-                       // 2.98828rem == 47.8125px (1.0625rem == 17px)
+                      // 2.25rem == 36px
 
 // Explicit margin-top
 // For an equal margin-top value, use the following method
@@ -303,19 +288,19 @@ h6, .h6 { margin-top: ($h6-font-size * 2.25)!important; }
 // font-size, margin-bottom & line-height do not change
 // and work withh both 1rem & 1.0625rem values.
 //
-// margin-top     (1rem == 16px)         7.17188rem == 114.75px
-// margin-top     (1.0625rem == 17px)    6.75rem == 108px
+// margin-top     (1rem == 16px)         5.625rem == 90px
+// margin-top     (1.0625rem == 17px)    ????? == ??????
 // margin-bottom                         1.59375rem == 25.5px
 // line-hheight                          1.2rem == 86.4px
 
-$display1-size:               6rem; // !default
-                              // font-size       6rem == 96px
-$display2-size:               5.5rem; // !default
-                              // font-size       5.5rem == 88px
-$display3-size:               4.5rem; // !default
-                              // font-size       4.5rem == 72px
-$display4-size:               3.5rem; // !default
-                              // font-size       3.5rem == 56px
+$display1-size:               5rem; // !default
+                              // 5rem == 80px
+$display2-size:               4.5rem; // !default
+                              // 4.5rem == 72px
+$display3-size:               3.5rem; // !default
+                              // 3.5rem == 56px
+$display4-size:               2.5rem; // !default
+                              // 2.5rem == 40px
 $display1-weight:             700;
 $display2-weight:             700;
 $display3-weight:             700;
@@ -326,20 +311,15 @@ $display-line-height:         $headings-line-height; // !default
 //
 // Style .lead classes.
 
-// $lead-font-size:           ($font-size-base * 1.25);
-//                            // 1.25rem  == 20px        (1rem == 16px)
-//                            // 1.32812rem == 21.2499px (1.0625rem == 17px)
-$lead-font-size:              1.3125rem; // < ---------------------------- !
+$lead-font-size:              1.15rem; // < ---------------------------- !
                               // 1.3125rem == 21px       (1.3125rem == 21px)
 $lead-font-weight:            400;
 $lead-margin-top:             ($lead-font-size * 1.5)!important;
                               // 1.96875rem == 31.5px    (1.3125rem == 21px)
                               // 1.875rem  == 30px       (1rem == 16px)
-                              // 1.99219rem == 31.875px  (1.0625rem == 17px)
 $lead-line-height:            1.45; 
                               // == 30.45px              (1.3125rem == 21px)
                               // == 29px                 (1rem == 16px)
-                              // == 30.8124px            (1.0625rem == 17px)
 
 .lead {
   margin-top: $lead-margin-top; // Custom Sass variable
