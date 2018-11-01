@@ -81,11 +81,12 @@ This project was bootstrapped with [Create React App `v2`](https://github.com/fa
   - Color System
   - Spacing Rules
   - Communication Typography System
-    - Calculations for a 1 and 1.0625 rem base font size.
+    - Calculations for a `1rem` and `1.0625rem` base `font-size`.
     - Full definition of Base Typography, Headings, Display Headings, Leads, 
       and Paragraphs.
 
-[![Lepage.cc version](https://img.shields.io/badge/Lepage.cc-v2.1.4-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/guylepage3/lepage.cc)
+
+[![Lepage.cc version](https://img.shields.io/badge/Lepage.cc-v2.1.5-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/guylepage3/lepage.cc)
 [![Lepage UI version](https://img.shields.io/badge/Lepage_UI-v1.3.1-brightgreen.svg?colorA=212121&colorB=00BB00)](/docs/CONTRIBUTING.md#galaxy-ui)
 <a href="https://opensource.guide/how-to-contribute/#why-contribute-to-open-source">
   <img src="https://badges.frapsoft.com/os/v3/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/" alt="Open Source">
