@@ -188,15 +188,16 @@ $spacers: map-merge(
     2:  ($spacer * .5),
     3:  $spacer,
     4:  ($spacer * 1.5),
-    4b: ($spacer * 2),    // Custom variable
+    4b: ($spacer * 2),    // Custom value
+    4c: ($spacer * 2.5),  // Custom value
     5:  ($spacer * 3),
-    6:  ($spacer * 3.5),  // Custom variable
-    7:  ($spacer * 4),    // Custom variable
-    8:  ($spacer * 4.5),  // Custom variable
-    9:  ($spacer * 5),    // Custom variable
-    10: ($spacer * 5.5),  // Custom variable
-    11: ($spacer * 6),    // Custom variable
-    auto: auto            // Custom variable
+    6:  ($spacer * 3.5),  // Custom value
+    7:  ($spacer * 4),    // Custom value
+    8:  ($spacer * 4.5),  // Custom value
+    9:  ($spacer * 5),    // Custom value
+    10: ($spacer * 5.5),  // Custom value
+    11: ($spacer * 6),    // Custom value
+    auto: auto            // Custom value
   ),
   $spacers
 );
