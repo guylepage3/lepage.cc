@@ -14,9 +14,6 @@
 }
 
 /*.lead {
-  font-size: 1.5rem;
-  font-weight: 400;
-  letter-spacing: 0.025em;
   opacity: 0.9;
 }
 */
@@ -78,7 +75,6 @@
   }
   /*.lead {
     font-size: 1.25rem;
-    letter-spacing: 0.025em;
     margin-bottom: 2rem;
   }*/
 }
@@ -87,7 +83,6 @@
 @media (min-width: 768px) {
   /*.lead {
     font-size: 1.35rem;
-    letter-spacing: 0.025em;
     margin-bottom: 2.5rem;
   }*/
 }
@@ -110,7 +105,6 @@
 @media (max-width: 575.98px) {
   /*.lead {
     font-size: 1.125rem;
-    letter-spacing: 0.035em;
     margin-bottom: 1.5rem;
   }*/
 }

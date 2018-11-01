@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class Footer extends Component {
   render() {
     return (
-      <footer className="container-fluid mx-auto text-center mb-2">
-        <div className="mb-2 text-white-50 text-footer font-weight-bold">
+      <footer className="container-fluid mx-auto text-center mb-0">
+        <div className="mb-0 text-white-50 text-footer font-weight-bold">
           <a 
             href="https://github.com/guylepage3/" 
             alt="GitHub guylepage3 (Guy Lepage)"
