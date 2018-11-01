@@ -71,7 +71,7 @@
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   .quote {
-    font-size: 2.5rem; /* Reset back to default */
+    font-size: 3rem; /* Reset back to default */
   }
   /*.lead {
     font-size: 1.25rem;

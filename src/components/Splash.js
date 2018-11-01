@@ -25,7 +25,8 @@ class Splash extends Component {
                 font-italic 
                 anima-fadein 
                 quote
-                my-0
+                mt-0
+                mb-2
               ">
               "Less, but better."
             </h1>
