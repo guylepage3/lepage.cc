@@ -13,14 +13,13 @@ class Landing extends Component {
           anima-slidein
         ">
         <div className="row">
-          <div className="col-lg-9 col-xl-7 mx-auto pt-4">
+          <div className="col-lg-9 col-xl-7 mx-auto">
             <h1 
               className="
                 text-white 
                 font-weight-bold 
                 font-italic 
-                anima-fadein 
-                hero-quote
+                anima-fadein
               ">
               Simple, clean, concise experiences that keep the user coming 
               back, time and time again.

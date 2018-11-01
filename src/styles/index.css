@@ -15,11 +15,6 @@ body {
     "Segoe UI Emoji","Segoe UI Symbol";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  text-align: left;
-  color: #000;
 }
 
 code {

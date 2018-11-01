@@ -1,6 +1,6 @@
 {
   "name": "lepage.cc",
-  "version": "2.0.1",
+  "version": "2.1.1",
   "private": true,
   "dependencies": {
     "ajv": "^6.5.4",

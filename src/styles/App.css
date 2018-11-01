@@ -13,12 +13,13 @@
   font-size: 2.05rem;
 }
 
-.lead {
+/*.lead {
   font-size: 1.5rem;
   font-weight: 400;
   letter-spacing: 0.025em;
   opacity: 0.9;
 }
+*/
 
 .text-footer {
   font-size: 80%;
@@ -75,20 +76,20 @@
   .quote {
     font-size: 2.5rem; /* Reset back to default */
   }
-  .lead {
+  /*.lead {
     font-size: 1.25rem;
     letter-spacing: 0.025em;
     margin-bottom: 2rem;
-  }
+  }*/
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  .lead {
+  /*.lead {
     font-size: 1.35rem;
     letter-spacing: 0.025em;
     margin-bottom: 2.5rem;
-  }
+  }*/
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -107,11 +108,11 @@
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-  .lead {
+  /*.lead {
     font-size: 1.125rem;
     letter-spacing: 0.035em;
     margin-bottom: 1.5rem;
-  }
+  }*/
 }
 
 /* Small devices (landscape phones, less than 768px)*/
@@ -125,3 +126,21 @@
 
 /* Extra large devices (large desktops)*/
 /* No media query since the extra-large breakpoint has no upper bound on its width */
+
+/* Typography testing */
+/* .typetemplate-boxy classes are for typography testing purposes only */
+/*
+.typetemplate-boxy-img-box {
+  height: 325px;
+  background-color: #212121;
+  margin: 2.75rem auto;
+}
+
+.typetemplate-boxy-line {
+  height: 1px;
+  width: 50%;
+  background-color: #555;
+  margin: 5.5rem auto;
+}
+*/
+/* End typography testing */

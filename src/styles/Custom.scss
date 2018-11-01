@@ -1,20 +1,405 @@
-// Custom UI (v0.0.1)
+// Lepage UI (v1.3.2)
+// Lepage UI is a custom base theme for the Bootstrap UI framework.
 
-// Custom UI is a custom base theme for the Bootstrap UI framework.
-
-// Visit the Bootstrap Theming and the Create React App Bootstrap Theming
-// documentation for information:
-// http://getbootstrap.com/docs/4.1/getting-started/theming/
-// https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#using-a-custom-theme
-
-// Usage
+// How to use Lepage UI with Sass
 // To manually compile Sass using Sass, run;
 // `$ sass src/styles/Custom.scss src/styles/Custom.css`
 
+//
+// Color system
+//
+
+$white:    #fff; // !default
+$gray-50:  #FAFAFA;
+$gray-100: #F5F5F5;
+$gray-200: #EEEEEE;
+$gray-300: #E0E0E0;
+$gray-400: #BDBDBD;
+$gray-500: #9E9E9E;
+$gray-600: #757575;
+$gray-700: #616161;
+$gray-800: #424242;
+$gray-900: #212121;
+$midnight: #000;
+$black:    #000; // !default
+
+$grays: (); // !default
+// stylelint-disable-next-line scss/dollar-variable-default
+$grays: map-merge(
+  (
+    "50": $gray-50,
+    "100": $gray-100,
+    "200": $gray-200,
+    "300": $gray-300,
+    "400": $gray-400,
+    "500": $gray-500,
+    "600": $gray-600,
+    "700": $gray-700,
+    "800": $gray-800,
+    "900": $gray-900
+  ),
+  $grays
+);
+
+$electric-blue:           #007BFF;
+$electric-magenta:        #F700D6;
+$success-green:           #00BB00;
+$danger-red:              #FF0000;
+$warning-yellow:          #FBC02D;
+$info-blue:               #1E90FF;
+$red-500:                 #F44336; // Red 500
+$red-600:                 #E53935; // Red 600
+$pink-500:                #E91E63; // Pink 500
+$pink-600:                #D81B60; // Pink 600
+$purple-500:              #9C27B0; // Purple 500
+$purple-600:              #8E24AA; // Purple 600
+$deep-purple-500:         #673AB7; // Deep Purple 500
+$deep-purple-600:         #5E35B1; // Deep Purple 600
+$indigo-500:              #3F51B5; // Indigo 500
+$indigo-600:              #3949AB; // Indigo 600
+$blue-500:                #2196F3; // Blue 500
+$blue-600:                #1E88E5; // Blue 600
+$light-blue-500:          #03A9F4; // Light Blue 500
+$light-blue-600:          #039BE5; // Light Blue 600
+$cyan-500:                #00BCD4; // Cyan 500
+$cyan-600:                #00ACC1; // Cyan 600
+$teal-500:                #009688; // Teal 500
+$teal-600:                #00897B; // Teal 600
+$green-500:               #4CAF50; // Green 500
+$green-600:               #43A047; // Green 600
+$light-green-500:         #8BC34A; // Light Green 500
+$light-green-600:         #7CB342; // Light Green 600
+$lime-500:                #CDDC39; // Lime 500
+$lime-600:                #C0CA33; // Lime 600
+$yellow-500:              #FFEB3B; // Yellow 500
+$yellow-600:              #FDD835; // Yellow 600
+$amber-500:               #FFC107; // Amber 500
+$amber-600:               #FFB300; // Amber 600
+$orange-500:              #FF9800; // Orange 500
+$orange-600:              #FB8C00; // Orange 600
+$deep-orange-500:         #FF5722; // Deep Orange 500
+$deep-orange-600:         #F4511E; // Deep Orange 600
+$brown-500:               #795548; // Brown 500
+$brown-600:               #6D4C41; // Brown 600
+$blue-gray-500:           #607D8B; // Blue Gray 500
+$blue-gray-600:           #546E7A; // Blue Gray 600
+
+$colors: (); // !default
+// stylelint-disable-next-line scss/dollar-variable-default
+$colors: map-merge(
+  (
+    "electric-blue":      $electric-blue,
+    "electric-magenta":   $electric-magenta,
+    "success-green":      $success-green,
+    "danger-red":         $danger-red,
+    "warning-yellow":     $warning-yellow,
+    "info-blue":          $info-blue,
+    "red-500":            $red-500,
+    "red-600":            $red-600,
+    "pink-500":           $pink-500,
+    "pink-600":           $pink-600,
+    "purple-500":         $purple-500,
+    "purple-600":         $purple-600,
+    "deep-purple-500":    $deep-purple-500,
+    "deep-purple-600":    $deep-purple-600,
+    "indigo-500":         $indigo-500,
+    "indigo-600":         $indigo-600,
+    "blue-500":           $blue-500,
+    "blue-600":           $blue-600,
+    "light-blue-500":     $light-blue-500,
+    "light-blue-600":     $light-blue-600,
+    "cyan-500":           $cyan-500,
+    "cyan-600":           $cyan-600,
+    "teal-500":           $teal-500,
+    "teal-600":           $teal-600,
+    "green-500":          $green-500,
+    "green-600":          $green-600,
+    "light-green-500":    $light-green-500,
+    "light-green-600":    $light-green-600,
+    "lime-500":           $lime-500,
+    "lime-600":           $lime-600,
+    "yellow-500":         $yellow-500,
+    "yellow-600":         $yellow-600,
+    "amber-500":          $amber-500,
+    "amber-600":          $amber-600,
+    "orange-500":         $orange-500,
+    "orange-600":         $orange-600,
+    "deep-orange-500":    $deep-orange-500,
+    "deep-orange-600":    $deep-orange-600,
+    "brown-500":          $brown-500,
+    "brown-600":          $brown-600,
+    "blue-gray-500":      $blue-gray-500,
+    "blue-gray-600":      $blue-gray-600
+  ),
+  $colors
+);
+
+$primary:       $electric-blue;
+$secondary:     $electric-magenta;
+$success:       $success-green;
+$info:          $info-blue;
+$warning:       $warning-yellow;
+$danger:        $danger-red;
+$light:         $gray-100; // !default
+$dark:          $gray-800; // !default
+
+$theme-colors: (); // !default
+// stylelint-disable-next-line scss/dollar-variable-default
+$theme-colors: map-merge(
+  (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      $light,
+    "dark":       $dark
+  ),
+  $theme-colors
+);
+
+// Set a specific jump point for requesting color jumps
+$theme-color-interval:      8%; // !default
+
+// The yiq lightness value that determines when the lightness of color changes 
+// from "dark" to "light". Acceptable values are between 0 and 255.
+$yiq-contrasted-threshold:  150; // !default
+
+// Customize the light and dark text colors for use in our YIQ color contrast 
+// function.
+$yiq-text-dark:             $gray-900; // !default
+$yiq-text-light:            $white; // !default
+
+
+// Spacing
+//
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+// You can add more entries to the $spacers map, should you need more variation.
+
+$spacer: 1rem;
+$spacers: ();
+// stylelint-disable-next-line scss/dollar-variable-default
+$spacers: map-merge(
+  (
+    n: 0,
+    0: ($spacer * .5),
+    1: $spacer,
+    2: ($spacer * 1.5),
+    3: ($spacer * 2),
+    4: ($spacer * 2.5),
+    5: ($spacer * 3),
+    6: ($spacer * 3.5),
+    7: ($spacer * 4),
+    8: ($spacer * 4.5),
+    9: ($spacer * 5),
+    auto: auto
+  ),
+  $spacers
+);
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg:                   $black !default;
+$body-color:                $gray-900 !default;
+
+
+// Typography
+//
+// Custom typography patterns
+//
+// Two typographic style sets are defined.
+// 1. Communication type - Sets of copy that are for written communications. 
+//    (ie. promotional pages, blog posts, documentation, etc.).
+// 2. Graphical UI type - Graphical user interface type within the GUI itself. 
+//    (ie. List of songs, play button, settings).
+//
+// margin-top is applied to;
+// h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .lead, p
+
+// Communication Typography
+
+// Base Typography
+//
+// Important! ----------------------------------------------------------- //
+// Changes in the base font-size or line-height significantly affect the all 
+// other typography.
+//
+// Font Base
+$font-size-base:              1rem; // !default
+// $font-size-base:              1.0625rem; // Sets new default == 17px
+$line-height-base:            1.75; // Multiplied by the element's font-size
+$font-weight-normal:          500; // default weight = Medium
+
+// Headings
+//
+// Style h1, h2, h3, h4, h5, h6 elements and 
+// .h1, .h2, .h3, .h4, .h5, .h6 classes.
+
+$headings-font-weight:        600;
+$headings-letter-spacing:     -0.005em;
+$headings-line-height:        1.2; // !default
+$headings-margin-bottom:      (1.0625rem * 1.5);
+
+$h1-font-size:                $font-size-base * 3;
+                              // 3rem       == 48px      (1rem == 16px)
+                              // 3.1875rem  == 51px      (1.0625rem == 17px)
+$h2-font-size:                $font-size-base * 2.5;
+                              // 2.5rem     == 40px      (1rem == 16px)
+                              // 2.65625rem == 42.5px    (1.0625rem == 17px)
+$h3-font-size:                $font-size-base * 2;
+                              // 2rem       == 32px      (1rem == 16px)
+                              // 2.125rem   == 34px      (1.0625rem == 17px)
+$h4-font-size:                $font-size-base * 1.75;
+                              // 1.75rem    == 28px      (1rem == 16px)
+                              // 1.85938rem == 9.7501px  (1.0625rem == 17px)
+$h5-font-size:                $font-size-base * 1.5;
+                              // 1.5rem     == 24px      (1rem == 16px)
+                              // 1.59375rem == 25.5px    (1.0625rem == 17px)
+$h6-font-size:                $font-size-base * 1.25;
+                              // 1.25rem    == 20px      (1rem == 16px)
+                              // 1.32812rem == 21.2499px (1.0625rem == 17px)
+
+// Descending margin-top
+// For descending margin-top values, use the following method
+
+$h1-margin-top:               ($h1-font-size * 2.25)!important;
+                              // 6.75rem    == 108px     (1rem == 16px)
+                              // 7.17188rem == 114.75px  (1.0625rem == 17px)
+$h2-margin-top:               ($h2-font-size * 2.25)!important;
+                              // 2.5rem     == 90px      (1rem == 16px)
+                              // 5.97656rem == 95.625px  (1.0625rem == 17px)
+$h3-margin-top:               ($h3-font-size * 2.25)!important;
+                              // 4.5rem     == 72px      (1rem == 16px)
+                              // 4.78125rem == 76.5px    (1.0625rem == 17px)
+$h4-margin-top:               ($h4-font-size * 2.25)!important;
+                              // 3.9375rem  == 63px      (1rem == 16px)
+                              // 4.18359rem == 66.9374px (1.0625rem == 17px)
+$h5-margin-top:               ($h5-font-size * 2.25)!important;
+                              // 3.375rem   == 54px      (1rem == 16px)
+                              // 3.58594rem == 57.375px  (1.0625rem == 17px)
+$h6-margin-top:               ($h6-font-size * 2.25)!important;
+                              // 2.8125rem  == 45px      (1rem == 16px)
+                              // 2.98828rem == 47.8125px (1.0625rem == 17px)
+
+// Explicit margin-top
+// For an equal margin-top value, use the following method
+
+// $h1-margin-top:            ($font-size-base * 4)!important;
+// $h2-margin-top:            ($font-size-base * 4)!important;
+// $h3-margin-top:            ($font-size-base * 4)!important;
+// $h4-margin-top:            ($font-size-base * 4)!important;
+// $h5-margin-top:            ($font-size-base * 4)!important;
+// $h6-margin-top:            ($font-size-base * 4)!important;
+
+h1, .h1 {
+  margin-top: $h1-margin-top; // Custom Sass variable
+}
+
+h2, .h2 {
+  margin-top: $h2-margin-top; // Custom Sass variable
+}
+
+h3, .h3 {
+  margin-top: $h3-margin-top; // Custom Sass variable
+}
+
+h4, .h4 {
+  margin-top: $h4-margin-top; // Custom Sass variable
+}
+
+h5, .h5 {
+  margin-top: $h5-margin-top; // Custom Sass variable
+}
+
+h6, .h6 {
+  margin-top: $h6-margin-top; // Custom Sass variable
+}
+
+// Display Headings
+//
+// Style .display-* heading classes.
+
+// font-size, margin-bottom & line-height do not change
+// and work withh both 1rem & 1.0625rem values.
+//
+// margin-top     (1rem == 16px)         7.17188rem == 114.75px
+// margin-top     (1.0625rem == 17px)    6.75rem == 108px
+// margin-bottom                         1.59375rem == 25.5px
+// line-hheight                          1.2rem == 86.4px
+
+$display1-size:               6rem; // !default
+                              // font-size       6rem == 96px
+$display2-size:               5.5rem; // !default
+                              // font-size       5.5rem == 88px
+$display3-size:               4.5rem; // !default
+                              // font-size       4.5rem == 72px
+$display4-size:               3.5rem; // !default
+                              // font-size       3.5rem == 56px
+$display1-weight:             700;
+$display2-weight:             700;
+$display3-weight:             700;
+$display4-weight:             700;
+$display-line-height:         $headings-line-height; // !default
+
+// Leads
+//
+// Style .lead classes.
+
+// $lead-font-size:           ($font-size-base * 1.25);
+//                            // 1.25rem  == 20px        (1rem == 16px)
+//                            // 1.32812rem == 21.2499px (1.0625rem == 17px)
+$lead-font-size:              1.3125rem; // < ---------------------------- !
+                              // 1.3125rem == 21px       (1.3125rem == 21px)
+$lead-font-weight:            400;
+$lead-margin-top:             ($lead-font-size * 1.5)!important;
+                              // 1.96875rem == 31.5px    (1.3125rem == 21px)
+                              // 1.875rem  == 30px       (1rem == 16px)
+                              // 1.99219rem == 31.875px  (1.0625rem == 17px)
+$lead-line-height:            1.45; 
+                              // == 30.45px              (1.3125rem == 21px)
+                              // == 29px                 (1rem == 16px)
+                              // == 30.8124px            (1.0625rem == 17px)
+
+.lead {
+  margin-top: $lead-margin-top; // Custom Sass variable
+  line-height: $lead-line-height; // Custom Sass variable
+  // margin-bottom: 1.0625rem; // == 17px // Inherited from the p element
+  // letter-spacing: -0.015em; // == -0.315px // Inherited from the p element
+}
+
+// Paragraphs
+//
+// Style p element.
+
+$paragraph-margin-top:        1.0625rem!important;
+$paragraph-margin-bottom:     1.0625rem!important;
+$paragraph-letter-spacing:    -.015em;
+
+p {
+  letter-spacing: $paragraph-letter-spacing; // Custom Sass variable
+  margin-top: $paragraph-margin-top; // Custom Sass variable
+}
+
+// Graphical UI Typography
+
+// Headings
+//
+// Style h1, h2, h3, h4, h5, h6 elements and 
+// .h1, .h2, .h3, .h4, .h5, .h6 classes.
+
+// Leads
+//
+// Style .lead class.
+
+// Paragraphs
+//
+// Style p element.
+
 // Override default variables before the import
-
-$body-bg: #000;
-
 // Import Bootstrap and its default variables
 
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
