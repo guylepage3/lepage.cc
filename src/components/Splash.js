@@ -5,14 +5,7 @@ class Splash extends Component {
     return (
       <main 
         role="main" 
-        className="
-          container
-          mx-auto 
-          text-center 
-          mt-auto 
-          mb-auto 
-          anima-slidein
-        ">
+        className="container text-center mx-auto my-auto anima-slidein">
         <div className="row">
           <div 
             className="
@@ -37,7 +30,7 @@ class Splash extends Component {
             lead 
             anima-fadein 
             anima-fadein-delay-1700 
-            text-white
+            text-white-90
             my-0
           ">
             <i>~ Dieter Rams</i>

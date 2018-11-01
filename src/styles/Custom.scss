@@ -27,7 +27,7 @@ $grays: (); // !default
 // stylelint-disable-next-line scss/dollar-variable-default
 $grays: map-merge(
   (
-    "50": $gray-50,
+    "50":  $gray-50,
     "100": $gray-100,
     "200": $gray-200,
     "300": $gray-300,
@@ -141,7 +141,7 @@ $info:          $info-blue;
 $warning:       $warning-yellow;
 $danger:        $danger-red;
 $light:         $gray-100; // !default
-$dark:          $gray-800; // !default
+$dark:          $gray-900; // !default
 
 $theme-colors: (); // !default
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -202,6 +202,7 @@ $spacers: map-merge(
   $spacers
 );
 
+
 // Body
 //
 // Settings for the `<body>` element.
@@ -227,7 +228,7 @@ $body-color:                $gray-900 !default;
 
 // Base Typography
 //
-// Important! ----------------------------------------------------------- //
+// Important! < ---------------------------------------------------------- !
 // Changes in the base font-size or line-height significantly affect the all 
 // other typography.
 //
@@ -269,58 +270,31 @@ $h6-font-size:                $font-size-base * 1.25;
 // Descending margin-top
 // For descending margin-top values, use the following method
 
-$h1-margin-top:               ($h1-font-size * 2.25)!important;
-                              // 6.75rem    == 108px     (1rem == 16px)
-                              // 7.17188rem == 114.75px  (1.0625rem == 17px)
-$h2-margin-top:               ($h2-font-size * 2.25)!important;
-                              // 2.5rem     == 90px      (1rem == 16px)
-                              // 5.97656rem == 95.625px  (1.0625rem == 17px)
-$h3-margin-top:               ($h3-font-size * 2.25)!important;
-                              // 4.5rem     == 72px      (1rem == 16px)
-                              // 4.78125rem == 76.5px    (1.0625rem == 17px)
-$h4-margin-top:               ($h4-font-size * 2.25)!important;
-                              // 3.9375rem  == 63px      (1rem == 16px)
-                              // 4.18359rem == 66.9374px (1.0625rem == 17px)
-$h5-margin-top:               ($h5-font-size * 2.25)!important;
-                              // 3.375rem   == 54px      (1rem == 16px)
-                              // 3.58594rem == 57.375px  (1.0625rem == 17px)
-$h6-margin-top:               ($h6-font-size * 2.25)!important;
-                              // 2.8125rem  == 45px      (1rem == 16px)
-                              // 2.98828rem == 47.8125px (1.0625rem == 17px)
+h1, .h1 { margin-top: ($h1-font-size * 2.25)!important; }
+                       // 6.75rem    == 108px     (1rem == 16px)
+                       // 7.17188rem == 114.75px  (1.0625rem == 17px)
+h2, .h2 { margin-top: ($h2-font-size * 2.25)!important; }
+                       // 2.5rem     == 90px      (1rem == 16px)
+                       // 5.97656rem == 95.625px  (1.0625rem == 17px)
+h3, .h3 { margin-top: ($h3-font-size * 2.25)!important; }
+                       // 4.5rem     == 72px      (1rem == 16px)
+                       // 4.78125rem == 76.5px    (1.0625rem == 17px)
+h4, .h4 { margin-top: ($h4-font-size * 2.25)!important; }
+                       // 3.9375rem  == 63px      (1rem == 16px)
+                       // 4.18359rem == 66.9374px (1.0625rem == 17px)
+h5, .h5 { margin-top: ($h5-font-size * 2.25)!important; }
+                       // 3.375rem   == 54px      (1rem == 16px)
+                       // 3.58594rem == 57.375px  (1.0625rem == 17px)
+h6, .h6 { margin-top: ($h6-font-size * 2.25)!important; }
+                       // 2.8125rem  == 45px      (1rem == 16px)
+                       // 2.98828rem == 47.8125px (1.0625rem == 17px)
 
 // Explicit margin-top
 // For an equal margin-top value, use the following method
 
-// $h1-margin-top:            ($font-size-base * 4)!important;
-// $h2-margin-top:            ($font-size-base * 4)!important;
-// $h3-margin-top:            ($font-size-base * 4)!important;
-// $h4-margin-top:            ($font-size-base * 4)!important;
-// $h5-margin-top:            ($font-size-base * 4)!important;
-// $h6-margin-top:            ($font-size-base * 4)!important;
-
-h1, .h1 {
-  margin-top: $h1-margin-top; // Custom Sass variable
-}
-
-h2, .h2 {
-  margin-top: $h2-margin-top; // Custom Sass variable
-}
-
-h3, .h3 {
-  margin-top: $h3-margin-top; // Custom Sass variable
-}
-
-h4, .h4 {
-  margin-top: $h4-margin-top; // Custom Sass variable
-}
-
-h5, .h5 {
-  margin-top: $h5-margin-top; // Custom Sass variable
-}
-
-h6, .h6 {
-  margin-top: $h6-margin-top; // Custom Sass variable
-}
+// h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 { 
+//   margin-top: ($font-size-base * 4)!important;
+// }
 
 // Display Headings
 //
@@ -401,6 +375,35 @@ p {
 // Paragraphs
 //
 // Style p element.
+
+
+// Utilities
+
+// Utilites > Text
+//
+
+// Contextual colors
+
+.text-black-10 { color: rgba($black, .1) !important; }
+.text-black-20 { color: rgba($black, .2) !important; }
+.text-black-30 { color: rgba($black, .3) !important; }
+.text-black-40 { color: rgba($black, .4) !important; }
+.text-black-50 { color: rgba($black, .5) !important; }
+.text-black-60 { color: rgba($black, .6) !important; }
+.text-black-70 { color: rgba($black, .7) !important; }
+.text-black-80 { color: rgba($black, .8) !important; }
+.text-black-90 { color: rgba($black, .9) !important; }
+
+.text-white-10 { color: rgba($white, .1) !important; }
+.text-white-20 { color: rgba($white, .2) !important; }
+.text-white-30 { color: rgba($white, .3) !important; }
+.text-white-40 { color: rgba($white, .4) !important; }
+.text-white-50 { color: rgba($white, .5) !important; }
+.text-white-60 { color: rgba($white, .6) !important; }
+.text-white-70 { color: rgba($white, .7) !important; }
+.text-white-80 { color: rgba($white, .8) !important; }
+.text-white-90 { color: rgba($white, .9) !important; }
+
 
 // Override default variables before the import
 // Import Bootstrap and its default variables
