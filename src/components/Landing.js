@@ -5,27 +5,21 @@ class Landing extends Component {
     return (
       <main 
         role="main" 
-        className="
-          container 
-          mb-auto 
-          mt-auto 
-          mx-auto 
-          anima-slidein
-        ">
+        className="container my-auto mx-auto anima-slidein">
         <div className="row">
-          <div className="col-lg-9 col-xl-7 mx-auto pt-4">
+          <div className="col-lg-9 col-xl-7 mx-auto">
             <h1 
               className="
                 text-white 
                 font-weight-bold 
                 font-italic 
                 anima-fadein 
-                hero-quote
+                mt-0
               ">
               Simple, clean, concise experiences that keep the user coming 
               back, time and time again.
             </h1>
-            <p className="lead text-white anima-fadein">
+            <p className="lead text-white-90 anima-fadein">
               I'm Guy Lepage, a Senior Product UX/UI Designer and Front-end 
               Developer with 19 years of industry experience, specializing in 
               designing and developing pixel perfect digital products, web 

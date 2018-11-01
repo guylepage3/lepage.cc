@@ -13,16 +13,7 @@ class HeaderLight extends Component {
           height: '56px',
           backgroundColor: '#000'
         }}>
-        <a 
-          className="
-            navbar-brand 
-            font-weight-bold 
-            text-white
-          "
-          href="/"
-          style={{
-            fontSize: '1.2rem'
-          }}>
+        <a href="/" className="navbar-brand">
           <img 
             src={logo} 
             className="navbar-brand-img"
