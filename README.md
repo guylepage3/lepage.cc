@@ -97,7 +97,11 @@ This project was bootstrapped with [Create React App `v2`](https://github.com/fa
 [![Bootstrap version](https://img.shields.io/badge/Bootstrap-v4.1.3-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/bootstrap)
 [![jQuery version](https://img.shields.io/badge/jQuery-v3.3.1-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/jquery)
 [![node-sass version](https://img.shields.io/badge/node--sass-v4.9.3-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/node-sass)
+
 [![npm version](https://img.shields.io/badge/npm-v6.4.1-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/npm)
+[![npm version](https://img.shields.io/npm/v/lepage.cc.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/npm)
+[![npm version](https://img.shields.io/npm/v/bootstrap.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/npm)
+
 [![Popper version](https://img.shields.io/badge/Popper.js-v1.14.4-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/popper.js)
 [![px-rem-reference version](https://img.shields.io/badge/px--rem--reference-v1.3.3-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/px-rem-reference)
 [![React version](https://img.shields.io/badge/React-v16.5.2-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react)
