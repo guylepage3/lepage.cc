@@ -88,7 +88,7 @@ This project was bootstrapped with [Create React App `v2`](https://github.com/fa
 
 [![CircleCI](https://circleci.com/gh/guylepage3/lepage.cc.svg?style=svg&circle-token=08110c1289dd045892c46ae6cb36a681b0be7abb)](https://circleci.com/gh/guylepage3/lepage.cc)
 [![Lepage.cc version](https://img.shields.io/badge/Lepage.cc-v2.1.15-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/guylepage3/lepage.cc)
-[![Lepage UI version](https://img.shields.io/badge/Lepage_UI-v1.3.1-pink.svg?colorA=212121&colorB=F700D6)](/docs/CONTRIBUTING.md#galaxy-ui)
+[![Lepage UI version](https://img.shields.io/badge/Lepage_UI-v1.3.1-blue.svg?colorA=212121&colorB=007BFF)](/docs/CONTRIBUTING.md#galaxy-ui)
 
 [![Dependencies Status](https://david-dm.org/guylepage3/lepage.cc.svg?colorA=212121&colorB=007BFF)](https://david-dm.org/guylepage3/lepage.cc)
 [![Ajv version](https://img.shields.io/badge/Ajv-v6.5.4-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/ajv)
