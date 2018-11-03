@@ -103,7 +103,7 @@ This project was bootstrapped with [Create React App `v2`](https://github.com/fa
 [![npm version](https://img.shields.io/npm/v/bootstrap.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/npm)
 
 [![Popper version](https://img.shields.io/badge/Popper.js-v1.14.4-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/popper.js)
-[![peerDependencies Status](https://img.shields.io/david/peer/guylepage3/lepage.cc.svg)](https://david-dm.org/guylepage3/lepage.cc?type=peer&colorA=212121&colorB=007BFF)
+[![peerDependencies Status](https://img.shields.io/david/peer/guylepage3/lepage.cc.svg)](https://david-dm.org/guylepage3/lepage.cc?colorA=212121&colorB=007BFF)
 [![npm version](https://img.shields.io/npm/v/lepage.cc.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/npm)
 [![px-rem-reference version](https://img.shields.io/badge/px--rem--reference-v1.3.3-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/px-rem-reference)
 
