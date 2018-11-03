@@ -84,9 +84,9 @@ This project was bootstrapped with [Create React App `v2`](https://github.com/fa
     - Calculations for a `1rem` and `1.0625rem` base `font-size`.
     - Full definition of Base Typography, Headings, Display Headings, Leads, 
       and Paragraphs.
+- Upgraded to [Create React App `v2.1.1`](https://github.com/facebook/create-react-app/releases/tag/v2.1.1).
 
-
-[![Lepage.cc version](https://img.shields.io/badge/Lepage.cc-v2.1.11-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/guylepage3/lepage.cc)
+[![Lepage.cc version](https://img.shields.io/badge/Lepage.cc-v2.1.13-brightgreen.svg?colorA=212121&colorB=00BB00)](https://github.com/guylepage3/lepage.cc)
 [![Lepage UI version](https://img.shields.io/badge/Lepage_UI-v1.3.1-brightgreen.svg?colorA=212121&colorB=00BB00)](/docs/CONTRIBUTING.md#galaxy-ui)
 <a href="https://opensource.guide/how-to-contribute/#why-contribute-to-open-source">
   <img src="https://badges.frapsoft.com/os/v3/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/" alt="Open Source">
@@ -99,7 +99,7 @@ This project was bootstrapped with [Create React App `v2`](https://github.com/fa
 [![node-sass version](https://img.shields.io/badge/node--sass-v4.9.3-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/node-sass)
 [![npm version](https://img.shields.io/badge/npm-v6.4.1-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/npm)
 [![Popper version](https://img.shields.io/badge/Popper.js-v1.14.4-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/popper.js)
-[![px-rem-reference version](https://img.shields.io/badge/px--rem--reference-v1.2.2-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/px-rem-reference)
+[![px-rem-reference version](https://img.shields.io/badge/px--rem--reference-v1.3.3-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/px-rem-reference)
 [![React version](https://img.shields.io/badge/React-v16.5.2-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react)
 [![ReactDOM version](https://img.shields.io/badge/ReactDOM-v16.5.2-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react-dom)
 [![React Router DOM version](https://img.shields.io/badge/React_Router_DOM-v4.3.1-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react-router-dom)
