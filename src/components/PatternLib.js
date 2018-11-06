@@ -23,6 +23,41 @@ class PatternLib extends Component {
         ">
         <div className="row">
           <div className="col-lg-9 col-xl-7 mx-auto">
+            <h1 className="display-1 text-white mb-1">
+              Aa
+            </h1>
+            <ul className="list-inline text-white small">
+              <li className="list-inline-item">
+                SF Pro Display › 
+              </li>
+              <li className="list-inline-item">
+                <span style={{ fontWeight: '900' }}>Black</span> › 
+              </li>
+              <li className="list-inline-item">
+                <span style={{ fontWeight: '800' }}>Heavy</span> › 
+              </li>
+              <li className="list-inline-item">
+                <span style={{ fontWeight: '700' }}>Bold</span> › 
+              </li>
+              <li className="list-inline-item">
+                <span style={{ fontWeight: '600' }}>Semibold</span> › 
+              </li>
+              <li className="list-inline-item">
+                <span style={{ fontWeight: '500' }}>Medium</span> › 
+              </li>
+              <li className="list-inline-item">
+                <span style={{ fontWeight: '400' }}>Regular</span> › 
+              </li>
+              <li className="list-inline-item">
+                <span style={{ fontWeight: '300' }}>Light</span> › 
+              </li>
+              <li className="list-inline-item">
+                <span style={{ fontWeight: '200' }}>Ultralight</span> › 
+              </li>
+              <li className="list-inline-item">
+                <span style={{ fontWeight: '100' }}>Thin</span> › 
+              </li>
+            </ul>
             <h1 className="text-white">
               Duis ullamcorper feugiat sodales. Maecenas in nisl venenatis, volutpat nisl quis
             </h1>
