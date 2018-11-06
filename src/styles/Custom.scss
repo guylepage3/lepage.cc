@@ -242,7 +242,7 @@ $font-weight-normal:          500; // default weight = Medium
 
 $headings-font-weight:        600;
 $headings-letter-spacing:     -0.005em;
-$headings-line-height:        1.2; // !default
+$headings-line-height:        1.125; // !default
 $headings-margin-bottom:      (1.0625rem * 1.5);
 
 $h1-font-size:                $font-size-base * 2.5;
@@ -253,8 +253,8 @@ $h3-font-size:                $font-size-base * 1.75;
                               // 1.75rem == 28px
 $h4-font-size:                $font-size-base * 1.5;
                               // 1.5rem == 24px
-$h5-font-size:                $font-size-base * 1.25;
-                              // 1.25rem == 20px
+$h5-font-size:                $font-size-base * 1.2;
+                              // 1.2rem == 20px
 $h6-font-size:                $font-size-base * 1;
                               // 1rem == 16px
 
