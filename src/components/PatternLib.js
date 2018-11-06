@@ -19,7 +19,7 @@ class PatternLib extends Component {
           mb-auto 
           mt-auto 
           mx-auto 
-          anima-slidein
+          anima-fadein
         ">
         <div className="row">
           <div className="col-lg-9 col-xl-7 mx-auto">
