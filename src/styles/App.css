@@ -82,6 +82,9 @@
   .lead {
     font-size: 1.3125rem;
   }
+  .lead-lg {
+    font-size: 1.75rem;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */

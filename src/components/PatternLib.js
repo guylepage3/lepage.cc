@@ -21,43 +21,83 @@ class PatternLib extends Component {
           mx-auto 
           anima-fadein
         ">
-        <div className="row">
-          <div className="col-lg-9 col-xl-7 mx-auto">
+        <div className="row px-3">
+          <div className="col-lg-12 col-xl-11 mx-auto">
             <h1 className="display-1 text-white mb-1">
               Aa
             </h1>
-            <ul className="list-inline text-white small">
-              <li className="list-inline-item">
-                SF Pro Display › 
+            <ul className="list-inline text-white mb-6"
+              style={{
+                fontSize: '1rem'
+              }}>
+              <li className="list-inline-item mr-3">
+                SF Pro
+                <span className="small ml-3">›</span> 
               </li>
               <li className="list-inline-item">
-                <span style={{ fontWeight: '900' }}>Black</span> › 
+                <span style={{ fontWeight: '900' }}>Black</span>
+                <span className="small ml-2">›</span>
               </li>
               <li className="list-inline-item">
-                <span style={{ fontWeight: '800' }}>Heavy</span> › 
+                <span style={{ fontWeight: '800' }}>Heavy</span>
+                <span className="small ml-2">›</span>
               </li>
               <li className="list-inline-item">
-                <span style={{ fontWeight: '700' }}>Bold</span> › 
+                <span style={{ fontWeight: '700' }}>Bold</span>
+                <span className="small ml-2">›</span>
               </li>
               <li className="list-inline-item">
-                <span style={{ fontWeight: '600' }}>Semibold</span> › 
+                <span style={{ fontWeight: '600' }}>Semibold</span>
+                <span className="small ml-2">›</span>
               </li>
               <li className="list-inline-item">
-                <span style={{ fontWeight: '500' }}>Medium</span> › 
+                <span style={{ fontWeight: '500' }}>Medium</span>
+                <span className="small ml-2">›</span>
               </li>
               <li className="list-inline-item">
-                <span style={{ fontWeight: '400' }}>Regular</span> › 
+                <span style={{ fontWeight: '400' }}>Regular</span>
+                <span className="small ml-2">›</span>
               </li>
               <li className="list-inline-item">
-                <span style={{ fontWeight: '300' }}>Light</span> › 
+                <span style={{ fontWeight: '300' }}>Light</span>
+                <span className="small ml-2">›</span>
               </li>
               <li className="list-inline-item">
-                <span style={{ fontWeight: '200' }}>Ultralight</span> › 
+                <span style={{ fontWeight: '200' }}>Ultralight</span>
+                <span className="small ml-2">›</span>
               </li>
               <li className="list-inline-item">
-                <span style={{ fontWeight: '100' }}>Thin</span> › 
+                <span style={{ fontWeight: '100' }}>Thin</span>
               </li>
             </ul>
+            <div className="row">
+              <div className="col-md-6">
+                <p className="lead text-white">
+                  Sed ac dolor finibus libero bibendum maximus. Cras aliquet dapibus nunc, eu mattis felis mollis quis. Integer ut ullamcorper tellus. Donec porttitor nunc non sapien sagittis ultrices. Duis gravida diam mi, in vulputate neque volutpat ac.
+                </p>
+              </div>
+              <div className="col-md-6 text-center">
+                <p className="lead-lg text-white font-italic">
+                  Typography is the craft of endowing human language with visual form. <br />
+                  ― Robert Bringhurst
+                </p>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-md-6">
+                <p className="text-white">
+                  Curabitur feugiat pellentesque sem ac lobortis. Vestibulum finibus finibus odio, vel maximus justo. Mauris lacinia dui ut velit mollis, id finibus lectus pulvinar. Vivamus tellus felis, imperdiet at vestibulum sit amet, faucibus ut orci. Vivamus nec erat sagittis, sodales sem eget, malesuada quam. Nullam ultrices risus id luctus suscipit. Etiam id massa pharetra, rhoncus felis id, laoreet diam.
+                </p>
+                <p className="text-white">
+                  Curabitur feugiat pellentesque sem ac lobortis. Vestibulum finibus finibus odio, vel maximus justo. Mauris lacinia dui ut velit mollis, id finibus lectus pulvinar. Vivamus tellus felis, imperdiet at vestibulum sit amet, faucibus ut orci. Vivamus nec erat sagittis, sodales sem eget, malesuada quam. Nullam ultrices risus id luctus suscipit. Etiam id massa pharetra, rhoncus felis id, laoreet diam.
+                </p>
+              </div>
+              <div className="col-md-6">
+                <p className=" text-white">
+                  Ut a imperdiet dui. Mauris egestas semper est ac imperdiet. Ut placerat libero et mi lobortis placerat. In consectetur fermentum accumsan. Nam et dolor eget ex ultricies convallis. Donec ullamcorper ullamcorper mauris nec laoreet. Pellentesque hendrerit, sapien at lacinia fringilla, dolor metus varius diam, feugiat ullamcorper massa neque et justo.
+                </p>
+              </div>
+            </div>  
             <h1 className="text-white">
               Duis ullamcorper feugiat sodales. Maecenas in nisl venenatis, volutpat nisl quis
             </h1>

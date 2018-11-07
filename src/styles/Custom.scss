@@ -231,9 +231,16 @@ $body-color:                $gray-900 !default;
 // Changes to the base font-size or line-height significantly affect the all 
 // other typography.
 
-$font-size-base:              1rem; // !default
+$font-size-base:              1.0625rem; // !default
+$letter-spacing:              .0.008em;
 $line-height-base:            1.75; // Multiplied by the element's font-size
 $font-weight-normal:          500; // default weight = Medium
+
+html, body {
+  letter-spacing:             $letter-spacing;
+}
+
+
 
 // Headings
 //
@@ -321,9 +328,10 @@ $lead-line-height:            1.45;
                               // == 30.45px              (1.3125rem == 21px)
                               // == 29px                 (1rem == 16px)
 
-.lead {
+.lead, .lead-lg {
   margin-top: $lead-margin-top; // Custom Sass variable
   line-height: $lead-line-height; // Custom Sass variable
+  font-weight: $lead-font-weight; // Custom Sass variable
   // margin-bottom: 1.0625rem; // == 17px // Inherited from the p element
   // letter-spacing: -0.015em; // == -0.315px // Inherited from the p element
 }
@@ -332,7 +340,7 @@ $lead-line-height:            1.45;
 //
 // Style p element.
 
-$paragraph-margin-top:        1.0625rem!important;
+$paragraph-margin-top:        1rem!important;
 $paragraph-margin-bottom:     1.0625rem!important;
 $paragraph-letter-spacing:    -.015em;
 
