@@ -82,6 +82,9 @@
   .lead {
     font-size: 1.3125rem;
   }
+  .lead-md {
+    font-size: 1.5rem;
+  }
   .lead-lg {
     font-size: 1.75rem;
   }
@@ -89,6 +92,13 @@
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  html, body {
+    font-size: 17px;
+    line-height: 1.75;
+  }
+  h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+    line-height: 1.125!important;
+  }
   h1, .h1 {
     font-size: 3.1727rem; /* == 50.7632px */
     margin-top: 6.75rem!important; /* == 108px */

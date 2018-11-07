@@ -75,29 +75,20 @@ class PatternLib extends Component {
                 <p className="lead text-white">
                   Sed ac dolor finibus libero bibendum maximus. Cras aliquet dapibus nunc, eu mattis felis mollis quis. Integer ut ullamcorper tellus. Donec porttitor nunc non sapien sagittis ultrices. Duis gravida diam mi, in vulputate neque volutpat ac.
                 </p>
+                <p className="text-white">
+                  Curabitur feugiat pellentesque sem ac lobortis. Vestibulum finibus finibus odio, vel maximus justo. Mauris lacinia dui ut velit mollis, id finibus lectus pulvinar. Vivamus tellus felis, imperdiet at vestibulum sit amet, faucibus ut orci. Vivamus nec erat sagittis, sodales sem eget, malesuada quam. Nullam ultrices risus id luctus suscipit. Etiam id massa pharetra, rhoncus felis id, laoreet diam.
+                </p>
               </div>
-              <div className="col-md-6 text-center">
-                <p className="lead-lg text-white font-italic">
+              <div className="col-md-6">
+                <p className="lead-lg text-white font-italic text-center">
                   Typography is the craft of endowing human language with visual form. <br />
                   ― Robert Bringhurst
                 </p>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-md-6">
-                <p className="text-white">
-                  Curabitur feugiat pellentesque sem ac lobortis. Vestibulum finibus finibus odio, vel maximus justo. Mauris lacinia dui ut velit mollis, id finibus lectus pulvinar. Vivamus tellus felis, imperdiet at vestibulum sit amet, faucibus ut orci. Vivamus nec erat sagittis, sodales sem eget, malesuada quam. Nullam ultrices risus id luctus suscipit. Etiam id massa pharetra, rhoncus felis id, laoreet diam.
-                </p>
-                <p className="text-white">
-                  Curabitur feugiat pellentesque sem ac lobortis. Vestibulum finibus finibus odio, vel maximus justo. Mauris lacinia dui ut velit mollis, id finibus lectus pulvinar. Vivamus tellus felis, imperdiet at vestibulum sit amet, faucibus ut orci. Vivamus nec erat sagittis, sodales sem eget, malesuada quam. Nullam ultrices risus id luctus suscipit. Etiam id massa pharetra, rhoncus felis id, laoreet diam.
-                </p>
-              </div>
-              <div className="col-md-6">
                 <p className=" text-white">
                   Ut a imperdiet dui. Mauris egestas semper est ac imperdiet. Ut placerat libero et mi lobortis placerat. In consectetur fermentum accumsan. Nam et dolor eget ex ultricies convallis. Donec ullamcorper ullamcorper mauris nec laoreet. Pellentesque hendrerit, sapien at lacinia fringilla, dolor metus varius diam, feugiat ullamcorper massa neque et justo.
                 </p>
               </div>
-            </div>  
+            </div> 
             <h1 className="text-white">
               Duis ullamcorper feugiat sodales. Maecenas in nisl venenatis, volutpat nisl quis
             </h1>

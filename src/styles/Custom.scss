@@ -231,15 +231,14 @@ $body-color:                $gray-900 !default;
 // Changes to the base font-size or line-height significantly affect the all 
 // other typography.
 
-$font-size-base:              1.0625rem; // !default
+$font-size-base:              1rem; // !default
 $letter-spacing:              .0.008em;
-$line-height-base:            1.75; // Multiplied by the element's font-size
+$line-height-base:            1.5; // Multiplied by the element's font-size
 $font-weight-normal:          500; // default weight = Medium
 
 html, body {
   letter-spacing:             $letter-spacing;
 }
-
 
 
 // Headings
@@ -249,23 +248,46 @@ html, body {
 
 $headings-font-weight:        600;
 $headings-letter-spacing:     -0.005em;
-$headings-line-height:        1.125; // !default
+$headings-line-height:        1.2; // default
 $headings-margin-bottom:      (1.0625rem * 1.5);
 
-$h1-font-size:                $font-size-base * 2.5;
-                              // 2.5rem == 40px
-$h2-font-size:                $font-size-base * 2;
-                              // 2rem == 32px
-$h3-font-size:                $font-size-base * 1.75;
-                              // 1.75rem == 28px
-$h4-font-size:                $font-size-base * 1.5;
-                              // 1.5rem == 24px
-$h5-font-size:                $font-size-base * 1.2;
-                              // 1.2rem == 20px
-$h6-font-size:                $font-size-base * 1;
-                              // 1rem == 16px
+$h6-font-size:                $font-size-base * 1.125;
+                              // 1.125rem == 18px
+$h5-font-size:                $h6-font-size * 1.125;
+                              // 1.2656rem == 20.2496px
+$h4-font-size:                $h5-font-size * 1.125;
+                              // 1.4238rem == 22.7808px
+$h3-font-size:                $h4-font-size * 1.125;
+                              // 1.6018rem == 25.6288px
+$h2-font-size:                $h3-font-size * 1.125;
+                              // 1.802rem == 28.832px
+$h1-font-size:                $h2-font-size * 1.125;
+                              // 2.0273rem == 32.4368px
 
-// Descending margin-top
+// Descending headings line-height
+// For descending line-height values, use the following method
+
+$h6-line-height:              1.35rem * 1.125;
+                              // 1.51875rem == 24.3px
+$h5-line-height:              $h6-line-height * 1.125;
+                              // 1.70859rem == 27.3374px
+$h4-line-height:              $h5-line-height * 1.125;
+                              // 1.92217rem == 30.7547px
+$h3-line-height:              $h4-line-height * 1.125;
+                              // .16244rem == 34.599px
+$h2-line-height:              $h3-line-height * 1.125;
+                              // 2.43274rem == 38.9238px
+$h1-line-height:              $h2-line-height * 1.125;
+                              // 2.73684rem == 43.7894px
+
+h6, .h6 { line-height: $h6-line-height!important; }
+h5, .h5 { line-height: $h5-line-height!important; }
+h4, .h4 { line-height: $h4-line-height!important; }
+h3, .h3 { line-height: $h3-line-height!important; }
+h2, .h2 { line-height: $h2-line-height!important; }
+h1, .h1 { line-height: $h1-line-height!important; }
+
+// Descending headings margin-top
 // For descending margin-top values, use the following method
 
 h1, .h1 { margin-top: ($h1-font-size * 2.25)!important; }
@@ -312,7 +334,7 @@ $display1-weight:             700;
 $display2-weight:             700;
 $display3-weight:             700;
 $display4-weight:             700;
-$display-line-height:         $headings-line-height; // !default
+$display-line-height:         1.05!important; // !default
 
 // Leads
 //
@@ -328,12 +350,20 @@ $lead-line-height:            1.45;
                               // == 30.45px              (1.3125rem == 21px)
                               // == 29px                 (1rem == 16px)
 
-.lead, .lead-lg {
+.lead, .lead-md, .lead-lg {
   margin-top: $lead-margin-top; // Custom Sass variable
   line-height: $lead-line-height; // Custom Sass variable
   font-weight: $lead-font-weight; // Custom Sass variable
   // margin-bottom: 1.0625rem; // == 17px // Inherited from the p element
   // letter-spacing: -0.015em; // == -0.315px // Inherited from the p element
+}
+
+.lead-md { 
+  font-size: 1.35rem;
+}
+
+.lead-lg { 
+  font-size: 1.5rem;
 }
 
 // Paragraphs
