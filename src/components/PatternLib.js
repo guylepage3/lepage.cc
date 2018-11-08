@@ -88,19 +88,38 @@ class PatternLib extends Component {
                   Ut a imperdiet dui. Mauris egestas semper est ac imperdiet. Ut placerat libero et mi lobortis placerat. In consectetur fermentum accumsan. Nam et dolor eget ex ultricies convallis. Donec ullamcorper ullamcorper mauris nec laoreet. Pellentesque hendrerit, sapien at lacinia fringilla, dolor metus varius diam, feugiat ullamcorper massa neque et justo.
                 </p>
               </div>
-            </div> 
+            </div>
             <h1 className="text-white">
-              Duis ullamcorper feugiat sodales. Maecenas in nisl venenatis, volutpat nisl quis
+              Duis ullamcorper feugiat sodales. Maecenas in nisl venenatis, volutpat nisl quis.
             </h1>
             <p className="text-white">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel facilisis sapien. Vestibulum nec viverra magna, quis cursus lectus. Maecenas egestas elit nisi, a fringilla mi feugiat eget. Suspendisse sollicitudin tristique fringilla. Ut non risus nulla.
+              Nam sit amet tincidunt erat. Etiam non tortor finibus, tincidunt purus sed, pretium sapien. Nulla facilisi. Aenean faucibus consequat leo ut aliquam. Quisque pharetra diam ac suscipit tristique. Nam consectetur vestibulum magna sed commodo. Phasellus ut tempus urna, sed rhoncus arcu. Praesent interdum dignissim felis ac facilisis. Phasellus consequat molestie augue. Maecenas quis massa purus. Vivamus quis ipsum nec tellus tempor pellentesque. In cursus molestie felis eget laoreet. Cras vitae condimentum odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum tincidunt tempus quam nec laoreet. Duis suscipit justo in mi rutrum aliquet.
             </p>
             <p className="text-white">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel facilisis sapien. Vestibulum nec viverra magna, quis cursus lectus. Maecenas egestas elit nisi, a fringilla mi feugiat eget. Suspendisse sollicitudin tristique fringilla. Ut non risus nulla.
+              Sed maximus aliquam lectus eget sodales. Donec id quam interdum, varius magna at, scelerisque purus. Mauris neque risus, lacinia feugiat nisi quis, porta interdum magna. Etiam eu auctor ligula, eu commodo ligula. Donec eu facilisis sem. Vivamus eget ante vel odio dictum porttitor in at neque. Proin vulputate sollicitudin tellus sit amet auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                <span 
+                  className="text-white-60" 
+                  style={{ fontSize: '0.75rem' }}>
+                    &nbsp;&nbsp;&uarr;&nbsp;&nbsp;
+                  <code className="text-dark font-weight-bold" 
+                    style={{ 
+                      backgroundColor: '#eee', 
+                      borderRadius: '2px', 
+                      padding: '1px 3px',
+                      margin: 'auto 3px'
+                    }}>
+                    h1
+                  </code> heading and <code className="text-dark font-weight-bold" 
+                    style={{ 
+                      backgroundColor: '#eee', 
+                      borderRadius: '2px', 
+                      padding: '1px 3px',
+                      margin: 'auto 3px'
+                    }}>p</code> paragraph.
+                </span>
             </p>
-
-            <div className="container typetemplate-boxy-line text-center"></div>
-            
+            <div className="container typetemplate-boxy-line text-center">
+            </div>
             <h2 className="text-white">
               Aenean in velit ut ante congue euismod. Sed ligula enim, facilisis id posuere vel, feugiat non diam. Donec ullamcorper molestie maximus.
             </h2>
