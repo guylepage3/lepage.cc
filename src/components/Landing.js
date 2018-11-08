@@ -20,12 +20,12 @@ class Landing extends Component {
               back, time and time again.
             </h1>
             <p className="lead text-white-90 anima-fadein">
-              I'm Guy Lepage, a Senior Product UX/UI Designer and Front-end 
-              Developer with 19 years of industry experience, specializing in 
-              designing and developing pixel perfect digital products, web 
-              apps, mobile apps, websites, and more. My focus is on ensuring 
-              that users have the best experiences without sacrificing code 
-              quality.
+              I'm Guy Lepage, a Senior Product Blockchain UX/UI Designer and 
+              Front-end Developer with 19 years of industry experience, 
+              specializing in designing and developing pixel perfect digital 
+              blockchain products, dapps, web apps, mobile apps, websites, and 
+              more. My focus is on ensuring that users have the best 
+              experiences without sacrificing code quality.
             </p>
           </div>
         </div>

@@ -178,4 +178,18 @@
   margin: 5.5rem auto;
 }
 
+.pattern-library-typography-footnote {
+  font-size: 0.75rem;
+  color: rgba(255,255,255,0.6);
+}
+
+.pattern-libarary-typography-code {
+  color: #000; 
+  font-weight: 700;
+  background-color: #E0E0E0;
+  border-radius: 2px;
+  padding: 2px 3px 1px 3px;
+  margin: auto 3px;
+}
+
 /* End typography testing */
