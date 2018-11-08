@@ -22,16 +22,18 @@ class Landing extends Component {
             <p className="text-white-90 anima-fadein">
               I'm Guy Lepage, a senior blockchain and web3 product, UX/UI 
               designer and front-end developer. I have 4 years blockchain 
-              product design and 19 years of industry experience.
+              product design experience and 19 years total industry experience.
             </p>
             <p className="text-white-90 anima-fadein">
-              Specializing in designing and building user experiences and 
-              interfaces that are pixel perfect 
+              My focus is designing and building user experiences and 
+              interfaces that are effective for their users. 
               <ul>
-                <li>blockchain products</li>
-                <li>decentralized desktop and mobile web apps</li>
-                <li>mobile apps</li>
-                <li>websites</li>
+                <li>Blockchain products.</li>
+                <li>Decentralized desktop and mobile apps.</li>
+                <li>Mobile apps.</li>
+                <li>Websites</li>
+                <li>Animation</li>
+                <li>CAD</li>
                 <li>and more...</li>
               </ul>
             </p>
