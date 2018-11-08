@@ -7,8 +7,8 @@ class Landing extends Component {
         role="main" 
         className="container my-auto mx-auto anima-slidein">
         <div className="row">
-          <div className="col-lg-9 col-xl-7 mx-auto">
-            <h1 
+          <div className="col-lg-9 col-xl-7 mx-auto py-5">
+            <h2 
               className="
                 text-white 
                 font-weight-bold 
@@ -18,14 +18,22 @@ class Landing extends Component {
               ">
               Simple, clean, concise experiences that keep the user coming 
               back, time and time again.
-            </h1>
-            <p className="lead text-white-90 anima-fadein">
-              I'm Guy Lepage, a Senior Product Blockchain UX/UI Designer and 
-              Front-end Developer with 19 years of industry experience, 
-              specializing in designing and developing pixel perfect digital 
-              blockchain products, dapps, web apps, mobile apps, websites, and 
-              more. My focus is on ensuring that users have the best 
-              experiences without sacrificing code quality.
+            </h2>
+            <p className="text-white-90 anima-fadein">
+              I'm Guy Lepage, a senior blockchain and web3 product, UX/UI 
+              designer and front-end developer. I have 4 years blockchain 
+              product design and 19 years of industry experience.
+            </p>
+            <p className="text-white-90 anima-fadein">
+              Specializing in designing and building user experiences and 
+              interfaces that are pixel perfect 
+              <ul>
+                <li>blockchain products</li>
+                <li>decentralized desktop and mobile web apps</li>
+                <li>mobile apps</li>
+                <li>websites</li>
+                <li>and more...</li>
+              </ul>
             </p>
           </div>
         </div>
