@@ -1,5 +1,9 @@
 /* App.css */
 
+ul {
+  margin-top: 1rem;
+}
+
 .navbar-brand {
   margin-right: auto;
   margin-left: auto;

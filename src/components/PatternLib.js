@@ -225,6 +225,27 @@ class PatternLib extends Component {
                 text-center
                 ">
             </div>
+            <p className="text-white-50">
+            Praesent sodales felis pretium orci aliquet egestas. Nunc eget interdum augue. Sed suscipit mauris et quam sagittis, eget rhoncus diam lobortis. Integer nec eros magna. Duis non ipsum tincidunt, sodales nulla sed, tempor eros.
+              <ul className="text-white">
+                <li>Praesent sodales felis.</li>
+                <li>Integer nec eros magna.</li>
+                <li>Sed suscipit mauris et quam sagittis.</li>
+                <li>Curabitur feugiat pellentesque sem ac.</li>
+                <li>Donec ullamcorper ullamcorper mauris.</li>
+              </ul>
+              <span className="pattern-library-typography-footnote">
+                &uarr;&nbsp;<code className="pattern-libarary-typography-code">.ul,li</code>.
+              </span>
+            </p>
+
+            <div 
+              className="
+                container 
+                typetemplate-boxy-line 
+                text-center
+                ">
+            </div>
 
             <h1 className="display-1 text-white">
               Praesent sodales felis pretium orci aliquet egestas. Nunc eget interdum augue.
