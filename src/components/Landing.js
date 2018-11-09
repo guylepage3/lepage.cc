@@ -31,9 +31,9 @@ class Landing extends Component {
                 <li>Blockchain products.</li>
                 <li>Decentralized desktop and mobile apps.</li>
                 <li>Mobile apps.</li>
-                <li>Websites</li>
-                <li>Animation</li>
-                <li>CAD</li>
+                <li>Web apps.</li>
+                <li>Animation.</li>
+                <li>CAD.</li>
                 <li>and more...</li>
               </ul>
             </p>
