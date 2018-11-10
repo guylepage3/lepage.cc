@@ -284,7 +284,7 @@ class PatternLib extends Component {
               </dd>
             </dl>
 
-            <p className="text-white-50">
+            <p className="text-white-50 small">
               Visit <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists">Mozilla Styling Lists</a> to learn more about styling lists.
             </p>
 
