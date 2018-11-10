@@ -99,11 +99,14 @@ This project was bootstrapped with [Create React App `v2`](https://github.com/fa
 [![Bootstrap version](https://img.shields.io/badge/dynamic/json.svg?label=Bootstrap&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Flepage.cc%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22bootstrap%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/bootstrap)
 [![jQuery version](https://img.shields.io/badge/dynamic/json.svg?label=jQuery&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Flepage.cc%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22jquery%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/jquery)
 [![node-sass version](https://img.shields.io/badge/dynamic/json.svg?label=node-sass&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Flepage.cc%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22node-sass%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/node-sass)
-[![npm version](https://img.shields.io/npm/v/npm.svg&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/npm)
+[![npm version](https://img.shields.io/npm/v/npm.svg?colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/npm)
 [![Popper version](https://img.shields.io/badge/dynamic/json.svg?label=Popper&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Flepage.cc%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22popper.js%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/popper.js)
 [![px-rem-reference version](https://img.shields.io/badge/dynamic/json.svg?label=px-rem-reference&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Flepage.cc%2Fmaster%2Fpackage.json&query=%24.devDependencies%5B%22px-rem-reference%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/px-rem-reference)
 [![React version](https://img.shields.io/badge/dynamic/json.svg?label=React&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Flepage.cc%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22react%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/react)
 [![ReactDOM version](https://img.shields.io/badge/dynamic/json.svg?label=ReactDOM&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Flepage.cc%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22react-dom%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/react-dom)
+
+
+
 [![React Router DOM version](https://img.shields.io/badge/React_Router_DOM-v4.3.1-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react-router-dom)
 [![react-scripts version](https://img.shields.io/badge/react--scripts-v2.1.1-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react-scripts)
 [![Serve version](https://img.shields.io/badge/Serve-v10.0.2-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/serve)
