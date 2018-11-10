@@ -91,6 +91,7 @@ This project was bootstrapped with [Create React App `v2`](https://github.com/fa
 [![Lepage.cc version](https://img.shields.io/badge/dynamic/json.svg?label=Lepage.cc&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Flepage.cc%2Fmaster%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/guylepage3/lepage.cc)
 [![Lepage UI version](https://img.shields.io/badge/Lepage_UI-v1.3.1-blue.svg?colorA=212121&colorB=007BFF)](/docs/CONTRIBUTING.md#galaxy-ui)
 
+[![npm version](https://img.shields.io/npm/v/npm.svg?colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/npm)
 [![Dependencies Status](https://david-dm.org/guylepage3/lepage.cc.svg)](https://david-dm.org/guylepage3/lepage.cc)
 [![@fortawesome/fontawesome-svg-core version](https://img.shields.io/badge/dynamic/json.svg?label=@fortawesome/fontawesome-svg-core&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Flepage.cc%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22@fortawesome/fontawesome-svg-core%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/@fortawesome/fontawesome-svg-core)
 [![@fortawesome/free-solid-svg-icons version](https://img.shields.io/badge/dynamic/json.svg?label=@fortawesome/free-solid-svg-icons&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Flepage.cc%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22@fortawesome/free-solid-svg-icons%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/@fortawesome/free-solid-svg-icons)
@@ -99,15 +100,14 @@ This project was bootstrapped with [Create React App `v2`](https://github.com/fa
 [![Bootstrap version](https://img.shields.io/badge/dynamic/json.svg?label=Bootstrap&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Flepage.cc%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22bootstrap%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/bootstrap)
 [![jQuery version](https://img.shields.io/badge/dynamic/json.svg?label=jQuery&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Flepage.cc%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22jquery%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/jquery)
 [![node-sass version](https://img.shields.io/badge/dynamic/json.svg?label=node-sass&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Flepage.cc%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22node-sass%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/node-sass)
-[![npm version](https://img.shields.io/npm/v/npm.svg?colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/npm)
 [![Popper version](https://img.shields.io/badge/dynamic/json.svg?label=Popper&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Flepage.cc%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22popper.js%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/popper.js)
 [![px-rem-reference version](https://img.shields.io/badge/dynamic/json.svg?label=px-rem-reference&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Flepage.cc%2Fmaster%2Fpackage.json&query=%24.devDependencies%5B%22px-rem-reference%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/px-rem-reference)
 [![React version](https://img.shields.io/badge/dynamic/json.svg?label=React&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Flepage.cc%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22react%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/react)
 [![ReactDOM version](https://img.shields.io/badge/dynamic/json.svg?label=ReactDOM&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Flepage.cc%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22react-dom%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/react-dom)
+[![React Router DOM version](https://img.shields.io/badge/dynamic/json.svg?label=React_Router_DOM&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Flepage.cc%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22react-router-dom%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/react-router-dom)
 
+https://img.shields.io/badge/dynamic/json.svg?label=react-scripts_(Create_React_App)&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Flepage.cc%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22react-scripts%22%5D&colorA=%23212121&colorB=%23007BFF
 
-
-[![React Router DOM version](https://img.shields.io/badge/React_Router_DOM-v4.3.1-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react-router-dom)
 [![react-scripts version](https://img.shields.io/badge/react--scripts-v2.1.1-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react-scripts)
 [![Serve version](https://img.shields.io/badge/Serve-v10.0.2-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/serve)
 [![Source Map Explorer version](https://img.shields.io/badge/Source_Map_Explorer-v1.6.0-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/source-map-explorer)
