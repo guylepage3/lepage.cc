@@ -105,10 +105,7 @@ This project was bootstrapped with [Create React App `v2`](https://github.com/fa
 [![React version](https://img.shields.io/badge/dynamic/json.svg?label=React&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Flepage.cc%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22react%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/react)
 [![ReactDOM version](https://img.shields.io/badge/dynamic/json.svg?label=ReactDOM&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Flepage.cc%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22react-dom%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/react-dom)
 [![React Router DOM version](https://img.shields.io/badge/dynamic/json.svg?label=React_Router_DOM&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Flepage.cc%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22react-router-dom%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/react-router-dom)
-
-https://img.shields.io/badge/dynamic/json.svg?label=react-scripts_(Create_React_App)&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Flepage.cc%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22react-scripts%22%5D&colorA=%23212121&colorB=%23007BFF
-
-[![react-scripts version](https://img.shields.io/badge/react--scripts-v2.1.1-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/react-scripts)
+[![react-scripts version](https://img.shields.io/badge/dynamic/json.svg?label=react-scripts_%28Create_React_App%29&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Flepage.cc%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22react-scripts%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/react-scripts)
 [![Serve version](https://img.shields.io/badge/Serve-v10.0.2-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/serve)
 [![Source Map Explorer version](https://img.shields.io/badge/Source_Map_Explorer-v1.6.0-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/source-map-explorer)
 
