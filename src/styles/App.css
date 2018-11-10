@@ -4,6 +4,18 @@ ul {
   margin-top: 1rem;
 }
 
+dd, dt {
+  line-height: 1.5;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: 1.5rem;
+}
+
 .navbar-brand {
   margin-right: auto;
   margin-left: auto;

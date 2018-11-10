@@ -225,18 +225,67 @@ class PatternLib extends Component {
                 text-center
                 ">
             </div>
+
+            <h3 className="text-white">Shopping (unordered) list</h3>
+            
+            <p className="text-white">
+              Praesent sodales felis pretium orci aliquet egestas. Nunc eget interdum augue. Sed suscipit mauris et quam sagittis, eget rhoncus diam lobortis. Integer nec eros magna. Duis non ipsum tincidunt, sodales nulla sed, tempor eros.
+            </p>
+            
+            <ul className="text-white">
+              <li>Hummus</li>
+              <li>Pita</li>
+              <li>Green salad</li>
+              <li>Halloumi
+              <br />
+                <span className="pattern-library-typography-footnote">
+                  &uarr;&nbsp;<code className="pattern-libarary-typography-code">ul,li</code> unordered list.
+                </span>
+              </li>
+            </ul>
+          
+            <h3 className="text-white">Recipe (ordered) list</h3>
+            
+            <p className="text-white">
+              Praesent sodales felis pretium orci aliquet egestas. Nunc eget interdum augue. Sed suscipit mauris et quam sagittis, eget rhoncus diam lobortis. Integer nec eros magna. Duis non ipsum tincidunt, sodales nulla sed, tempor eros.
+            </p>
+            
+            <ol className="text-white">
+              <li>Toast pita, leave to cool, then slice down the edge.</li>
+              <li>Fry the halloumi in a shallow, non-stick pan, until browned on both sides.</li>
+              <li>Wash and chop the salad.</li>
+              <li>Fill pita with salad, hummus, and fried halloumi.
+                <br />
+                <span className="pattern-library-typography-footnote">
+                  &uarr;&nbsp;<code className="pattern-libarary-typography-code">ol,li</code> ordered list.
+                </span>
+              </li>
+            </ol>
+            
+            <h3 className="text-white">Ingredient description list</h3>
+            
+            <p className="text-white">
+              Praesent sodales felis pretium orci aliquet egestas. Nunc eget interdum augue. Sed suscipit mauris et quam sagittis, eget rhoncus diam lobortis. Integer nec eros magna. Duis non ipsum tincidunt, sodales nulla sed, tempor eros.
+            </p>
+            
+            <dl className="row text-white">
+              <dt className="col-md-2">Hummus</dt>
+              <dd className="col-md-10">A thick dip/sauce generally made from chick peas blended with tahini, lemon juice, salt, garlic, and other ingredients.</dd>
+              <dt className="col-md-2">Pita</dt>
+              <dd className="col-md-10">A soft, slightly leavened flatbread.</dd>
+              <dt className="col-md-2">Halloumi</dt>
+              <dd className="col-md-10">A semi-hard, unripened, brined cheese with a higher-than-usual melting point, usually made from goat/sheep milk.</dd>
+              <dt className="col-md-2">Green salad</dt>
+              <dd className="col-md-10">That green healthy stuff that many of us just use to garnish kebabs.
+                <br />
+                <span className="pattern-library-typography-footnote">
+                  &uarr;&nbsp;<code className="pattern-libarary-typography-code">dl,dt,dd</code> description list.
+                </span>
+              </dd>
+            </dl>
+
             <p className="text-white-50">
-            Praesent sodales felis pretium orci aliquet egestas. Nunc eget interdum augue. Sed suscipit mauris et quam sagittis, eget rhoncus diam lobortis. Integer nec eros magna. Duis non ipsum tincidunt, sodales nulla sed, tempor eros.
-              <ul className="text-white">
-                <li>Praesent sodales felis.</li>
-                <li>Integer nec eros magna.</li>
-                <li>Sed suscipit mauris et quam sagittis.</li>
-                <li>Curabitur feugiat pellentesque sem ac.</li>
-                <li>Donec ullamcorper ullamcorper mauris.</li>
-              </ul>
-              <span className="pattern-library-typography-footnote">
-                &uarr;&nbsp;<code className="pattern-libarary-typography-code">.ul,li</code>.
-              </span>
+              Visit <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists">Mozilla Styling Lists</a> to learn more about styling lists.
             </p>
 
             <div 
