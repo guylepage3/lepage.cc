@@ -92,7 +92,11 @@ This project was bootstrapped with [Create React App `v2`](https://github.com/fa
 [![Lepage UI version](https://img.shields.io/badge/Lepage_UI-v1.3.1-blue.svg?colorA=212121&colorB=007BFF)](/docs/CONTRIBUTING.md#galaxy-ui)
 
 [![Dependencies Status](https://david-dm.org/guylepage3/lepage.cc.svg?colorA=212121&colorB=007BFF)](https://david-dm.org/guylepage3/lepage.cc)
+
 [![@fortawesome/fontawesome-svg-core version](https://img.shields.io/badge/@fortawesome--fontawesome--svg--core-v1.2.8-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/@fortawesome/fontawesome-svg-core)
+
+[![@fortawesome/fontawesome-svg-core version](https://img.shields.io/npm/v/@fortawesome/react-fontawesome.svg?style=flat-square&colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/@fortawesome/fontawesome-svg-core)
+
 [![@fortawesome/free-solid-svg-icons version](https://img.shields.io/badge/@fortawesome--free--solid--svg--icons-v5.5.0-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/@fortawesome/free-solid-svg-icons)
 [![@fortawesome/react-fontawesome version](https://img.shields.io/badge/@fortawesome--react--fontawesome-v0.1.3-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/@fortawesome/react-fontawesome)
 [![Ajv version](https://img.shields.io/badge/Ajv-v6.5.4-blue.svg?colorA=212121&colorB=007BFF)](https://www.npmjs.com/package/ajv)
