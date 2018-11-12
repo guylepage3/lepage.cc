@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import HeaderLight from './HeaderLight';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class PatternLib extends Component {
   render() {
@@ -279,13 +280,13 @@ class PatternLib extends Component {
               <dd className="col-md-10">That green healthy stuff that many of us just use to garnish kebabs.
                 <br />
                 <span className="pattern-library-typography-footnote">
-                  &uarr;&nbsp;<code className="pattern-libarary-typography-code">dl,dt,dd</code> description list.
+                  <FontAwesomeIcon icon="angle-up" />&nbsp;<code className="pattern-libarary-typography-code">dl,dt,dd</code> description list.
                 </span>
               </dd>
             </dl>
 
             <p className="text-white-50 small">
-              Visit <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists">Mozilla Styling Lists</a> to learn more about styling lists.
+              <FontAwesomeIcon icon="angle-right" />&nbsp;&nbsp;Visit <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists">Mozilla Styling Lists</a> to learn more about styling lists.
             </p>
 
             <div 

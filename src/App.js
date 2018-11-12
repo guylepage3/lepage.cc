@@ -5,6 +5,12 @@ import Intro from './components/Intro';
 import Home from './components/Home';
 import NoMatch from './components/NoMatch';
 import PatternLib from './components/PatternLib';
+import ReactDOM from 'react-dom'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faAngleUp, faAngleRight } from '@fortawesome/free-solid-svg-icons'
+
+library.add(fab, faAngleUp, faAngleRight)
 
 class App extends Component {
   render() {
