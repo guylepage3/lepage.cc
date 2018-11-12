@@ -6,11 +6,11 @@ import Page404 from './Page404';
 class NoMatch extends Component {
   render() {
     return (
-      <div className="d-flex w-100 h-100 mx-auto p-4 flex-column">
+      <div className="d-flex w-100 h-100 mx-auto px-4 flex-column">
         <HeaderLight />
         <div 
           style={{
-            paddingTop: '32px'
+            paddingTop: '56px'
           }}>
         </div>
         <Page404 />

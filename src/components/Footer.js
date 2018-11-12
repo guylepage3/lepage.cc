@@ -4,9 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 class Footer extends Component {
   render() {
     return (
-      <footer className="container-fluid mx-auto text-center mb-2">
-        <div className="mb-2 text-white-50 text-footer font-weight-bold">
-          <ul className="list-inline">
+      <footer className="container-fluid mx-auto text-center mb-4">
+        <div className="text-white-50 text-footer font-weight-bold">
+          <ul className="list-inline my-2">
             <li className="list-inline-item mx-2">
               <a href="https://github.com/guylepage3/" 
                 alt="GitHub guylepage3 (Guy Lepage)"

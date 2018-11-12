@@ -8,9 +8,7 @@ class Page404 extends Component {
         className="container text-center mx-auto my-auto anima-slidein">
         <div className="row">
           <div 
-            className="
-              container
-            ">
+            className="container">
             <h1 
               className="
                 text-white 

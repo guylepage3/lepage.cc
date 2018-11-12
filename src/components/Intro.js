@@ -15,7 +15,7 @@ class Intro extends Component {
   }
   render() {
     return (
-      <div className="d-flex w-100 h-100 mx-auto p-4 flex-column">
+      <div className="d-flex w-100 h-100 mx-auto px-4 flex-column">
         <HeaderLight />
         <div 
           style={{
