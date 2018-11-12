@@ -6,33 +6,36 @@ class Footer extends Component {
     return (
       <footer className="container-fluid mx-auto text-center mb-2">
         <div className="mb-2 text-white-50 text-footer font-weight-bold">
-          <a 
-            href="https://github.com/guylepage3/" 
-            alt="GitHub guylepage3 (Guy Lepage)"
-            className="text-white">
-            <FontAwesomeIcon icon={['fab', 'github']} /> GitHub
-          </a>
-          &nbsp;&middot;&nbsp;
-          <a 
-            href="https://twitter.com/guylepage3" 
-            alt="Twitter Guy Lepage (@guylepage3)"
-            className="text-white">
-            <FontAwesomeIcon icon={['fab', 'twitter']} /> Twitter
-          </a>
-          &nbsp;&middot;&nbsp;
-          <a 
-            href="https://www.linkedin.com/in/guylepage/" 
-            alt="Guy Lepage | LinkedIn"
-            className="text-white">
-            <FontAwesomeIcon icon={['fab', 'linkedin']} /> LinkedIn
-          </a>
-          &nbsp;&middot;&nbsp;
-          <a 
-            href="https://medium.com/@guylepage3" 
-            alt="Guy Lepage – Medium"
-            className="text-white">
-            <FontAwesomeIcon icon={['fab', 'medium']} /> Medium
-          </a>
+          <ul className="list-inline">
+            <li className="list-inline-item mx-2">
+              <a href="https://github.com/guylepage3/" 
+                alt="GitHub guylepage3 (Guy Lepage)"
+                className="text-white">
+                <FontAwesomeIcon className="mr-1" icon={['fab', 'github']} /> GitHub
+              </a>
+            </li>
+            <li className="list-inline-item mx-2">
+              <a href="https://twitter.com/guylepage3" 
+                alt="Twitter Guy Lepage (@guylepage3)"
+                className="text-white">
+                <FontAwesomeIcon className="mr-1" icon={['fab', 'twitter']} /> Twitter
+              </a>
+            </li>
+            <li className="list-inline-item mx-2">
+              <a href="https://www.linkedin.com/in/guylepage/" 
+                alt="Guy Lepage | LinkedIn"
+                className="text-white">
+                <FontAwesomeIcon className="mr-1" icon={['fab', 'linkedin']} /> LinkedIn
+              </a>
+            </li>
+            <li className="list-inline-item mx-2">
+              <a href="https://medium.com/@guylepage3" 
+                alt="Guy Lepage – Medium"
+                className="text-white">
+                <FontAwesomeIcon className="mr-1" icon={['fab', 'medium']} /> Medium
+              </a>
+            </li>
+          </ul>
         </div>
         <div className="text-footer text-white-50 font-weight-normal">
           <a 
