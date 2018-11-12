@@ -26,17 +26,17 @@ class Landing extends Component {
             </p>
             <p className="text-white-90 anima-fadein">
               My focus is designing and building user experiences and 
-              interfaces that are effective for their users. 
-              <ul>
-                <li>Blockchain products.</li>
-                <li>Decentralized desktop and mobile apps.</li>
-                <li>Mobile apps.</li>
-                <li>Web apps.</li>
-                <li>Animation.</li>
-                <li>CAD.</li>
-                <li>and more...</li>
-              </ul>
+              interfaces that are effective for their users.
             </p>
+            <ul className="text-white-90 anima-fadein">
+              <li>Blockchain products.</li>
+              <li>Decentralized desktop and mobile apps.</li>
+              <li>Mobile apps.</li>
+              <li>Web apps.</li>
+              <li>Animation.</li>
+              <li>CAD.</li>
+              <li>and more...</li>
+            </ul>
           </div>
         </div>
       </main>
