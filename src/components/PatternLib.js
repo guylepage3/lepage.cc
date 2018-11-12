@@ -286,7 +286,7 @@ class PatternLib extends Component {
             </dl>
 
             <p className="text-white-50 small">
-              <FontAwesomeIcon icon="angle-right" />&nbsp;&nbsp;Visit <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists">Mozilla Styling Lists</a> to learn more about styling lists.
+              <FontAwesomeIcon icon="angle-right" />&nbsp;&nbsp;Visit <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists" className="underline">Mozilla Styling Lists</a> <FontAwesomeIcon className="small-font-size-70 font-weight-light mb-1" icon="external-link-alt" /> to learn more about styling lists.
             </p>
 
             <div 

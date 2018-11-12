@@ -235,11 +235,45 @@ $font-size-base:              1rem; // !default
 $letter-spacing:              .0.008em;
 $line-height-base:            1.5; // Multiplied by the element's font-size
 $font-weight-normal:          500; // default weight = Medium
+$small-font-size-50:           50%; // Custom
+$small-font-size-60:           60%; // Custom
+$small-font-size-70:           70%; // Custom
 
 html, body {
   letter-spacing:             $letter-spacing;
 }
 
+.small-font-size-50 { font-size: $small-font-size-50; }
+.small-font-size-60 { font-size: $small-font-size-60; }
+.small-font-size-70 { font-size: $small-font-size-70; }
+
+// Links
+//
+// Style anchor elements.
+
+$link-color:                $white;
+$link-hover-color:          primary;
+$link-hover-decoration:     none;
+
+.underline {
+  display: inline-block;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.underline:after {
+  content: '';
+  display: block;
+  height: 2px;
+  width: 100%;
+  transition: width .3s ease, background-color .3s ease;
+  background-color: white;
+}
+
+.underline:hover:after {
+  width: 0;
+  background: white;
+}
 
 // Headings
 //
