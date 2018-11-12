@@ -174,7 +174,7 @@ dd {
 /* Extra large devices (large desktops)*/
 /* No media query since the extra-large breakpoint has no upper bound on its width */
 
-/* Typography testing */
+/* Pattern Library */
 /* .typetemplate-boxy classes are for typography testing purposes only */
 
 .typetemplate-boxy-img-box {

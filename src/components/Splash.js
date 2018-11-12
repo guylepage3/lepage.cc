@@ -11,7 +11,7 @@ class Splash extends Component {
             className="
               container-fluid
             ">
-            <h1 
+            <h2 
               className="
                 text-white 
                 font-weight-bold 
@@ -22,7 +22,7 @@ class Splash extends Component {
                 mb-2
               ">
               "Less, but better."
-            </h1>
+            </h2>
           </div>
           <div 
             className="
