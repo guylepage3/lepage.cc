@@ -78,8 +78,9 @@ class PatternLib extends Component {
                 </p>
                 <p className="text-white">
                   Curabitur feugiat pellentesque sem ac lobortis. Vestibulum finibus finibus odio, vel maximus justo. Mauris lacinia dui ut velit mollis, id finibus lectus pulvinar. Vivamus tellus felis, imperdiet at vestibulum sit amet, faucibus ut orci. Vivamus nec erat sagittis, sodales sem eget, malesuada quam. Nullam ultrices risus id luctus suscipit. Etiam id massa pharetra, rhoncus felis id, laoreet diam. &nbsp;
+                  <br />
                   <span className="pattern-library-typography-footnote">
-                    &uarr;&nbsp;<code className="pattern-libarary-typography-code">.lead</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
+                    <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">.lead</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
                   </span>
                 </p>
               </div>
@@ -90,8 +91,9 @@ class PatternLib extends Component {
                 </p>
                 <p className=" text-white">
                   Ut a imperdiet dui. Mauris egestas semper est ac imperdiet. Ut placerat libero et mi lobortis placerat. In consectetur fermentum accumsan. Nam et dolor eget ex ultricies convallis. Donec ullamcorper ullamcorper mauris nec laoreet. Pellentesque hendrerit, sapien at lacinia fringilla, dolor metus varius diam, feugiat ullamcorper massa neque et justo. &nbsp;
+                  <br />
                   <span className="pattern-library-typography-footnote">
-                    &uarr;&nbsp;<code className="pattern-libarary-typography-code">.lead-lg</code> centered with <code className="pattern-libarary-typography-code">p</code> paragraph.
+                    <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">.lead-lg</code> centered with <code className="pattern-libarary-typography-code">p</code> paragraph.
                   </span>
                 </p>
               </div>
@@ -104,8 +106,9 @@ class PatternLib extends Component {
             </p>
             <p className="text-white">
               Sed maximus aliquam lectus eget sodales. Donec id quam interdum, varius magna at, scelerisque purus. Mauris neque risus, lacinia feugiat nisi quis, porta interdum magna. Etiam eu auctor ligula, eu commodo ligula. Donec eu facilisis sem. Vivamus eget ante vel odio dictum porttitor in at neque. Proin vulputate sollicitudin tellus sit amet auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. &nbsp;
+              <br />
               <span className="pattern-library-typography-footnote">
-                &uarr;&nbsp;<code className="pattern-libarary-typography-code">h1,.h1</code> with two <code className="pattern-libarary-typography-code">p</code> paragraphs.
+                <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">h1,.h1</code> with two <code className="pattern-libarary-typography-code">p</code> paragraphs.
               </span>
             </p>
 
@@ -126,8 +129,9 @@ class PatternLib extends Component {
             </p>
             <p className="text-white">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel facilisis sapien. Vestibulum nec viverra magna, quis cursus lectus. Maecenas egestas elit nisi, a fringilla mi feugiat eget. Suspendisse sollicitudin tristique fringilla. Ut non risus nulla. &nbsp;
+              <br />
               <span className="pattern-library-typography-footnote">
-                &uarr;&nbsp;<code className="pattern-libarary-typography-code">h2,.h2</code> with <code className="pattern-libarary-typography-code">img</code> and two <code className="pattern-libarary-typography-code">p</code> paragraphs.
+                <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">h2,.h2</code> with <code className="pattern-libarary-typography-code">img</code> and two <code className="pattern-libarary-typography-code">p</code> paragraphs.
               </span>
             </p>
             <h2 className="text-white">
@@ -141,8 +145,9 @@ class PatternLib extends Component {
             </p>
             <p className="text-white">
               Maecenas in rhoncus augue. Fusce diam purus, consequat non enim eget, feugiat dictum velit. Vestibulum ac tincidunt mi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent vulputate tortor quam, non pulvinar ante porta at. Maecenas finibus bibendum euismod. Maecenas vehicula nunc turpis, non dictum dui scelerisque non. In vulputate convallis porttitor. Cras fringilla diam dolor, eget commodo erat dapibus sed. Nunc in quam congue, aliquet nulla eget, gravida lacus. Quisque fringilla felis a lorem volutpat consequat. Nunc nibh neque, lobortis vel elementum vel, mattis ac neque. &nbsp;
+              <br />
               <span className="pattern-library-typography-footnote">
-                &uarr;&nbsp;<code className="pattern-libarary-typography-code">h2,.h2</code> with <code className="pattern-libarary-typography-code">img</code> and three <code className="pattern-libarary-typography-code">p</code> paragraphs.
+                <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">h2,.h2</code> with <code className="pattern-libarary-typography-code">img</code> and three <code className="pattern-libarary-typography-code">p</code> paragraphs.
               </span>
             </p>
 
@@ -159,8 +164,9 @@ class PatternLib extends Component {
             </h1>
             <p className="text-white">
               Sed sapien erat, finibus vitae dolor eget, lobortis dignissim ante. Aliquam pharetra ac sem vitae convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed urna turpis, interdum quis venenatis in, porta nec mauris. &nbsp;
+              <br />
               <span className="pattern-library-typography-footnote">
-                &uarr;&nbsp;<code className="pattern-libarary-typography-code">h1,.h1</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
+                <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">h1,.h1</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
               </span>
             </p>
             <h2 className="text-white">
@@ -168,8 +174,9 @@ class PatternLib extends Component {
             </h2>
             <p className="text-white">
               Sed sapien erat, finibus vitae dolor eget, lobortis dignissim ante. Aliquam pharetra ac sem vitae convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed urna turpis, interdum quis venenatis in, porta nec mauris. &nbsp;
+              <br />
               <span className="pattern-library-typography-footnote">
-                &uarr;&nbsp;<code className="pattern-libarary-typography-code">h2,.h2</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
+                <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">h2,.h2</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
               </span>
             </p>
             <h3 className="text-white">
@@ -177,8 +184,9 @@ class PatternLib extends Component {
             </h3>
             <p className="text-white">
               Sed sapien erat, finibus vitae dolor eget, lobortis dignissim ante. Aliquam pharetra ac sem vitae convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed urna turpis, interdum quis venenatis in, porta nec mauris. &nbsp;
+              <br />
               <span className="pattern-library-typography-footnote">
-                &uarr;&nbsp;<code className="pattern-libarary-typography-code">h3,.h3</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
+                <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">h3,.h3</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
               </span>
             </p>
             <h4 className="text-white">
@@ -186,8 +194,9 @@ class PatternLib extends Component {
             </h4>
             <p className="text-white">
               Sed sapien erat, finibus vitae dolor eget, lobortis dignissim ante. Aliquam pharetra ac sem vitae convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed urna turpis, interdum quis venenatis in, porta nec mauris. &nbsp;
+              <br />
               <span className="pattern-library-typography-footnote">
-                &uarr;&nbsp;<code className="pattern-libarary-typography-code">h4,.h4</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
+                <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">h4,.h4</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
               </span>
             </p>
             <h5 className="text-white">
@@ -195,8 +204,9 @@ class PatternLib extends Component {
             </h5>
             <p className="text-white">
               Sed sapien erat, finibus vitae dolor eget, lobortis dignissim ante. Aliquam pharetra ac sem vitae convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed urna turpis, interdum quis venenatis in, porta nec mauris. &nbsp;
+              <br />
               <span className="pattern-library-typography-footnote">
-                &uarr;&nbsp;<code className="pattern-libarary-typography-code">h5,.h5</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
+                <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">h5,.h5</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
               </span>
             </p>
             <h6 className="text-white">
@@ -204,8 +214,9 @@ class PatternLib extends Component {
             </h6>
             <p className="text-white">
               Sed sapien erat, finibus vitae dolor eget, lobortis dignissim ante. Aliquam pharetra ac sem vitae convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed urna turpis, interdum quis venenatis in, porta nec mauris. &nbsp;
+              <br />
               <span className="pattern-library-typography-footnote">
-                &uarr;&nbsp;<code className="pattern-libarary-typography-code">h6,.h6</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
+                <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">h6,.h6</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
               </span>
             </p>
 
@@ -214,8 +225,9 @@ class PatternLib extends Component {
             </div>
             <p className="text-white-50">
               Sed sapien erat, finibus vitae dolor eget, lobortis dignissim ante. Aliquam pharetra ac sem vitae convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed urna turpis, interdum quis venenatis in, porta nec mauris. &nbsp;
+              <br />
               <span className="pattern-library-typography-footnote">
-                &uarr;&nbsp;<code className="pattern-libarary-typography-code">.lead</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
+                <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">.lead</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
               </span>
             </p>
 
@@ -238,9 +250,9 @@ class PatternLib extends Component {
               <li>Pita</li>
               <li>Green salad</li>
               <li>Halloumi
-              <br />
+                <br />
                 <span className="pattern-library-typography-footnote">
-                  &uarr;&nbsp;<code className="pattern-libarary-typography-code">ul,li</code> unordered list.
+                  <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">ul,li</code> unordered list.
                 </span>
               </li>
             </ul>
@@ -258,7 +270,7 @@ class PatternLib extends Component {
               <li>Fill pita with salad, hummus, and fried halloumi.
                 <br />
                 <span className="pattern-library-typography-footnote">
-                  &uarr;&nbsp;<code className="pattern-libarary-typography-code">ol,li</code> ordered list.
+                  <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">ol,li</code> ordered list.
                 </span>
               </li>
             </ol>
@@ -280,13 +292,13 @@ class PatternLib extends Component {
               <dd className="col-md-10">That green healthy stuff that many of us just use to garnish kebabs.
                 <br />
                 <span className="pattern-library-typography-footnote">
-                  <FontAwesomeIcon icon="angle-up" />&nbsp;<code className="pattern-libarary-typography-code">dl,dt,dd</code> description list.
+                  <FontAwesomeIcon className="mr-1" icon="angle-up" /><code className="pattern-libarary-typography-code">dl,dt,dd</code> description list.
                 </span>
               </dd>
             </dl>
 
             <p className="text-white-50 small">
-              <FontAwesomeIcon icon="angle-right" />&nbsp;&nbsp;Visit <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists" className="underline">Mozilla Styling Lists</a> <FontAwesomeIcon className="small-font-size-70 font-weight-light mb-1" icon="external-link-alt" /> to learn more about styling lists.
+              <FontAwesomeIcon className="mr-2" icon="angle-right" />Visit <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists" className="underline">Mozilla Styling Lists</a> <FontAwesomeIcon className="small-font-size-70 font-weight-light mr-1 mb-1" icon="external-link-alt" /> to learn more about styling lists.
             </p>
 
             <div 
@@ -302,8 +314,9 @@ class PatternLib extends Component {
             </h1>
             <p className="text-white">
               Sed sapien erat, finibus vitae dolor eget, lobortis dignissim ante. Aliquam pharetra ac sem vitae convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed urna turpis, interdum quis venenatis in, porta nec mauris. &nbsp;
+              <br />
               <span className="pattern-library-typography-footnote">
-                &uarr;&nbsp;<code className="pattern-libarary-typography-code">.display-1</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
+                <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">.display-1</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
               </span>
             </p>
             <h1 className="display-2 text-white">
@@ -311,8 +324,9 @@ class PatternLib extends Component {
             </h1>
             <p className="text-white">
               Sed sapien erat, finibus vitae dolor eget, lobortis dignissim ante. Aliquam pharetra ac sem vitae convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed urna turpis, interdum quis venenatis in, porta nec mauris. &nbsp;
+              <br />
               <span className="pattern-library-typography-footnote">
-                &uarr;&nbsp;<code className="pattern-libarary-typography-code">.display-2</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
+                <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">.display-2</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
               </span>
             </p>
             <h1 className="display-3 text-white">
@@ -320,8 +334,9 @@ class PatternLib extends Component {
             </h1>
             <p className="text-white">
               Sed sapien erat, finibus vitae dolor eget, lobortis dignissim ante. Aliquam pharetra ac sem vitae convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed urna turpis, interdum quis venenatis in, porta nec mauris. &nbsp;
+              <br />
               <span className="pattern-library-typography-footnote">
-                &uarr;&nbsp;<code className="pattern-libarary-typography-code">.display-3</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
+                <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">.display-3</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
               </span>
             </p>
             <h1 className="display-4 text-white">
@@ -329,8 +344,9 @@ class PatternLib extends Component {
             </h1>
             <p className="text-white">
               Sed sapien erat, finibus vitae dolor eget, lobortis dignissim ante. Aliquam pharetra ac sem vitae convallis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed urna turpis, interdum quis venenatis in, porta nec mauris. &nbsp;
+              <br />
               <span className="pattern-library-typography-footnote">
-                &uarr;&nbsp;<code className="pattern-libarary-typography-code">.display-4</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
+                <FontAwesomeIcon className="mr-2" icon="angle-up" /><code className="pattern-libarary-typography-code">.display-4</code> with <code className="pattern-libarary-typography-code">p</code> paragraph.
               </span>
             </p>
 

@@ -8,9 +8,9 @@ import PatternLib from './components/PatternLib';
 import ReactDOM from 'react-dom'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faAngleUp, faAngleRight, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
+import { faAngleUp, faAngleRight, faExternalLinkAlt, faLongArrowAltUp } from '@fortawesome/free-solid-svg-icons'
 
-library.add(fab, faAngleUp, faAngleRight, faExternalLinkAlt)
+library.add(fab, faAngleUp, faAngleRight, faExternalLinkAlt, faLongArrowAltUp)
 
 class App extends Component {
   render() {
