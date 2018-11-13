@@ -89,7 +89,7 @@ This project was bootstrapped with [Create React App `v2`](https://github.com/fa
 
 [![CircleCI](https://circleci.com/gh/guylepage3/lepage.cc.svg?style=svg&circle-token=08110c1289dd045892c46ae6cb36a681b0be7abb)](https://circleci.com/gh/guylepage3/lepage.cc)
 [![Lepage.cc version](https://img.shields.io/badge/dynamic/json.svg?label=Lepage.cc&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Flepage.cc%2Fmaster%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/guylepage3/lepage.cc)
-[![Lepage UI version](https://img.shields.io/badge/Lepage_UI-v1.3.1-blue.svg?colorA=212121&colorB=007BFF)](/docs/CONTRIBUTING.md#galaxy-ui)
+[![Lepage UI version](https://img.shields.io/badge/Lepage_UI-v1.3.1-blue.svg?colorA=212121&colorB=007BFF)](https://github.com/guylepage3/lepage.cc)
 
 [![Dependencies Status](https://david-dm.org/guylepage3/lepage.cc.svg)](https://david-dm.org/guylepage3/lepage.cc)
 [![@fortawesome/fontawesome-svg-core version](https://img.shields.io/badge/dynamic/json.svg?label=@fortawesome/fontawesome-svg-core&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Flepage.cc%2Fmaster%2Fpackage.json&query=%24.dependencies%5B%22@fortawesome/fontawesome-svg-core%22%5D&colorA=%23212121&colorB=%23007BFF)](https://www.npmjs.com/package/@fortawesome/fontawesome-svg-core)

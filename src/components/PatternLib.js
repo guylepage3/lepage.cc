@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import HeaderLight from './HeaderLight';
+import Footer from './Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class PatternLib extends Component {
@@ -17,7 +18,7 @@ class PatternLib extends Component {
         role="main" 
         className="
           container 
-          mb-auto 
+          mb-9
           mt-auto 
           mx-auto 
           anima-fadein
@@ -353,6 +354,7 @@ class PatternLib extends Component {
           </div>
         </div>
       </main>
+      <Footer />
       </div>
     );
   }
