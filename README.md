@@ -47,7 +47,7 @@
 </p>
 <br/>
 <p align="center">
-  <img width="700" alt="lepage.cc-v1.4.1" src="https://user-images.githubusercontent.com/1711854/46953198-28ce2500-d05b-11e8-83d7-c5b6d5d4c4f4.png">
+  <img width="700" alt="lepage.cc-v2.1.26" src="https://user-images.githubusercontent.com/1711854/48869530-8e74a600-edab-11e8-9cd7-cf19e366a9dd.png">
 </p>
 <br/>
 
