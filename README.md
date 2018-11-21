@@ -7,6 +7,10 @@
     Resume, CV, about and portfolio
     <br/>
     <br/>
+    <a href="https://lepage.cc" alt="Guy Lepage">
+      <strong>Lepage.cc</strong>
+    </a>
+    &nbsp;
     <a href="https://twitter.com/guylepage3" alt="Follow Guy Lepage (@guylepage3) on Twitter">
       <strong>Twitter</strong>
     </a>
