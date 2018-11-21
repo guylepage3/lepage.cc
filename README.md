@@ -11,10 +11,6 @@
       <strong>Lepage.cc</strong>
     </a>
     &nbsp;
-    <a href="https://twitter.com/guylepage3" alt="Follow Guy Lepage (@guylepage3) on Twitter">
-      <strong>Twitter</strong>
-    </a>
-    &nbsp;
     <a href="https://github.com/guylepage3" alt="GitHub guylepage3 (Guy Lepage)">
       <strong>GitHub</strong></a>
     </a>
