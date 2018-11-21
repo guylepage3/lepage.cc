@@ -1,38 +1,37 @@
+<br/>
 <p align="center">
-  <h3 align="center">Lepage.cc</h3>
+  <a href="https://lepage.cc">
+    <img src="https://user-images.githubusercontent.com/1711854/46634061-b79fe680-cb1d-11e8-9d83-32f563fa8acc.png" width=180 alt>
+  </a>
   <p align="center">
     Resume, CV, about and portfolio
     <br/>
     <br/>
-    <a href="https://lepage.cc">
-      <strong>Website</strong>
-    </a>
-    &nbsp;
-    <a href="https://twitter.com/guylepage3">
+    <a href="https://twitter.com/guylepage3" alt="Follow Guy Lepage (@guylepage3) on Twitter">
       <strong>Twitter</strong>
     </a>
     &nbsp;
-    <a href="https://github.com/guylepage3">
+    <a href="https://github.com/guylepage3" alt="GitHub guylepage3 (Guy Lepage)">
       <strong>GitHub</strong></a>
     </a>
     &nbsp;
-    <a href="https://www.npmjs.com/~guylepage3">
+    <a href="https://www.npmjs.com/~guylepage3" alt="npm guylepage3 (Guy Lepage)">
       <strong>npm</strong></a>
     </a>
     &nbsp;
-    <a href="https://www.linkedin.com/in/guylepage/">
+    <a href="https://www.linkedin.com/in/guylepage/" alt="Guy Lepage | LinkedIn">
       <strong>LinkedIn</strong></a>
     </a>
     &nbsp;
-    <a href="https://medium.com/@guylepage3">
+    <a href="https://medium.com/@guylepage3" alt="Guy Lepage – Medium">
       <strong>Medium</strong></a>
     </a>
     <br />
-    <a href="https://github.com/guylepage3/lepage.cc/issues/new">
+    <a href="https://github.com/guylepage3/lepage.cc/issues/new" alt="Report a Bug (Lepage.cc)">
       Report bug
     </a>
     &nbsp;
-    <a href="https://goo.gl/forms/2LvYYCg1VViD6FWm2">
+    <a href="https://goo.gl/forms/2LvYYCg1VViD6FWm2" alt="Contact Guy Lepage">
       Contact
     </a>
     <br/>
@@ -46,13 +45,10 @@
     </a>
   </p>
 </p>
-
 <br/>
-
 <p align="center">
   <img width="700" alt="lepage.cc-v1.4.1" src="https://user-images.githubusercontent.com/1711854/46953198-28ce2500-d05b-11e8-83d7-c5b6d5d4c4f4.png">
 </p>
-
 <br/>
 
 
