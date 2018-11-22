@@ -46,7 +46,6 @@ class Footer extends Component {
             Contact
           </a>
           <CopyrightUpdate />
-          &nbsp;&nbsp;&copy; 2018
         </div>
       </footer>
     );
