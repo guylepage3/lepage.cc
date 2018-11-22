@@ -103,14 +103,15 @@ Lepage.cc
 │   └── App.test.js
 │   └── components/
 |   │   └── Footer.js
-|   │   └── HeaderLight.js
+|   │   └── Header.js
+│   └── index.js
+│   └── pages/
 |   │   └── Home.js
 |   │   └── Intro.js
 |   │   └── Landing.js
 |   │   └── NoMatch.js
 |   │   └── Page404.js
 |   │   └── Splash.js
-│   └── index.js
 │   └── serviceWorker.js
 │   └── styles/
 |       └── App.css
