@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import CopyrightUpdate from 'copyright-update';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Footer extends Component {
   render() {
@@ -44,6 +45,7 @@ class Footer extends Component {
             className="text-white font-weight-bold">
             Contact
           </a>
+          <CopyrightUpdate />
           &nbsp;&nbsp;&copy; 2018
         </div>
       </footer>
