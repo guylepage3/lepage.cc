@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import HeaderLight from './HeaderLight';
-import Footer from './Footer';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 import Landing from './Landing';
 
 class Home extends Component {
   render() {
     return (
       <div className="d-flex w-100 h-100 mx-auto px-4 flex-column">
-        <HeaderLight />
+        <Header />
         <div 
           style={{
             paddingTop: '32px'

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Route, Switch } from "react-router-dom";
 import './styles/App.css';
-import Intro from './components/Intro';
-import Home from './components/Home';
-import NoMatch from './components/NoMatch';
-import PatternLib from './components/PatternLib';
+import Intro from './pages/Intro';
+import Home from './pages/Home';
+import NoMatch from './pages/NoMatch';
+import PatternLib from './pages/PatternLib';
 import ReactDOM from 'react-dom'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
