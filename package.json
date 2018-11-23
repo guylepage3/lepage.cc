@@ -32,7 +32,7 @@
     "type": "git",
     "url": "https://github.com/guylepage3/lepage.cc.git"
   },
-  "homepage": "https://github.com/guylepage3/lepage.cc",
+  "homepage": ".",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
