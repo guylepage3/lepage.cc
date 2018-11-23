@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 class Footer extends Component {
   render() {
     return (
-      <footer className="container-fluid mx-auto text-center mb-4">
+      <footer className="container-fluid mx-auto text-center pb-4">
         <div className="text-white-50 text-footer font-weight-bold">
           <ul className="list-inline my-2">
             <li className="list-inline-item mx-2">
