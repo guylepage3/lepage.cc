@@ -5,10 +5,9 @@ import Intro from './pages/Intro';
 import Home from './pages/Home';
 import NoMatch from './pages/NoMatch';
 import PatternLib from './pages/PatternLib';
-import ReactDOM from 'react-dom'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faAngleUp, faAngleRight, faExternalLinkAlt, faLongArrowAltUp } from '@fortawesome/free-solid-svg-icons'
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { faAngleUp, faAngleRight, faExternalLinkAlt, faLongArrowAltUp } from '@fortawesome/free-solid-svg-icons';
 
 library.add(fab, faAngleUp, faAngleRight, faExternalLinkAlt, faLongArrowAltUp)
 
