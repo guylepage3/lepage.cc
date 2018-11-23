@@ -1,7 +1,44 @@
 {
   "name": "lepage.cc",
-  "version": "2.1.36",
+  "version": "2.1.37",
+  "description": "Guy Lepage resume, CV, portfolio, about",
   "private": true,
+  "keywords": [
+    "portfolio",
+    "web3",
+    "blockchain",
+    "dapp",
+    "ux",
+    "ui",
+    "react",
+    "front-end",
+    "design"
+  ],
+  "maintainers": [
+    {
+      "name": "Guy Lepage",
+      "email": "guylepage3@gmail.com",
+      "url": "https://lepage.cc"
+    }
+  ],
+  "contributors": {
+    "url": "https://github.com/guylepage3/lepage.cc/graphs/contributors"
+  },
+  "bugs": {
+    "url": "https://github.com/guylepage3/lepage.cc/issues/new"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guylepage3/lepage.cc.git"
+  },
+  "homepage": "https://github.com/guylepage3/lepage.cc",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.8",
     "@fortawesome/free-brands-svg-icons": "^5.5.0",
@@ -19,12 +56,6 @@
     "react-scripts": "2.1.1",
     "serve": "^10.0.2",
     "source-map-explorer": "^1.6.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
