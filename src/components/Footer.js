@@ -16,6 +16,13 @@ class Footer extends Component {
               </a>
             </li>
             <li className="list-inline-item mx-2">
+              <a href="https://www.npmjs.com/~guylepage3" 
+                alt="npm guylepage3 (Guy Lepage)"
+                className="text-white">
+                <FontAwesomeIcon className="mr-1" icon={['fab', 'npm']} /> npm
+              </a>
+            </li>
+            <li className="list-inline-item mx-2">
               <a href="https://twitter.com/guylepage3" 
                 alt="Twitter Guy Lepage (@guylepage3)"
                 className="text-white">

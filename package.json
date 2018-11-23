@@ -1,6 +1,6 @@
 {
   "name": "lepage.cc",
-  "version": "2.1.35",
+  "version": "2.1.36",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.8",
