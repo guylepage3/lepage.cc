@@ -36,6 +36,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "px-rem-reference": "^1.3.3"
+    "px-rem-reference": "^1.3.5"
   }
 }
