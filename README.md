@@ -6,7 +6,6 @@
   <p align="center">
     Resume, CV, about and portfolio
     <br/>
-    <br/>
     <a href="https://lepage.cc" alt="Guy Lepage">
       <strong>Lepage.cc</strong>
     </a>
