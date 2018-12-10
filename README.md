@@ -65,7 +65,7 @@
 - Added https enforcement with downgrade attack prevention.
 - Added new typography testing environment for custom design system building 
   on `Lepage UI`.
-- Major update to `[Lepage UI](https://github.com/guylepage3/lepage.cc/blob/master/src/styles/Custom.scss)`.
+- Major update to [`Lepage UI`](https://github.com/guylepage3/lepage.cc/blob/master/src/styles/Custom.scss).
   - Color System
   - Spacing Rules
   - Communication Typography System
