@@ -56,9 +56,10 @@ class Footer extends Component {
           </a>
           <CopyrightUpdate 
             style={{
-              display: 'inlineBlock',
+              display: 'inline-block',
               marginLeft: '.5rem'
-            }}/>
+            }}
+          />
         </div>
       </footer>
     );
