@@ -1,6 +1,6 @@
 {
   "name": "lepage.cc",
-  "version": "2.1.41",
+  "version": "2.1.42",
   "description": "Guy Lepage resume, CV, portfolio, about",
   "private": true,
   "keywords": [
@@ -46,7 +46,7 @@
     "@fortawesome/react-fontawesome": "^0.1.4",
     "ajv": "^6.8.1",
     "bootstrap": "^4.2.1",
-    "copyright-update": "^1.3.1",
+    "copyright-update": "^1.3.2",
     "jquery": "^3.3.1",
     "node-sass": "^4.11.0",
     "popper.js": "^1.14.7",
