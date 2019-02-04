@@ -54,7 +54,11 @@ class Footer extends Component {
             className="text-white font-weight-bold">
             Contact
           </a>
-          <CopyrightUpdate />
+          <CopyrightUpdate 
+            style={{
+              display: 'inlineBlock',
+              marginLeft: '.5rem'
+            }}/>
         </div>
       </footer>
     );
