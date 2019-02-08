@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://lepage.cc">
-    <img src="https://user-images.githubusercontent.com/1711854/46634061-b79fe680-cb1d-11e8-9d83-32f563fa8acc.png" width=120 alt>
+    <img src="https://user-images.githubusercontent.com/1711854/46634061-b79fe680-cb1d-11e8-9d83-32f563fa8acc.png" width=135 alt>
   </a>
   <p align="center">
     Website for Guy Lepage

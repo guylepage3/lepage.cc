@@ -1,65 +1,81 @@
 import React, { Component } from 'react';
+import styled from 'styled-components';
 import CopyrightUpdate from 'copyright-update';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import FooterSocial from '../components/FooterSocial';
+
+const Div = styled.div`
+  padding-bottom: 0;
+
+  @media (min-width: 768px) {
+    padding-bottom: 0.5rem;
+  }
+`;
 
 class Footer extends Component {
+  state = {
+    footerSocialItems: [
+      {
+        id: 1,
+        href: 'https://github.com/guylepage3/',
+        alt: 'GitHub guylepage3 (Guy Lepage)',
+        icon: 'github',
+        text: 'GitHub'
+      },
+      {
+        id: 2,
+        href: 'https://www.npmjs.com/~guylepage3',
+        alt: 'npm guylepage3 (Guy Lepage)',
+        icon: 'npm',
+        text: 'npm'
+      },
+      {
+        id: 3,
+        href: 'https://twitter.com/guylepage3',
+        alt: 'Twitter Guy Lepage (@guylepage3)',
+        icon: 'twitter',
+        text: 'Twitter'
+      },
+      {
+        id: 4,
+        href: 'https://www.linkedin.com/in/guylepage/',
+        alt: 'Guy Lepage | LinkedIn',
+        icon: 'linkedin',
+        text: 'LinkedIn'
+      },
+      {
+        id: 5,
+        href: 'https://medium.com/@guylepage3',
+        alt: 'Guy Lepage – Medium',
+        icon: 'medium',
+        text: 'Medium'
+      }
+    ]
+  }
+
   render() {
     return (
-      <footer className="container-fluid mx-auto text-center pb-4">
-        <div className="text-white-50 text-footer font-weight-bold">
+      <footer className="container-fluid mx-auto text-center mb-4"> {/**/}
+        <Div className="text-white-50 text-footer font-weight-bold">
           <ul className="list-inline my-2">
-            <li className="list-inline-item mx-2">
-              <a href="https://github.com/guylepage3/" 
-                alt="GitHub guylepage3 (Guy Lepage)"
-                className="text-white">
-                <FontAwesomeIcon className="mr-1" icon={['fab', 'github']} /> 
-                  GitHub
-              </a>
-            </li>
-            <li className="list-inline-item mx-2">
-              <a href="https://www.npmjs.com/~guylepage3" 
-                alt="npm guylepage3 (Guy Lepage)"
-                className="text-white">
-                <FontAwesomeIcon className="mr-1" icon={['fab', 'npm']} /> 
-                  npm
-              </a>
-            </li>
-            <li className="list-inline-item mx-2">
-              <a href="https://twitter.com/guylepage3" 
-                alt="Twitter Guy Lepage (@guylepage3)"
-                className="text-white">
-                <FontAwesomeIcon className="mr-1" icon={['fab', 'twitter']} /> Twitter
-              </a>
-            </li>
-            <li className="list-inline-item mx-2">
-              <a href="https://www.linkedin.com/in/guylepage/" 
-                alt="Guy Lepage | LinkedIn"
-                className="text-white">
-                <FontAwesomeIcon className="mr-1" icon={['fab', 'linkedin']} /> LinkedIn
-              </a>
-            </li>
-            <li className="list-inline-item mx-2">
-              <a href="https://medium.com/@guylepage3" 
-                alt="Guy Lepage – Medium"
-                className="text-white">
-                <FontAwesomeIcon className="mr-1" icon={['fab', 'medium']} /> Medium
-              </a>
-            </li>
+            <FooterSocial 
+              footerSocialItems={this.state.footerSocialItems} 
+            />
           </ul>
-        </div>
+        </Div>
         <div className="text-footer text-white-50 font-weight-normal">
           <a 
             href="https://goo.gl/forms/2LvYYCg1VViD6FWm2" 
-            alt="Contact Guy"
+            alt="Contact Guy Lepage"
             className="text-white font-weight-bold">
             Contact
           </a>
-          <CopyrightUpdate 
+          &nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;&nbsp;
+          <CopyrightUpdate
             style={{
               display: 'inline-block',
-              marginLeft: '.5rem'
             }}
           />
+          &nbsp;Guy Lepage.
         </div>
       </footer>
     );

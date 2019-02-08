@@ -1,5 +1,9 @@
 /* App.css */
 
+html {
+  text-rendering: optimizeLegibility;
+}
+
 ul {
   margin-top: 1rem;
 }
@@ -34,17 +38,11 @@ dd {
   font-size: 80%;
 }
 
-.anima-slidein {
-  animation-name: slidein;
-  animation-duration: 1.3s;
-  animation-timing-function: ease-in-out;
-}
-
 .anima-fadein {
-  animation-name: anima-fadein;
-  animation-duration: 2.3s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease-in-out;
+  animation: fade-in 1s ease-out forwards;
+  opacity: 0;
+  transform: translateY(1em);
+  padding-right: 2em;
 }
 
 .anima-fadein-delay-1700 {
@@ -52,30 +50,10 @@ dd {
   opacity: 0;
 }
 
-@keyframes slidein {
-  from {
-    padding-top: 55px;
-  }
-  to {
-    padding-top: 0px;
-  }
-}
-
-@keyframes anima-fadein {
-  from {
-    opacity: 0;
-  }
-  to {
+@keyframes fade-in {
+  100% {
     opacity: 1;
-  }
-}
-
-@keyframes anima-fadein-delay-1700 {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
+    transform: none
   }
 }
 

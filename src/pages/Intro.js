@@ -8,7 +8,7 @@ class Intro extends Component {
     const { history } = this.props;
     setTimeout(() => {
       history.push('/home')
-    }, 5000);
+    }, 4000);
   }
   componentWillUnmount() {
     clearTimeout(this.redirectTimeout);
