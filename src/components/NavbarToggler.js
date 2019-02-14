@@ -8,7 +8,8 @@ $(document).ready( function() {
   $("button").click( function() {
     $("#navbarBasic").animate( {
       opacity: "toggle",
-      backgroundColor: "#fff"
+      backgroundColor: "#fff",
+      display: "block"
     }, 300);
   });
 });
