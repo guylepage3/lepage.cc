@@ -143,7 +143,6 @@ button.navbar-toggler {
     margin-left: -60px;
     margin-right: 0;
     display: block;
-    z-index: 1000;
   }
 
   .navbar-brand-img {
