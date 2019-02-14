@@ -5,11 +5,6 @@ import Intro from './containers/Intro';
 import Home from './containers/Home';
 import NoMatch from './containers/NoMatch';
 import PatternLib from './containers/PatternLib';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab } from '@fortawesome/free-brands-svg-icons';
-import { fas } from '@fortawesome/free-solid-svg-icons';
-
-library.add(fab, fas)
 
 class App extends Component {
   render() {
