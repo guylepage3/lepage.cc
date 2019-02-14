@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
+import NavbarSocial from '../components/NavbarSocial';
 import NavbarToggler from '../components/NavbarToggler';
 import logo from './../img/guylepage-logo-wordmark.svg';
 import '../css/Navbar.css';
@@ -20,6 +21,46 @@ const Div = styled.div`
 `;
 
 class Navbar extends Component {
+  state = {
+    navbarSocialItems: [
+      {
+        id: 1,
+        href: 'https://github.com/guylepage3/',
+        alt: 'GitHub guylepage3 (Guy Lepage)',
+        icon: 'github',
+        text: 'GitHub'
+      },
+      {
+        id: 2,
+        href: 'https://www.npmjs.com/~guylepage3',
+        alt: 'npm guylepage3 (Guy Lepage)',
+        icon: 'npm',
+        text: 'npm'
+      },
+      {
+        id: 3,
+        href: 'https://twitter.com/guylepage3',
+        alt: 'Twitter Guy Lepage (@guylepage3)',
+        icon: 'twitter',
+        text: 'Twitter'
+      },
+      {
+        id: 4,
+        href: 'https://www.linkedin.com/in/guylepage/',
+        alt: 'Guy Lepage | LinkedIn',
+        icon: 'linkedin',
+        text: 'LinkedIn'
+      },
+      {
+        id: 5,
+        href: 'https://medium.com/@guylepage3',
+        alt: 'Guy Lepage – Medium',
+        icon: 'medium',
+        text: 'Medium'
+      }
+    ]
+  }
+
   render() {
     return (
       <Nav 
@@ -27,21 +68,9 @@ class Navbar extends Component {
         style={this.props.style}>
         <div className="container">
           <ul className="navbar-nav d-none d-md-inline-flex">
-            <li className="nav-item">
-              <a className="nav-link" href="/" >
-                Portfolio
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/" >
-                Growth
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/" >
-                About
-              </a>
-            </li>
+            <NavbarSocial 
+              navbarSocialItems={this.state.navbarSocialItems} 
+            />
           </ul>
           <a className="navbar-brand" href="/">
             <img
@@ -70,21 +99,21 @@ class Navbar extends Component {
                   Home
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/" >
+              {/*<li className="nav-item">
+                <a className="nav-link" href="#" >
                   Portfolio
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/" >
+                <a className="nav-link" href="#" >
                   Growth
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/" >
+                <a className="nav-link" href="#" >
                   About
                 </a>
-              </li>
+              </li>*/}
               <li className="nav-item">
                 <a 
                   className="nav-link" 
