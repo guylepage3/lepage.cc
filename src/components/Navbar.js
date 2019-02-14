@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import NavbarToggler from '../components/NavbarToggler';
-import logoWordmarkDark from './../img/papriika-logo-wordmark-1.svg';
+import logo from './../img/guylepage-logo-wordmark.svg';
 import '../css/Navbar.css';
 
 const Nav = styled.nav`
@@ -26,42 +26,74 @@ class Navbar extends Component {
         className={`navbar navbar-expand-md ${this.props.colorScheme}`}
         style={this.props.style}>
         <div className="container">
-          <a className="navbar-brand d-flex align-items-center" href="/">
+          <ul className="navbar-nav d-none d-md-inline-flex">
+            <li className="nav-item">
+              <a className="nav-link" href="/" >
+                Portfolio
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/" >
+                Growth
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/" >
+                About
+              </a>
+            </li>
+          </ul>
+          <a className="navbar-brand" href="/">
             <img
-              src={logoWordmarkDark} 
+              src={logo} 
               className="navbar-brand-img" 
-              alt="Papriika Logo"/>
+              alt="Guy Lepage Logo"/>
           </a>
-          <NavbarToggler className="d-flex align-items-right navbar-toggler-dark"/>
+          <NavbarToggler className="ml-auto navbar-toggler-dark"/>
           <div className="collapse navbar-collapse" id="navbarBasic">
             <Div className="container d-flex align-items-center justify-content-center d-md-none">
               <a 
                 className="navbar-brand d-flex align-items-center justify-content-center" 
                 href="/"
                 style={{
-                marginRight: 0
-              }}>
+                  marginTop: '6px'
+                }}>
                 <img
-                  src={logoWordmarkDark} 
+                  src={logo} 
                   className="navbar-brand-img" 
-                  alt="Papriika Logo"/>
+                  alt="Guy Lepage Logo"/>
               </a>
             </Div>
-            <span className="navbar-text navbar-text-tagline d-none d-md-block">
-              Hotel Club
-            </span>
-            <ul className="navbar-nav ml-auto">
+            <ul className="navbar-nav">
               <li className="nav-item d-md-none">
                 <a className="nav-link" href="/" >
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="mailto:support@papriika.com?subject=Mail from Papriika.com">
-                  Contact
+                <a className="nav-link" href="/" >
+                  Portfolio
                 </a>
               </li>
               <li className="nav-item">
+                <a className="nav-link" href="/" >
+                  Growth
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/" >
+                  About
+                </a>
+              </li>
+              <li className="nav-item">
+                <a 
+                  className="nav-link" 
+                  href="https://goo.gl/forms/2LvYYCg1VViD6FWm2"
+                  >
+                  Contact
+                </a>
+              </li>
+              <li className="nav-item d-md-none">
                 <a 
                   className="btn btn-sm btn-outline-black nav-button" 
                   href="/subscribe"

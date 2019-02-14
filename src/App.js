@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Route, Switch } from "react-router-dom";
-import './styles/App.css';
+import './css/App.css';
 import Intro from './containers/Intro';
 import Home from './containers/Home';
 import NoMatch from './containers/NoMatch';
