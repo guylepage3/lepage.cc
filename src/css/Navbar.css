@@ -28,6 +28,7 @@ div#navbarBasic {
   left: 0;
   position: absolute;
   width: 100%;
+  z-index: 1001;
 }
 
 li.nav-item:last-child {
@@ -142,6 +143,7 @@ button.navbar-toggler {
     margin-left: -60px;
     margin-right: 0;
     display: block;
+    z-index: 1000;
   }
 
   .navbar-brand-img {
@@ -158,6 +160,7 @@ button.navbar-toggler {
   div#navbarBasic,
   .navbar-fixed-container {
     position: unset;
+    z-index: 0;
   }
 
   .navbar-text {

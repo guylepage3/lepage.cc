@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
-import 'jquery-ui-dist/jquery-ui.min.js';
 
 // Value equal to `.collapsing` class is set to none.
 

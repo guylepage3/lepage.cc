@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 import 'bootstrap';
+import 'jquery-ui-dist/jquery-ui.min.js';
 import './scss/Custom.scss';
 import './css/index.css';
 import App from './App';
