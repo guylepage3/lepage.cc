@@ -6,7 +6,7 @@ import Landing from './Landing';
 class Home extends Component {
   render() {
     return (
-      <div className="d-flex w-100 h-100 mx-auto flex-column">
+      <div>
         <Navbar />
         <div 
           style={{
