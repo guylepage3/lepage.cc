@@ -5,7 +5,7 @@ class Splash extends Component {
     return (
       <main 
         role="main" 
-        className="container text-center mx-auto my-auto anima-fadein">
+        className="container text-center mx-auto my-auto anima-fadein pl-4c pr-4c">
         <div className="row">
           <div 
             className="

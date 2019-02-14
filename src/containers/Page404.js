@@ -5,7 +5,7 @@ class Page404 extends Component {
     return (
       <main 
         role="main" 
-        className="container text-center mx-auto my-auto anima-slidein">
+        className="container text-center mx-auto my-auto anima-slidein pl-4c pr-4c">
         <div className="row">
           <div 
             className="container">
