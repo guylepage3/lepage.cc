@@ -27,7 +27,7 @@ class Page404 extends Component {
                   textDecoration: 'none',
                   maxWidth: '280px'
                 }}
-                href="/subscribe" 
+                href="/home" 
                 role="button"
                 tabIndex="1">
                 Back to Home
