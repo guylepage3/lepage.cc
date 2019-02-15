@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
-import 'jquery-ui-bundle';
 
 class NavbarToggler extends Component {
   constructor(props){
