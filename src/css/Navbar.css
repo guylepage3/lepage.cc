@@ -29,6 +29,7 @@ div#navbarBasic {
   position: absolute;
   width: 100%;
   z-index: 1001;
+  background-color: #fff;
 }
 
 li.nav-item:last-child {
@@ -55,13 +56,7 @@ button.navbar-toggler {
   padding-right:14px;
   padding-bottom: 14px;
   padding-left:14px;
-  z-index: 2000;
-}
-
-/* Collapse */
-
-.collapsing {
-  transition: height .4s ease;
+  z-index: 3001;
 }
 
 /* Icon Toggler */
@@ -143,6 +138,7 @@ button.navbar-toggler {
     margin-left: -60px;
     margin-right: 0;
     display: block;
+    z-index: 100;
   }
 
   .navbar-brand-img {
@@ -159,8 +155,12 @@ button.navbar-toggler {
   div#navbarBasic,
   .navbar-fixed-container {
     position: unset;
-    z-index: 0;
   }
+
+  div#navbarBasic {
+  z-index: 0;
+  background-color: transparent;
+}
 
   .navbar-text {
     font-size: 12px;
