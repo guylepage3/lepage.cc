@@ -9,7 +9,7 @@ const ListItem = styled.li`
 class FooterSocial extends Component {
   render() {
     return this.props.footerSocialItems.map((item) => (
-      <ListItem className="list-inline-item mx-2">
+      <ListItem key={item.id} className="list-inline-item mx-2">
         <a 
           href={item.href} 
           alt={item.alt}

@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import $ from 'jquery';
 
 class NavbarToggler extends Component {
-  constructor(props){
-    super(props);
-  }
 
   componentDidMount = () => {
     $("button").click( function() {
