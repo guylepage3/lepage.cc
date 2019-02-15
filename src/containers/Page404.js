@@ -5,40 +5,33 @@ class Page404 extends Component {
     return (
       <main 
         role="main" 
-        className="container text-center mx-auto my-auto anima-slidein pl-4c pr-4c">
+        className="container text-center mx-auto my-auto anima-fadein pl-4c pr-4c">
         <div className="row">
-          <div 
-            className="container">
-            <h1 
-              className="
-                text-white 
-                font-weight-bold 
-                font-italic 
-                anima-fadein 
-                quote
-                mt-0
-                mb-2
-              ">
-              Ooops!
+          <div className="container text-center text-white">
+            <h1 className="font-weight-bold">
+              :(&nbsp;&nbsp;Sorry
             </h1>
-          </div>
-          <div 
-            className="
-            container  
-            lead 
-            anima-fadein 
-            text-white
-          ">
-            We can't seem to find the page you're looking for.
-            <br />
-            <p>
+            <p className="lead mb-4b"
+              style={{
+                fontWeight: '600'
+              }}>
+              Something went wrong. We can't seem to find the page you're looking for.
+            </p>
+            <p className="mb-4b">
               Error code: 404.
             </p>
-            <p className="">
-              Here are some helpful links instead:
-            </p>
             <p>
-              <a href="/home" alt="Home">Home</a>
+              <a
+                className="btn btn-primary btn-subscribe mx-auto"
+                style={{
+                  textDecoration: 'none',
+                  maxWidth: '280px'
+                }}
+                href="/subscribe" 
+                role="button"
+                tabIndex="1">
+                Back to Home
+              </a>
             </p>
           </div>
         </div>
