@@ -59,6 +59,12 @@ button.navbar-toggler {
   z-index: 3001;
 }
 
+/* Collapse */
+
+.collapsing {
+  transition: height .4s ease;
+}
+
 /* Icon Toggler */
 
 .icon-bar {
