@@ -1,17 +1,21 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
-import 'react-jqueryui';
-
-$(document).ready( function() {
-  $("button").click( function() {
-    $("#navbarBasic").animate( {
-      opacity: "toggle",
-      backgroundColor: "#fff"
-    }, 300);
-  });
-});
+import 'jquery-ui-dist/jquery-ui.min.js';
 
 class NavbarToggler extends Component {
+  constructor(props){
+    super(props);
+  }
+
+  componentDidMount = () => {
+    $("button").click( function() {
+      $("#navbarBasic").animate( {
+        opacity: "toggle",
+        backgroundColor: "#fff"
+      }, 300);
+    });
+  }
+
   render() {
     return (
       <button 
@@ -23,6 +27,7 @@ class NavbarToggler extends Component {
         aria-expanded="false" 
         aria-label="Toggle navigation"
         style={this.props.style}
+        onClick= {this.document}
       >
         <span className={`icon-bar top-bar ${this.props.className}`}></span>
         <span className={`icon-bar bottom-bar ${this.props.className}`}></span>
