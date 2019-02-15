@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
-import 'jquery-ui-dist/jquery-ui.js';
+import 'react-jqueryui';
 
 $(document).ready( function() {
   $("button").click( function() {
