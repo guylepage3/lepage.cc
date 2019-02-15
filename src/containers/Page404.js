@@ -3,9 +3,7 @@ import React, { Component } from 'react';
 class Page404 extends Component {
   render() {
     return (
-      <main 
-        role="main" 
-        className="container text-center mx-auto my-auto anima-fadein pl-4c pr-4c">
+      <div className="container text-center mx-auto my-auto anima-fadein pl-4c pr-4c">
         <div className="row">
           <div className="container text-center text-white">
             <h1 className="font-weight-bold">
@@ -35,7 +33,7 @@ class Page404 extends Component {
             </p>
           </div>
         </div>
-      </main>
+      </div>
     );
   }
 }
