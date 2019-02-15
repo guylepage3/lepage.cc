@@ -3,10 +3,7 @@ import React, { Component } from 'react';
 class Landing extends Component {
   render() {
     return (
-      <div className="container my-auto mx-auto anima-fadein pl-4c pr-4c"
-        style={{
-          height: '85vh'
-        }}>
+      <div className="container my-auto mx-auto anima-fadein pl-4c pr-4c pb-9 mb-8">
         <div className="row">
           <div className="col-lg-9 col-xl-7 mx-auto py-5">
             <h2 className="text-white font-weight-bold font-italic mt-0">
