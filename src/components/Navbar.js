@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import NavbarSocial from '../components/NavbarSocial';
+import FooterSocial from '../components/FooterSocial';
 import NavbarToggler from '../components/NavbarToggler';
 import logo from './../img/guylepage-logo-wordmark.svg';
 import '../css/Navbar.css';
@@ -22,7 +23,7 @@ const Div = styled.div`
 
 class Navbar extends Component {
   state = {
-    navbarSocialItems: [
+    socialItems: [
       {
         id: 1,
         href: 'https://github.com/guylepage3/',
@@ -68,9 +69,7 @@ class Navbar extends Component {
         style={this.props.style}>
         <div className="container">
           <ul className="navbar-nav d-none d-md-inline-flex">
-            <NavbarSocial 
-              navbarSocialItems={this.state.navbarSocialItems} 
-            />
+            <NavbarSocial socialItems={this.state.socialItems} />
           </ul>
           <a className="navbar-brand" href="/">
             <img
@@ -122,13 +121,20 @@ class Navbar extends Component {
                   Contact
                 </a>
               </li>
-              <li className="nav-item d-md-none">
+              <li className="nav-item d-md-none mb-4">
                 <a 
                   className="btn btn-sm btn-outline-black nav-button" 
                   href="/subscribe"
                 >
                   Subscribe
                 </a>
+              </li>
+              <li className="nav-item d-md-none">
+                <FooterSocial 
+                  socialItems={this.state.socialItems}
+                  className="text-black"
+                  listAlign="d-block pt-3 pb-2 ml-0"
+                />
               </li>
             </ul>
           </div>

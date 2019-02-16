@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class NavbarSocial extends Component {
   render() {
-    return this.props.navbarSocialItems.map((item) => (
+    return this.props.socialItems.map((item) => (
       <li key={item.id} className="list-inline-item mx-2">
         <a 
           href={item.href} 
