@@ -17,10 +17,6 @@ const Nav = styled.nav`
   }
 `;
 
-const Div = styled.div`
-  height: 43.5px;
-`;
-
 class Navbar extends Component {
   state = {
     socialItems: [
@@ -66,67 +62,68 @@ class Navbar extends Component {
     return (
       <Nav 
         className={`navbar navbar-expand-md ${this.props.colorScheme}`}
-        style={this.props.style}>
+        style={this.props.style}
+        >
         <div className="container">
           <ul className="navbar-nav d-none d-md-inline-flex">
-            <NavbarSocial socialItems={this.state.socialItems} />
+            <NavbarSocial 
+              socialItems={this.state.socialItems} 
+              />
           </ul>
-          <a className="navbar-brand" href="/">
-            <img
+          <a 
+            href="/"
+            className="navbar-brand" >
+            <img 
               src={logo} 
+              alt="Guy Lepage Logo"
               className="navbar-brand-img" 
-              alt="Guy Lepage Logo"/>
+              />
           </a>
           <NavbarToggler className="ml-auto navbar-toggler-dark"/>
           <div className="collapse navbar-collapse" id="navbarBasic">
-            <Div className="container d-flex align-items-center justify-content-center d-md-none">
+            <div 
+              className="
+                container 
+                d-flex 
+                align-items-center 
+                justify-content-center 
+                d-md-none"
+              style={{ height: '45px' }}>
               <a 
-                className="navbar-brand d-flex align-items-center justify-content-center" 
                 href="/"
-                style={{
-                  marginTop: '6px'
-                }}>
-                <img
+                className="
+                  navbar-brand 
+                  d-flex 
+                  align-items-center 
+                  justify-content-center"
+                style={{ marginTop: '6px' }}>
+                <img 
                   src={logo} 
+                  alt="Guy Lepage Logo"
                   className="navbar-brand-img" 
-                  alt="Guy Lepage Logo"/>
+                  />
               </a>
-            </Div>
+            </div>
             <ul className="navbar-nav">
               <li className="nav-item d-md-none">
-                <a className="nav-link" href="/" >
-                  Home
+                <a 
+                  href="/"
+                  className="nav-link">
+                    Home
                 </a>
               </li>
-              {/*<li className="nav-item">
-                <a className="nav-link" href="#" >
-                  Portfolio
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#" >
-                  Growth
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#" >
-                  About
-                </a>
-              </li>*/}
               <li className="nav-item">
                 <a 
-                  className="nav-link" 
                   href="https://goo.gl/forms/2LvYYCg1VViD6FWm2"
-                  >
-                  Contact
+                  className="nav-link">
+                   Contact
                 </a>
               </li>
               <li className="nav-item d-md-none mb-4">
                 <a 
-                  className="btn btn-sm btn-outline-black nav-button" 
                   href="/subscribe"
-                >
-                  Subscribe
+                  className="btn btn-sm btn-outline-black nav-button">
+                   Subscribe
                 </a>
               </li>
               <li className="nav-item d-md-none">
