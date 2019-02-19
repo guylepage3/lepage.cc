@@ -11,7 +11,11 @@ class Home extends Component {
         height: '100vh'
         }}>
         <div style={{ backgroundColor: '#000' }}>
-          <Navbar />
+          <Navbar 
+            style={{
+              zIndex: '20',
+              backgroundColor: 'transparent'
+          }}/>
           <Hero />
           <Footer />
         </div>

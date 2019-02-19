@@ -7,7 +7,7 @@ const Overlay = styled.div`
     rgba(255,255,255,1), 
     rgba(202,220,228,1)
   );
-  background-size: 180%, cover;
+  background-size: 600px, cover;
   background-position-x: center;
   background-position-y: center, center;
   background-repeat: no-repeat;
@@ -24,14 +24,18 @@ const Overlay = styled.div`
     background-position-y: 150px, center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 865px;
+    height: 878px;
   }
 `;
 
 class Header extends Component {
   render() {
     return (
-      <div className="container-fluid pl-0 pr-0 hero">
+      <div 
+        className="container-fluid pl-0 pr-0 hero" 
+        style={{ 
+          marginTop: '-53px' 
+        }}>
         <div className="row no-gutters">
           <Overlay 
             className="
