@@ -16,8 +16,8 @@
 }
 
 .navbar-nav {
-  padding-right: 35px;
-  padding-left: 35px;
+  padding-right: 30px;
+  padding-left: 30px;
   margin-top: 15px;
   margin-bottom: 35px;
   height: 100vh;
@@ -51,11 +51,11 @@ li.nav-item:last-child {
 button.navbar-toggler { 
   outline: none; /* Removes blue outline */
   border: none; /* Removes border outline */
-  position: absolute;
   padding: 9px;
   padding-right:14px;
   padding-bottom: 14px;
   padding-left:14px;
+  margin-right: -5px;
   z-index: 3001;
 }
 
