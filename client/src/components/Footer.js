@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import CopyrightUpdate from 'copyright-update';
-import FooterSocial from '../components/FooterSocial';
+import FooterSocial from './FooterSocial';
 
 const Div = styled.div`
   padding-bottom: 0;
