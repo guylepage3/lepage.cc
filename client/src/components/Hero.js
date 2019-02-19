@@ -14,7 +14,7 @@ const Overlay = styled.div`
   background-position-y: 65px, center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100vh;
+  height: 635px;
 
   @media (min-width: 768px) {
     background: url(${Background}), linear-gradient(
@@ -77,15 +77,19 @@ class Header extends Component {
             <div className="container">
               <Description 
                 className="font-weight-bold">
-                <a 
-                  className="mr-1"
-                  href="#" 
+                <button 
+                  className="mr-1" 
+                  style={{
+                    background: 'none',
+                    border: 'none',
+                    padding: '2px'
+                  }}
                   data-toggle="tooltip" 
                   data-placement="top" 
                   title="Social news sharing platform, Co-founder, product, UX/UI designer"
                   >
                   <FontAwesomeIcon icon="info-circle" />
-                </a>
+                </button>
                   Clppr iOS & Android App
               </Description>
             </div>
