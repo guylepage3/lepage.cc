@@ -7,16 +7,19 @@ class Home extends Component {
   render() {
     return (
       <div style={{
-        backgroundColor: '#000'
-      }}>
-        <Navbar />
-        <div 
-          style={{
-            paddingTop: '32px'
-          }}>
+        backgroundColor: '#000',
+        height: '100vh'
+        }}>
+        <div style={{ backgroundColor: '#000' }}>
+          <Navbar />
+          <div 
+            style={{
+              paddingTop: '32px'
+            }}>
+          </div>
+          <Landing />
+          <Footer />
         </div>
-        <Landing />
-        <Footer />
       </div>
     );
   }
