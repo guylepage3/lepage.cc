@@ -40,7 +40,7 @@ class Subscribe extends Component {
                     maxWidth: '280px',
                     marginTop: '16px'
                   }}
-                  href="/" 
+                  href="/home" 
                   role="button">
                   Back
                 </a>
