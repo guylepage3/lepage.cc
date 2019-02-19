@@ -64,20 +64,28 @@ class Footer extends Component {
             />
           </ul>
         </Div>
-        <div className="text-footer text-white-50 font-weight-normal">
+        <div className="text-footer text-white-50 font-weight-normal mb-3">
+          <a 
+            href="/subscribe" 
+            alt="Subscribe to newsletter"
+            className="text-white font-weight-bold">
+            Newsletter
+          </a>
+          &nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;&nbsp;
           <a 
             href="https://goo.gl/forms/2LvYYCg1VViD6FWm2" 
             alt="Contact Guy Lepage"
             className="text-white font-weight-bold">
             Contact
           </a>
-          &nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;&nbsp;
+        </div>
+        <div className="text-footer text-white-50 font-weight-normal">
           <CopyrightUpdate
             style={{
               display: 'inline-block',
             }}
           />
-          &nbsp;Guy Lepage.
+          .
         </div>
       </footer>
     );

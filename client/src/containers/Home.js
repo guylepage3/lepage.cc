@@ -7,8 +7,7 @@ class Home extends Component {
   render() {
     return (
       <div style={{
-        backgroundColor: '#000',
-        height: '100vh'
+        backgroundColor: '#000'
       }}>
         <Navbar />
         <div 
