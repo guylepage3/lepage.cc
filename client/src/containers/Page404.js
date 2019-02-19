@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 class Page404 extends Component {
   render() {
     return (
-      <div className="container text-center mx-auto my-auto anima-fadein pl-4c pr-4c">
+      <div className="container text-center mx-auto anima-fadein pl-4c pr-4c">
         <div className="row">
-          <div className="container text-center text-white">
+          <div className="container text-center">
             <h1 className="font-weight-bold">
               :(&nbsp;&nbsp;Sorry
             </h1>
