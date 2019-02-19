@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import Landing from './Landing';
+import Hero from '../components/Hero';
 
 class Home extends Component {
   render() {
@@ -17,7 +17,7 @@ class Home extends Component {
               paddingTop: '32px'
             }}>
           </div>
-          <Landing />
+          <Hero />
           <Footer />
         </div>
       </div>

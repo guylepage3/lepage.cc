@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import Splash from './Splash';
+import Splash from '../components/Splash';
 
 class Intro extends Component {
   componentDidMount() {
