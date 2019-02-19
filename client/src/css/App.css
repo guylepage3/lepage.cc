@@ -28,6 +28,11 @@ dd {
   font-size: 80%;
 }
 
+.fadein {
+  animation: fade-in 1s ease-out forwards;
+  opacity: 0;
+}
+
 .anima-fadein {
   animation: fade-in 1s ease-out forwards;
   opacity: 0;

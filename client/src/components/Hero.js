@@ -9,10 +9,10 @@ const Overlay = styled.div`
   );
   background-size: 540px, cover;
   background-position-x: center;
-  background-position-y: 150px, center;
+  background-position-y: 50px, center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 565px;
+  height: 100vh;
 
   @media (min-width: 768px) {
     background: url(${Background}), linear-gradient(
@@ -31,10 +31,7 @@ const Overlay = styled.div`
 class Header extends Component {
   render() {
     return (
-      <div className="container-fluid pl-0 pr-0 hero"
-        style={{
-          marginTop: '-65px'
-        }}>
+      <div className="container-fluid pl-0 pr-0 hero">
         <div className="row no-gutters">
           <Overlay 
             className="
@@ -43,10 +40,11 @@ class Header extends Component {
               align-items-center 
               justify-content-center 
               text-white 
-              p-4">
+              p-4 fadein">
             <div className="container"
               style={{
-                maxWidth: '900px'
+                maxWidth: '900px',
+                backgroundColor: '#fff'
               }}>
             </div>
           </Overlay>

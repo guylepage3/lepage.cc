@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Splash from '../components/Splash';
 
@@ -19,7 +18,6 @@ class Intro extends Component {
         style={{
           backgroundColor: '#000'
         }}>
-        <Navbar />
         <div 
           style={{
             paddingTop: '32px'

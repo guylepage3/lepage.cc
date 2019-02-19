@@ -12,11 +12,6 @@ class Home extends Component {
         }}>
         <div style={{ backgroundColor: '#000' }}>
           <Navbar />
-          <div 
-            style={{
-              paddingTop: '32px'
-            }}>
-          </div>
           <Hero />
           <Footer />
         </div>
