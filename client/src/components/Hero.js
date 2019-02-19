@@ -34,6 +34,7 @@ const Description = styled.p`
   margin-left: -15px;
   position: absolute;
   bottom: 0;
+  margin-bottom: 32px;
 
   @media (min-width: 576px) {
     margin-bottom: 48px;
