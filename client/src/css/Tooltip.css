@@ -13,11 +13,13 @@
 }
 
 div.tooltip-inner > p {
-  margin-bottom: 5px;
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: #bdbdbd;
 }
 
 div.tooltip-inner > div {
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 
 .tooltip.bs-tooltip-top .arrow:before {
