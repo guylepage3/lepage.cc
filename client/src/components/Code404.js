@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Page404 extends Component {
+class Code404 extends Component {
   render() {
     return (
       <div className="container text-center mx-auto anima-fadein pl-4c pr-4c">
@@ -38,4 +38,4 @@ class Page404 extends Component {
   }
 }
 
-export default Page404;
+export default Code404;
