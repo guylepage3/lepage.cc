@@ -53,6 +53,7 @@ class SubscribeForm extends Component {
             required="true"
             autoComplete="off"
             tabIndex="3"
+            autocapitalize="none"
             aria-invalid="false"
             aria-controls="email"
             aria-label="What is your email address?"
