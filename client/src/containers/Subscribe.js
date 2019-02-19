@@ -27,7 +27,7 @@ class Subscribe extends Component {
           ">
           <div className="card col-md-8">
             <div className="card-body">
-              <Div className="mb-4">
+              <Div className="text-center mb-4">
                 <p className="lead-md font-weight-bold">
                   Join my newsletter.
                 </p>

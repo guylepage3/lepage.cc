@@ -1,10 +1,6 @@
-/*:root {
-  background-color: #000;
-}*/
-
 html, body {
   height: 100%;
-  background-color: #000;
+  background-color: #fff;
 }
 
 body {
@@ -24,7 +20,6 @@ code {
 
 #root {
   height: 100%;
-  /*background-color: #000;*/
 }
 
 .App {

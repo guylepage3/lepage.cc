@@ -6,7 +6,10 @@ import Landing from './Landing';
 class Home extends Component {
   render() {
     return (
-      <div>
+      <div style={{
+        backgroundColor: '#000',
+        height: '100vh'
+      }}>
         <Navbar />
         <div 
           style={{

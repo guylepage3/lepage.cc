@@ -15,7 +15,10 @@ class Intro extends Component {
   }
   render() {
     return (
-      <div className="d-flex w-100 h-100 mx-auto flex-column">
+      <div className="d-flex w-100 h-100 mx-auto flex-column"
+        style={{
+          backgroundColor: '#000'
+        }}>
         <Navbar />
         <div 
           style={{
