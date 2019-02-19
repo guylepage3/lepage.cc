@@ -28,6 +28,24 @@ const Overlay = styled.div`
   }
 `;
 
+const Description = styled.p`
+  margin-left: -15px;
+  position: absolute;
+  bottom: 0;
+
+  @media (min-width: 576px) {
+    margin-bottom: 48px;
+  }
+
+  @media (min-width: 768px) {
+    margin-bottom: 56px;
+  }
+
+  @media (min-width: 992px) {
+    margin-bottom: 96px;
+  }
+`;
+
 class Header extends Component {
   render() {
     return (
@@ -40,16 +58,16 @@ class Header extends Component {
           <Overlay 
             className="
               container-fluid 
-              d-flex 
-              align-items-center 
-              justify-content-center 
-              text-white 
-              p-4 fadein">
-            <div className="container"
-              style={{
-                maxWidth: '900px',
-                backgroundColor: '#fff'
-              }}>
+              p-4 
+              fadein"
+            style={{
+              position: 'relative'
+            }}>
+            <div className="container">
+              <Description 
+                className="font-weight-bold">
+                Clppr iOS & Android App
+              </Description>
             </div>
           </Overlay>
         </div>
