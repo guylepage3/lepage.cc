@@ -7,9 +7,9 @@ const Overlay = styled.div`
     rgba(255,255,255,1), 
     rgba(202,220,228,1)
   );
-  background-size: 540px, cover;
+  background-size: 180%, cover;
   background-position-x: center;
-  background-position-y: 50px, center;
+  background-position-y: center, center;
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
