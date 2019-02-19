@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import $ from 'jquery';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Background from './../img/portfolio-clppr-hero-iphone.png';
+import './../css/Tooltip.css';
 
 const Overlay = styled.div`
   background: url(${Background}), linear-gradient(
@@ -88,7 +89,7 @@ class Header extends Component {
                     padding: '2px'
                   }}
                   data-toggle="tooltip" 
-                  data-placement="right" 
+                  data-placement="top" 
                   data-html="true"
                   title="
                     <div><b>Clppr App</b></span></div>
