@@ -1,5 +1,35 @@
 /* App.css */
 
+.tooltip.bs-tooltip-right > .tooltip-inner {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.05);
+  box-shadow: 0 2px 18px rgba(0,0,0,0.45);
+  border-radius: 8px;
+  padding: 32px 40px;
+  font-size: 15px;
+  max-width: unset;
+  text-align: left;
+}
+
+div.tooltip-inner > p {
+  margin-bottom: 5px;
+}
+
+div.tooltip-inner > div {
+  margin-bottom: 16px;
+}
+
+.tooltip.bs-tooltip-right .arrow:before {
+  border-right-color: #000;
+}
+
+.tooltip.show {
+  opacity: 1!important;
+}
+
+
+
 html {
   text-rendering: optimizeLegibility;
 }

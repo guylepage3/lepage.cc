@@ -58,6 +58,9 @@ class Header extends Component {
     })
   }
 
+  // Test with 
+  // .tooltip( { trigger: 'manual' } ).tooltip( 'show' );
+
   render() {
     return (
       <div 
@@ -78,17 +81,23 @@ class Header extends Component {
               <Description 
                 className="font-weight-bold">
                 <button 
-                  className="mr-1" 
+                  className="mr-1"
                   style={{
                     background: 'none',
                     border: 'none',
                     padding: '2px'
                   }}
                   data-toggle="tooltip" 
-                  data-placement="top" 
-                  title="Social news sharing platform, Co-founder, product, UX/UI designer"
+                  data-placement="right" 
+                  data-html="true"
+                  title="
+                    <div><b>Clppr App</b></span></div>
+                    <p>Social news sharing platform</p>
+                    <p>Co-founder, product, UX/UI designer</p>
+                    <p>iOS, Android</p>"
                   >
-                  <FontAwesomeIcon icon="info-circle" />
+                  <FontAwesomeIcon icon="info-circle" 
+                  className="test"/>
                 </button>
                   Clppr iOS & Android App
               </Description>
