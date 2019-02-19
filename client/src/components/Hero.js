@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
+import $ from 'jquery';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Background from './../img/portfolio-clppr-hero-iphone.png';
 
 const Overlay = styled.div`
@@ -42,11 +44,18 @@ const Description = styled.p`
   }
 
   @media (min-width: 992px) {
-    margin-bottom: 96px;
+    margin-bottom: 80px;
   }
 `;
 
 class Header extends Component {
+
+  componentDidMount = () => {
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+  }
+
   render() {
     return (
       <div 
@@ -65,8 +74,17 @@ class Header extends Component {
             }}>
             <div className="container">
               <Description 
-                className="font-weight-bold">
-                Clppr iOS & Android App
+                className="small-font-size-90 font-weight-bold">
+                <a 
+                  className="mr-1"
+                  href="#" 
+                  data-toggle="tooltip" 
+                  data-placement="top" 
+                  title="Social news sharing platform, Co-founder, product, UX/UI designer"
+                  >
+                  <FontAwesomeIcon icon="info-circle" />
+                </a>
+                  Clppr iOS & Android App
               </Description>
             </div>
           </Overlay>

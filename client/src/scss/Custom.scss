@@ -27,6 +27,16 @@ $navbar-light-color:                 rgba(#000, 1);
 $navbar-light-hover-color:           rgba(#000, .5);
 $navbar-light-active-color:          primary;
 
+// Typography
+//
+
+// Base Typography
+
+$small-font-size-90:             90%; // Custom
+
+.small-font-size-90 { font-size: $small-font-size-90; }
+
+
 // Links
 
 $link-color:                $black;
