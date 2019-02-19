@@ -64,7 +64,8 @@ class Navbar extends Component {
         className={`navbar navbar-expand-md ${this.props.colorScheme}`}
         style={this.props.style}
         >
-        <div className="container">
+        <div 
+          className="container">
           <ul className="navbar-nav d-none d-md-inline-flex">
             <NavbarSocial 
               socialItems={this.state.socialItems} 
@@ -72,7 +73,7 @@ class Navbar extends Component {
           </ul>
           <a 
             href="/"
-            className="navbar-brand" >
+            className="navbar-brand">
             <img 
               src={logo} 
               alt="Guy Lepage Logo"
@@ -86,17 +87,11 @@ class Navbar extends Component {
                 container 
                 d-flex 
                 align-items-center 
-                justify-content-center 
                 d-md-none"
-              style={{ height: '45px' }}>
+              style={{ height: '47px' }}>
               <a 
                 href="/"
-                className="
-                  navbar-brand 
-                  d-flex 
-                  align-items-center 
-                  justify-content-center"
-                style={{ marginTop: '6px' }}>
+                className="navbar-brand">
                 <img 
                   src={logo} 
                   alt="Guy Lepage Logo"
