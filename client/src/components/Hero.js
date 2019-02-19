@@ -11,7 +11,7 @@ const Overlay = styled.div`
   );
   background-size: 600px, cover;
   background-position-x: center;
-  background-position-y: center, center;
+  background-position-y: 65px, center;
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
@@ -34,7 +34,7 @@ const Description = styled.p`
   margin-left: -15px;
   position: absolute;
   bottom: 0;
-  margin-bottom: 32px;
+  margin-bottom: 28px;
 
   @media (min-width: 576px) {
     margin-bottom: 48px;
@@ -42,6 +42,7 @@ const Description = styled.p`
 
   @media (min-width: 768px) {
     margin-bottom: 56px;
+    font-size: 90%;
   }
 
   @media (min-width: 992px) {
@@ -75,7 +76,7 @@ class Header extends Component {
             }}>
             <div className="container">
               <Description 
-                className="small-font-size-90 font-weight-bold">
+                className="font-weight-bold">
                 <a 
                   className="mr-1"
                   href="#" 
