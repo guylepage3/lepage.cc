@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from '../components/Header';
+import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -7,7 +7,7 @@ class PatternLib extends Component {
   render() {
     return (
       <div>
-      <Header />
+      <Navbar />
       <div 
         style={{
           paddingTop: '57px',

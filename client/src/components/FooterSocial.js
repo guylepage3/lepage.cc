@@ -26,4 +26,3 @@ class FooterSocial extends Component {
 }
 
 export default FooterSocial;
-

@@ -29,10 +29,7 @@ class Subscribe extends Component {
             <div className="card-body">
               <Div className="text-center mb-4">
                 <p className="lead-md font-weight-bold">
-                  Join my newsletter.
-                </p>
-                <p>
-                  News, thoughts, updates and more…
+                  Subscribe.
                 </p>
               </Div>
               <SubscribeForm />

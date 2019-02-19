@@ -126,13 +126,13 @@ class Navbar extends Component {
                    Subscribe
                 </a>
               </li>
-              <li className="nav-item d-md-none">
+              <div className="nav-item d-md-none">
                 <FooterSocial 
                   socialItems={this.state.socialItems}
                   className="text-black"
                   listAlign="d-block pt-3 pb-2 ml-0"
                 />
-              </li>
+              </div>
             </ul>
           </div>
         </div>
