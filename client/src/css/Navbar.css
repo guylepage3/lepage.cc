@@ -141,7 +141,7 @@ button.navbar-toggler {
   .navbar-brand {
     position: absolute;
     left: 50%;
-    margin-left: -60px;
+    margin-left: -55px;
     margin-right: 0;
     display: block;
     z-index: 100;

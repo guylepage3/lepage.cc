@@ -6,9 +6,9 @@ class Page404 extends Component {
       <div className="container text-center mx-auto anima-fadein pl-4c pr-4c">
         <div className="row">
           <div className="container text-center">
-            <h1 className="font-weight-bold">
+            <h3 className="font-weight-bold">
               :(&nbsp;&nbsp;Sorry
-            </h1>
+            </h3>
             <p className="lead mb-4b"
               style={{
                 fontWeight: '600'
