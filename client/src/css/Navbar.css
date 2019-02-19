@@ -32,6 +32,10 @@ div#navbarBasic {
   background-color: #fff;
 }
 
+.nav-item {
+  font-weight: 700;
+}
+
 li.nav-item:last-child {
   border: none;
 }
