@@ -70,12 +70,6 @@ Lepage.cc is a Node, Express, React application utilizing the Model–View–Con
 
 ## Quick start
 
-- Download
-- npm install on server
-npm in stall client
-
-npm run dev
-
 Quickly start by cloning the repository to your local machine
 
 ```
