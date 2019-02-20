@@ -20,10 +20,6 @@ dd {
   margin-bottom: 1.5rem;
 }
 
-.line {
-  display: none;
-}
-
 .quote {
   font-size: 2.05rem;
 }
@@ -67,37 +63,13 @@ dd {
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  .line {
-    position: absolute;
-    display: block;
-    height: 1px;
-    width: 100%;
-    z-index: 1;
-  }
-}
+@media (min-width: 768px) {}
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  .line {
-    position: absolute;
-    display: block;
-    height: 1px;
-    width: 100%;
-    left: 50%;
-    margin-right: 0;
-    margin-left: -480px;
-  }
-}
+@media (min-width: 992px) {}
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  .line {
-    left: 50%;
-    margin-right: 0;
-    margin-left: -570px;
-  }
-}
+@media (min-width: 1200px) {}
 
 /* Extra Extra small devices devices */
 @media (max-width:348px) {}
