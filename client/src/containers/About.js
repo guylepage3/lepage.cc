@@ -51,7 +51,7 @@ class About extends Component {
                   <li><a href="http://qasaryounis.com/" alt="Qasar Younis" target="_blank" className="bg-black text-light px-1 mx-1">Qasar Younis</a> former COO of <a href="http://www.ycombinator.com/" alt="Y Combinator" target="_blank" className="bg-black text-light px-1 mx-1">Y Combinator</a></li>
                 </ul>
               <li>
-                Was 1 of 4 core contributors in raising a $4M Series A funding round led by Union Square Ventures. Other investors include;
+                Assisted in the raising of a <a href="https://techcrunch.com/2017/01/05/blockstack-formerly-called-onename-just-raised-4-million/" alt="Blockstack, formerly called Onename, just raised $4 million" target="_blank" className="bg-black text-light px-1 mx-1">$4M Series A funding round</a> led by <a href="http://usv.com" alt="Union Square Ventures (USV)" target="_blank" className="bg-black text-light px-1 mx-1">Union Square Ventures (USV)</a>. Other investors included;
               </li>
                 <ul>
                   <li><a href="http://www.luxcapital.com/" alt="Lux Capital" target="_blank" className="bg-black text-light px-1 mx-1">Lux Capital</a></li>
@@ -69,7 +69,7 @@ class About extends Component {
                 Was a key contributor in building a community of blockchain developers from 0 to 13,000 community members.
               </li>
               <li>
-                Guy sits on the Board of Advisors to <a href="https://news.net-cents.com/2018/03/21/blockstacks-guy-lepage-joins-netcents-technologys-board-advisors/" alt="NetCents Technology" target="_blank" className="bg-black text-light px-1 mx-1">NetCents Technology</a>, a publicly traded tech company trading in [Canada] and [Germany].
+                Guy sits on the Board of Advisors to <a href="https://news.net-cents.com/2018/03/21/blockstacks-guy-lepage-joins-netcents-technologys-board-advisors/" alt="NetCents Technology" target="_blank" className="bg-black text-light px-1 mx-1">NetCents Technology</a>, a publicly traded tech company trading in <a href="https://www.bloomberg.com/quote/NC:CN" alt="NC:Canadian Sec Stock Quote - NetCents Technology Inc - Bloomberg Markets" target="_blank" className="bg-black text-light px-1 mx-1">Canada</a> and <a href="https://www.bloomberg.com/quote/26N:GR" alt="26N:Frankfurt Stock Quote - NetCents Technology Inc - Bloomberg Markets" target="_blank" className="bg-black text-light px-1 mx-1">Germany</a>.
               </li>
               <li>
                 Designed a the worlds first decentralized web browser that was a <a href="https://twitter.com/guylepage3/status/889857953980964864" alt="Blockstack. A reinvention of the Internet for better privacy" target="_blank" className="bg-black text-light px-1 mx-1">finalist in the 2017 INDEX awards</a>.
@@ -78,7 +78,7 @@ class About extends Component {
                 Part of the New York and Silicon Valley tech startup community.
               </li>
               <li>
-                In 2014 was hired to <a href="http://bit.ly/2EmhH8p" alt="WPP agrees to acquire majority stake in digital technology consultancy Cognifide" target="_blank" className="bg-black text-light px-1 mx-1">assist in selling off 150 staff digital firm in London to the world’s largest digital agency WPP</a>.
+                In 2014, <a href="http://bit.ly/2EmhH8p" alt="WPP agrees to acquire majority stake in digital technology consultancy Cognifide" target="_blank" className="bg-black text-light px-1 mx-1">assisted in the selling of a 150 persona staff digital firm in London</a> to the world’s largest digital agency, <a href="https://www.wpp.com/" alt="WPP" target="_blank" className="bg-black text-light px-1 mx-1">WPP</a>.
               </li>
               <li>
                 Assisted a Canadian publicly traded technology company in designing a mobile app with over 20 million downloads.
