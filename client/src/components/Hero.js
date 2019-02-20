@@ -24,7 +24,7 @@ const Overlay = styled.div`
     );
     background-size: 900px, cover;
     background-position-x: center;
-    background-position-y: 150px, center;
+    background-position-y: 75px, center;
     background-repeat: no-repeat;
     width: 100%;
     height: 878px;
