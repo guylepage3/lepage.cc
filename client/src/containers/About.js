@@ -48,7 +48,7 @@ class About extends Component {
                   <li><a href="http://blockchain.capital/" alt="Blockchain Capital" target="_blank" className="bg-black text-light px-1 mx-1">Blockchain Capital</a></li>
                   <li><a href="http://dcg.co/" alt="Digital Currency Group" target="_blank" className="bg-black text-light px-1 mx-1">Digital Currency Group</a></li>
                   <li><a href="http://twitter.com/@kevinrose" alt="Kevin Rose" target="_blank" className="bg-black text-light px-1 mx-1">Kevin Rose</a></li>
-                  <li><a href="http://qasaryounis.com/" alt="Qasar Younis" target="_blank" className="bg-black text-light px-1 mx-1">Qasar Younis former COO of Y Combinator</a></li>
+                  <li><a href="http://qasaryounis.com/" alt="Qasar Younis" target="_blank" className="bg-black text-light px-1 mx-1">Qasar Younis</a> former COO of <a href="http://www.ycombinator.com/" alt="Y Combinator" target="_blank" className="bg-black text-light px-1 mx-1">Y Combinator</a></li>
                 </ul>
               <li>
                 Was 1 of 4 core contributors in raising a $4M Series A funding round led by Union Square Ventures. Other investors include;
