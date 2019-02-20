@@ -81,7 +81,7 @@ class Header extends Component {
             <div className="container">
               <Description 
                 className="font-weight-bold">
-                <span 
+                <button 
                   className="mr-1"
                   style={{
                     background: 'none',
@@ -99,7 +99,7 @@ class Header extends Component {
                   >
                   <FontAwesomeIcon icon="info-circle" 
                   className="test"/>
-                </span>
+                </button>
                   Clppr iOS & Android App
               </Description>
             </div>

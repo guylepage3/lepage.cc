@@ -4,7 +4,7 @@ import $ from 'jquery';
 class NavbarToggler extends Component {
 
   componentDidMount = () => {
-    $("button").click( function() {
+    $("#toggle").click( function() {
       $("#navbarBasic").animate( {
         opacity: "toggle",
         backgroundColor: "#fff"
@@ -16,6 +16,7 @@ class NavbarToggler extends Component {
     return (
       <button 
         className="navbar-toggler collapsed" 
+        id="toggle"
         type="button" 
         data-toggle="collapse" 
         data-target="#navbarBasic" 
