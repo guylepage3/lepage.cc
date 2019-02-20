@@ -24,7 +24,6 @@ class Intro extends Component {
           }}>
         </div>
         <Splash />
-        <Footer />
       </div>
     );
   }
