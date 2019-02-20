@@ -1,5 +1,9 @@
 /* App.css */
 
+a:hover {
+  transition: all 0.2s ease-in-out;
+}
+
 html {
   text-rendering: optimizeLegibility;
 }

@@ -1,5 +1,13 @@
 /* Tooltips.css */
 
+button.tooltip-toggle {
+  transition: all 0.2s ease-in-out;
+}
+
+button.tooltip-toggle:hover {
+  color: #616161!important;
+}
+
 .tooltip.bs-tooltip-top {
   overflow: none;
 }

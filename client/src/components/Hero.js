@@ -82,7 +82,7 @@ class Header extends Component {
               <Description 
                 className="font-weight-bold">
                 <button 
-                  className="mr-1"
+                  className="tooltip-toggle mr-1"
                   style={{
                     background: 'none',
                     border: 'none',
