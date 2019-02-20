@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import NavbarSocial from '../components/NavbarSocial';
-import FooterSocial from '../components/FooterSocial';
+import Social from '../components/Social';
+import SocialText from '../components/SocialText';
 import NavbarToggler from '../components/NavbarToggler';
 import logo from './../img/guylepage-logo-wordmark.svg';
 import '../css/Navbar.css';
@@ -65,7 +65,7 @@ class Navbar extends Component {
         >
         <div className="container">
           <ul className="navbar-nav d-none d-md-inline-flex">
-            <NavbarSocial 
+            <Social 
               socialItems={this.state.socialItems} 
               />
           </ul>
@@ -120,7 +120,7 @@ class Navbar extends Component {
                 </a>
               </li>
               <div className="nav-item d-md-none">
-                <FooterSocial 
+                <SocialText 
                   socialItems={this.state.socialItems}
                   className="text-black"
                   listAlign="d-block pt-3 pb-2 ml-0"

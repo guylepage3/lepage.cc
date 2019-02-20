@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import CopyrightUpdate from 'copyright-update';
-import FooterColLeft from './FooterColLeft';
 import FooterColCenter from './FooterColCenter';
 import FooterColRight from './FooterColRight';
-import FooterSocial from './FooterSocial';
+import Social from './Social';
 import logo from './../img/guylepage-logo-wordmark-white.svg';
 import '../css/Footer.css';
 
@@ -89,7 +88,7 @@ class Footer extends Component {
                   paddingRight: '2px',
                   paddingLeft: '8px'
                 }}>
-                <FooterSocial 
+                <Social 
                   socialItems={this.state.socialItems}
                   className="text-white"
                   listAlign="list-inline-item"

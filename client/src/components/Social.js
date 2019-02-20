@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-class NavbarSocial extends Component {
+class Social extends Component {
   render() {
     return this.props.socialItems.map((item) => (
-      <li key={item.id} className="list-inline-item mx-2">
+      <li key={item.id} className={`${this.props.listAlign} mx-2`}>
         <a 
           href={item.href} 
-          alt={item.alt}>
+          alt={item.alt}
+          className={`${this.props.className}`}>
           <FontAwesomeIcon 
             className="mr-1" 
             icon={[`fab`, `${item.icon}`]}
@@ -18,4 +19,4 @@ class NavbarSocial extends Component {
   }
 }
 
-export default NavbarSocial;
+export default Social;
