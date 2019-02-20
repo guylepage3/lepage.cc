@@ -1,5 +1,9 @@
 /* Tooltips.css */
 
+.tooltip.bs-tooltip-top {
+  overflow: none;
+}
+
 .tooltip.bs-tooltip-top > .tooltip-inner {
   background-color: #000;
   color: #fff;
@@ -8,7 +12,7 @@
   border-radius: 8px;
   padding: 32px 40px;
   font-size: 15px;
-  max-width: unset;
+  max-width: 310px;
   text-align: left;
 }
 
@@ -33,4 +37,10 @@
 
 .tooltip.show {
   opacity: 1!important;
+}
+
+@media (min-width: 576px) {
+  .tooltip.bs-tooltip-top > .tooltip-inner {
+    max-width: 450px;
+  }
 }
