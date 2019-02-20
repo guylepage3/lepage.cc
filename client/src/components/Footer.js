@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
 import CopyrightUpdate from 'copyright-update';
+import FooterColLeft from './FooterColLeft';
+import FooterColCenter from './FooterColCenter';
+import FooterColRight from './FooterColRight';
 import FooterSocial from './FooterSocial';
-
-const Div = styled.div`
-  padding-bottom: 0;
-
-  @media (min-width: 768px) {
-    padding-bottom: 0.5rem;
-  }
-`;
+import logo from './../img/guylepage-logo-wordmark-white.svg';
+import '../css/Footer.css';
 
 class Footer extends Component {
   state = {
@@ -54,38 +50,81 @@ class Footer extends Component {
 
   render() {
     return (
-      <footer className="container-fluid mx-auto text-center pt-4 pb-4"> {/**/}
-        <Div className="text-white-50 text-footer font-weight-bold">
-          <ul className="list-inline my-2">
-            <FooterSocial 
-              socialItems={this.state.socialItems}
-              className="text-white"
-              listAlign="list-inline-item"
+      <footer 
+        className={`container-fluid ${this.props.className}`}
+        style={this.props.style}>
+
+        <div className="container pt-6 pb-6">
+          <div className="mb-4b">
+            <a href="/">
+              <img
+                src={logo} 
+                className="navbar-brand-img" 
+                alt="Universe Logo"
+                style={{
+                  marginLeft: '-3px'
+                }}/>
+            </a>
+          </div>
+          <div>
+            <div className="row">
+              <div className="col-sm-6 col-md-3 mb-4 ml-auto">
+                <ul className="list-unstyled my-2">
+                  <li className="d-block text-white mb-3">Roles</li>
+                  <FooterColCenter className="text-white" />
+                </ul>
+              </div>
+              <div className="col-sm-6 col-md-3 mb-3">
+                <ul className="list-unstyled my-2">
+                  <li className="d-block text-white mb-3">Awards & Organaizations</li>
+                  <FooterColRight className="text-white" />
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="text-white-50 mb-4">
+            <div className="row">
+              <ul className="inline-list"
+                style={{
+                  paddingRight: '2px',
+                  paddingLeft: '8px'
+                }}>
+                <FooterSocial 
+                  socialItems={this.state.socialItems}
+                  className="text-white"
+                  listAlign="list-inline-item"
+                />
+              </ul>
+              <div className="subscribe ml-auto pl-3 pr-3">
+                <p className="text-white small-font-size-90 mt-4">
+                  Subscribe to my weekly newsletter.
+                </p>
+                <a
+                  className="btn btn-light btn-block mx-auto mb-4"
+                  style={{
+                    fontSize: '13px',
+                    fontWeight: '700',
+                    letterSpacing: '.03em',
+                    textTransform: 'uppercase',
+                    padding: '12px 45px'
+                  }}
+                  href="/subscribe" 
+                  role="button"
+                  tabIndex="1">
+                  Subscribe
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="container line bg-white mb-4c"></div>
+          <div className="small text-white-50 letter-space mb-2">
+            <CopyrightUpdate 
+              style={{
+                display: 'inline-block'
+              }}
             />
-          </ul>
-        </Div>
-        <div className="text-footer text-white-50 font-weight-normal mb-3">
-          <a 
-            href="/subscribe" 
-            alt="Subscribe to newsletter"
-            className="text-white font-weight-bold">
-            Newsletter
-          </a>
-          &nbsp;&nbsp;&nbsp;&middot;&nbsp;&nbsp;&nbsp;
-          <a 
-            href="https://goo.gl/forms/2LvYYCg1VViD6FWm2" 
-            alt="Contact Guy Lepage"
-            className="text-white font-weight-bold">
-            Contact
-          </a>
-        </div>
-        <div className="text-footer text-white-50 font-weight-normal">
-          <CopyrightUpdate
-            style={{
-              display: 'inline-block',
-            }}
-          />
-          .
+            &nbsp;Guy Lepage.
+          </div>
         </div>
       </footer>
     );

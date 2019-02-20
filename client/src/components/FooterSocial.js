@@ -18,7 +18,6 @@ class FooterSocial extends Component {
             className="mr-1" 
             icon={[`fab`, `${item.icon}`]}
             />
-            &nbsp;{item.text}
         </a>
       </ListItem>
     ));

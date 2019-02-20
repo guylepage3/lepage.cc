@@ -1,14 +1,27 @@
 /* Footer */
 
+.line {
+  height: 1px;
+  width: 100%;
+}
+
 .footer-brand-img {
   width: 90px;
+}
+
+.subscribe {
+  width: 100%;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
 /* No media query for `xs` since this is the default in Bootstrap */
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+  .subscribe {
+    width: 320px;
+  }
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {

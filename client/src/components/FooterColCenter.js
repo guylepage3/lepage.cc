@@ -4,17 +4,35 @@ class FooterColCenter extends Component {
   state = {
     data : [
       {
-        "id": 4,
+        "id": 30,
         "url": "/",
-        "text": "Travelers",
-        "alt": "Travelers"
+        "text": "Portfolio",
+        "alt": "Portfolio"
       },
       {
-        "id": 5,
+        "id": 31,
         "url": "/",
-        "text": "Hotels",
-        "alt": "Hotels"
-      }
+        "text": "Growth",
+        "alt": "Growth"
+      },
+      {
+        "id": 32,
+        "url": "/",
+        "text": "Resume",
+        "alt": "Resume"
+      },
+      {
+        "id": 33,
+        "url": "/",
+        "text": "Skills",
+        "alt": "Skills"
+      },
+      {
+        "id": 34,
+        "url": "/",
+        "text": "Experience",
+        "alt": "Experience"
+      }     
     ]
   }
   
