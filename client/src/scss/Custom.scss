@@ -33,8 +33,14 @@ $navbar-light-active-color:          primary;
 // Base Typography
 
 $small-font-size-90:             90%; // Custom
-
 .small-font-size-90 { font-size: $small-font-size-90; }
+
+// Headings
+//
+// Style h1, h2, h3, h4, h5, h6 elements and 
+// .h1, .h2, .h3, .h4, .h5, .h6 classes.
+
+$headings-font-weight:        800;
 
 
 // Links
