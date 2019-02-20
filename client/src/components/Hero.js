@@ -92,10 +92,12 @@ class Header extends Component {
                   data-placement="top" 
                   data-html="true"
                   title="
-                    <div><b>Clppr App</b></span></div>
-                    <p>Social news sharing platform</p>
-                    <p>Co-founder, product, UX/UI designer</p>
-                    <p>iOS, Android</p>"
+                    <div>
+                    <span><b>Clppr App</b></span><br/>
+                    <span>Social news sharing platform</span>
+                    </div>
+                    <p>Role: Co-founder, product, UX/UI designer</p>
+                    <p>Format: iOS, Android</p>"
                   >
                   <FontAwesomeIcon icon="info-circle" 
                   className="test"/>
