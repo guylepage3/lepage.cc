@@ -105,17 +105,16 @@ $ npm install
 Go back to the server 
 
 ```
-$ cd client
-$ npm install
+$ cd ../
 ```
 
-Go back to the server and run...
+Start both the server and client by running...
 
 ```
 $ npm run dev
 ```
 
-The app will and automatically start the Node/Express server on port http://localhost:5000/ as well as the client side server on port http://localhost:3000/.
+The app will and automatically start the Node/Express server on port http://localhost:5000/ as well as the client side server on port http://localhost:3000/. The app will also listen for changes and update automatically.
 
 ## Maintainers
 
