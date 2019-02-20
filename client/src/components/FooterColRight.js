@@ -14,27 +14,28 @@ class FooterColRight extends Component {
         "url": "mailto:guylepage3@gmail.com?subject=Mail from website",
         "text": "Contact",
         "alt": "Contact"
-      },
-      {
-        "id": 42,
-        "url": "/",
-        "text": "Awards",
-        "alt": "Awards"
-      },
-      {
-        "id": 43,
-        "url": "/",
-        "text": "Organizations",
-        "alt": "Organizations"
-      },
-      {
-        "id": 44,
-        "url": "/",
-        "text": "Case studies",
-        "alt": "Case studies"
       }
     ]
   }
+
+      // {
+      //   "id": 42,
+      //   "url": "/",
+      //   "text": "Awards",
+      //   "alt": "Awards"
+      // },
+      // {
+      //   "id": 43,
+      //   "url": "/",
+      //   "text": "Organizations",
+      //   "alt": "Organizations"
+      // },
+      // {
+      //   "id": 44,
+      //   "url": "/",
+      //   "text": "Case studies",
+      //   "alt": "Case studies"
+      // }
   
   render() {
     return this.state.data.map((item) => (

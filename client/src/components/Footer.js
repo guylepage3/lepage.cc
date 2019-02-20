@@ -70,20 +70,20 @@ class Footer extends Component {
             <div className="row">
               <div className="col-sm-6 col-md-3 mb-4 ml-auto">
                 <ul className="list-unstyled my-2">
-                  <li className="d-block text-white mb-3">Roles</li>
+                  <li className="d-block text-white mb-3">Experience</li>
                   <FooterColCenter className="text-white" />
                 </ul>
               </div>
               <div className="col-sm-6 col-md-3 mb-3">
                 <ul className="list-unstyled my-2">
-                  <li className="d-block text-white mb-3">Awards & Organaizations</li>
+                  <li className="d-block text-white mb-3">Other</li>
                   <FooterColRight className="text-white" />
                 </ul>
               </div>
             </div>
           </div>
           <div className="text-white-50 mb-4">
-            <div className="row">
+            <div className="row d-flex align-items-end">
               <ul className="inline-list"
                 style={{
                   paddingRight: '2px',
