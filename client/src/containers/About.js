@@ -13,7 +13,11 @@ class About extends Component {
             backgroundColor: 'transparent'
         }}/>
         <NavLine />
-        <div className="container mb-8 pb-8 pr-9">
+        <div 
+          className="container text-left mr-auto mb-8 pb-8"
+          style={{
+            maxWidth: '850px'
+          }}>
           <h1 className="h1-editorial">
             Simple, clean, concise  experiences that keep the user  coming back, time and time again.
           </h1>
@@ -78,7 +82,7 @@ class About extends Component {
                 Part of the New York and Silicon Valley tech startup community.
               </li>
               <li>
-                In 2014, <a href="http://bit.ly/2EmhH8p" alt="WPP agrees to acquire majority stake in digital technology consultancy Cognifide" target="_blank" className="bg-black text-light px-1 mx-1">assisted in the selling of a 150 persona staff digital firm in London</a> to the world’s largest digital agency, <a href="https://www.wpp.com/" alt="WPP" target="_blank" className="bg-black text-light px-1 mx-1">WPP</a>.
+                In 2014, <a href="http://bit.ly/2EmhH8p" alt="WPP agrees to acquire majority stake in digital technology consultancy Cognifide" target="_blank" className="bg-black text-light px-1 mx-1">assisted in the selling of a large, 150 person digital firm based out of London</a> to the world’s largest digital agency, <a href="https://www.wpp.com/" alt="WPP" target="_blank" className="bg-black text-light px-1 mx-1">WPP</a>.
               </li>
               <li>
                 Assisted a Canadian publicly traded technology company in designing a mobile app with over 20 million downloads.
