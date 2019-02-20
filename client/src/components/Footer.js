@@ -60,7 +60,8 @@ class Footer extends Component {
                 className="navbar-brand-img" 
                 alt="Universe Logo"
                 style={{
-                  marginLeft: '-3px'
+                  marginLeft: '-3px',
+                  width: '125px'
                 }}/>
             </a>
           </div>
