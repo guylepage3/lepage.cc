@@ -42,7 +42,7 @@ class About extends Component {
               </li>
                 <ul>
                   <li><a href="http://usv.com" alt="Union Square Ventures (USV)" target="_blank">Union Square Ventures (USV)</a></li>
-                  <li><a href="http://foundationcapital.com/" alt="Foundation Capital" target="_blank">Foundation Capital</li>
+                  <li><a href="http://foundationcapital.com/" alt="Foundation Capital" target="_blank">Foundation Capital</a></li>
                   <li><a href="http://www.luxcapital.com/" alt="Lux Capital" target="_blank">Lux Capital</a></li>
                   <li><a href="http://winklevosscapital.com/" alt="Winklevoss Capital" target="_blank">Winklevoss Capital</a></li>
                   <li><a href="http://blockchain.capital/" alt="Blockchain Capital" target="_blank">Blockchain Capital</a></li>
