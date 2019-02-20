@@ -89,6 +89,28 @@ class About extends Component {
               </li>
             </ul>
           </div>
+          <h3 className="h3-editorial">
+            Experience
+          </h3>
+          <p>
+            For a detailed list of who I’ve worked with please visit my LinkedIn profile.
+          </p>
+          <div className="subscribe mr-auto">
+          <a
+            className="btn btn-black btn-block mx-auto mb-4"
+            style={{
+              fontSize: '13px',
+              fontWeight: '700',
+              letterSpacing: '.03em',
+              textTransform: 'uppercase',
+              padding: '12px 65px'
+            }}
+            href="http://www.linkedin.com/in/guylepage/" 
+            role="button"
+            tabIndex="1">
+            LinkedIn
+          </a>
+        </div>
         </div>
         <Footer />
       </div>
