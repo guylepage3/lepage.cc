@@ -22,7 +22,7 @@ class About extends Component {
             Simple, clean, concise  experiences that keep the user  coming back, time and time again.
           </h1>
           <p>
-            Guy Lepage, is a Senior Product UX/UI Designer and Front-end Developer with 19 years of industry experience, specializing in designing and developing pixel perfect digital products, web apps, mobile apps, websites, and more. Guy focuses on ensuring that users have the best experiences without sacrificing code quality.
+            Guy Lepage, is the founder of <a href="http://universe.engineering" alt="Universe Labs" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Universe Labs&nbsp;</a>, a startup focused on making the decentralized web more accessible. Guy is a senior product UX/UI designer and front-end developer with 19 years of industry experience.
           </p>
           <h3 className="h3-editorial">
             Bio

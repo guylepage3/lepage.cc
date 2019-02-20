@@ -4,6 +4,11 @@ a:hover {
   transition: all 0.2s ease-in-out;
 }
 
+a.text-light:hover, a.text-light:focus {
+  color: #fff!important;
+  background-color: #007BFF!important;
+}
+
 html {
   text-rendering: optimizeLegibility;
 }
