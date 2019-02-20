@@ -5,7 +5,7 @@ class FooterColRight extends Component {
     data : [
       {
         "id": 40,
-        "url": "/",
+        "url": "/about",
         "text": "About",
         "alt": "About"
       },

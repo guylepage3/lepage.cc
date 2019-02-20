@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Intro from './containers/Intro';
 import Home from './containers/Home';
+import About from './containers/About';
 import NoMatch from './containers/NoMatch';
 import PatternLib from './containers/PatternLib';
 import Subscribe from './containers/Subscribe';
@@ -28,7 +29,8 @@ class App extends Component {
         <BrowserRouter>
           <Switch>
             <Route exact path="/" component={Intro} />
-            <Route path="/Home" component={Home} />
+            <Route path="/home" component={Home} />
+            <Route path="/about" component={About} />
             <Route path="/pattern-library" component={PatternLib} />
             <Route path="/subscribe" component={Subscribe} />
             <Route path="/subscribe-error" component={SubscribeError} />

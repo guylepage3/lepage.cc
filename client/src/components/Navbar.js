@@ -107,6 +107,13 @@ class Navbar extends Component {
               </li>
               <li className="nav-item">
                 <a 
+                  href="/about"
+                  className="nav-link">
+                   About
+                </a>
+              </li>
+              <li className="nav-item">
+                <a 
                   href="https://goo.gl/forms/2LvYYCg1VViD6FWm2"
                   className="nav-link">
                    Contact

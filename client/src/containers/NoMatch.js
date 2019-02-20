@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Footer from '../components/Footer';
 import Code404 from '../components/Code404';
 
 class NoMatch extends Component {

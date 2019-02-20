@@ -7,20 +7,15 @@ import Hero from '../components/Hero';
 class Home extends Component {
   render() {
     return (
-      <div style={{
-        backgroundColor: '#000',
-        height: '100vh'
-        }}>
-        <div style={{ backgroundColor: '#000' }}>
-          <Navbar 
-            style={{
-              zIndex: '10',
-              backgroundColor: 'transparent'
-          }}/>
-          <NavLine />
-          <Hero />
-          <Footer />
-        </div>
+      <div>
+        <Navbar 
+          style={{
+            zIndex: '10',
+            backgroundColor: 'transparent'
+        }}/>
+        <NavLine />
+        <Hero />
+        <Footer />
       </div>
     );
   }

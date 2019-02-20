@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Footer from '../components/Footer';
+import FooterMini from '../components/FooterMini';
 import Splash from '../components/Splash';
 
 class Intro extends Component {
@@ -24,6 +24,7 @@ class Intro extends Component {
           }}>
         </div>
         <Splash />
+        <FooterMini />
       </div>
     );
   }
