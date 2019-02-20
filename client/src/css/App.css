@@ -20,6 +20,12 @@ dd {
   margin-bottom: 1.5rem;
 }
 
+.line {
+  height: 1px;
+  width: 100%;
+  margin-top: 53px;
+}
+
 .quote {
   font-size: 2.05rem;
 }

@@ -60,12 +60,10 @@ class Navbar extends Component {
 
   render() {
     return (
-      <Nav 
-        className={`navbar navbar-expand-md ${this.props.colorScheme}`}
+      <Nav className={`navbar navbar-expand-md ${this.props.colorScheme}`}
         style={this.props.style}
         >
-        <div 
-          className="container">
+        <div className="container">
           <ul className="navbar-nav d-none d-md-inline-flex">
             <NavbarSocial 
               socialItems={this.state.socialItems} 
