@@ -37,24 +37,24 @@ class Subscribe extends Component {
               </Div>
               <SubscribeForm />
               <a
-                  className="btn btn-link btn-subscribe btn-block mx-auto"
-                  style={{
-                    textDecoration: 'none',
-                    maxWidth: '280px',
-                    marginTop: '16px'
-                  }}
-                  href="/home" 
-                  role="button">
-                  Back
-                </a>
-            </div>
-            <div className="text-center small letter-space mt-9 mb-4">
-              <CopyrightUpdate 
+                className="btn btn-link btn-subscribe btn-block mx-auto"
                 style={{
-                  display: 'inline-block'
+                  textDecoration: 'none',
+                  maxWidth: '280px',
+                  marginTop: '16px'
                 }}
-              />
-              &nbsp;Guy Lepage.
+                href="/home" 
+                role="button">
+                Back
+              </a>
+              <div className="text-center small letter-space mt-9 mb-4">
+                <CopyrightUpdate 
+                  style={{
+                    display: 'inline-block'
+                  }}
+                />
+                &nbsp;Guy Lepage.
+              </div>
             </div>
           </div>
         </div>

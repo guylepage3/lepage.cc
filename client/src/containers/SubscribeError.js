@@ -36,14 +36,14 @@ class SubscribeError extends Component {
                   Back
                 </a>
               </div>
-            </div>
-            <div className="text-center small letter-space mt-9 mb-4">
-              <CopyrightUpdate 
-                style={{
-                  display: 'inline-block'
-                }}
-              />
-              &nbsp;Guy Lepage.
+              <div className="text-center small letter-space mt-9 mb-4">
+                <CopyrightUpdate 
+                  style={{
+                    display: 'inline-block'
+                  }}
+                />
+                &nbsp;Guy Lepage.
+              </div>
             </div>
           </div>
         </div>
