@@ -3,7 +3,7 @@
     <img src="https://user-images.githubusercontent.com/1711854/46634061-b79fe680-cb1d-11e8-9d83-32f563fa8acc.png" width=135 alt>
   </a>
   <p align="center">
-    Website for Guy Lepage
+    Guy Lepage web app
     <br/>
     <a href="https://github.com/guylepage3/lepage.cc/issues/new" alt="Report a Bug (Lepage.cc)">
       <strong>Report bug</strong>
@@ -46,25 +46,35 @@
 </p>
 <br/>
 <p align="center">
-  <img width="700" alt="lepage.cc-v2.1.26" src="https://user-images.githubusercontent.com/1711854/48869530-8e74a600-edab-11e8-9cd7-cf19e366a9dd.png">
+  <img width="700" alt="lepage.cc-v2.2.3" src="https://user-images.githubusercontent.com/1711854/53118382-fb1e4e80-351a-11e9-9036-290b2e7d8fc8.png">
 </p>
 <br/>
 
 ## Table of contents
 
 - [Status](#status)
-- [What's included](#whats-included)
+- [Overview](#overview)
 - [Quick Start](#quick-start)
 - [Maintainers](#maintainers)
 
 ## Status
 
-[![Lepage.cc version](https://img.shields.io/badge/dynamic/json.svg?label=Lepage.cc+version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Flepage.cc%2Fmaster%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/guylepage3/lepage.cc)
+[![Lepage.cc version](https://img.shields.io/badge/dynamic/json.svg?label=Lepage.cc+version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fguylepage3%2Flepage.cc%2Fmaster%2Fclient%2Fpackage.json&query=%24.version&colorA=%23212121&colorB=%2300BB00)](https://github.com/guylepage3/lepage.cc)
 [![Build status](https://img.shields.io/circleci/project/github/guylepage3/lepage.cc.svg?label=Build+status&colorA=%23212121)](https://circleci.com/gh/guylepage3/lepage.cc)
 [![dependencies status](https://img.shields.io/david/guylepage3/lepage.cc.svg?label=dependencies&colorA=%23212121)](https://david-dm.org/guylepage3/lepage.cc)
 [![devDependencies status](https://img.shields.io/david/dev/guylepage3/lepage.cc.svg?label=devDependencies&colorA=%23212121)](https://david-dm.org/guylepage3/lepage.cc?type=dev)
 
+## Overview
+
+Lepage.cc is a Node, Express, React application utilizing the Model–View–Controller is an architecture. Styles are either implemented within the components themselves or within separate component based style sheets. The app is open source for anyone to fork.
+
 ## Quick start
+
+- Download
+- npm install on server
+npm in stall client
+
+npm run dev
 
 Quickly start by cloning the repository to your local machine
 
@@ -78,17 +88,34 @@ Install [`npm`](https://www.npmjs.com/get-npm). `npm` is installed and comes bun
 $ brew install node
 ```
 
-Add dependencies
+Add dependencies for the [Express.js](https://expressjs.com/) server
 
 ```
+$ cd lepage.cc
 $ npm install
 ```
 
-Start the local client side server and run the app. The app will automatically open your web browser and navigate to http://localhost:3000/ for you
+Add dependencies for the [React.js](https://reactjs.org/)/[create-react-app](https://github.com/facebook/create-react-app) client
 
 ```
-$ npm start
+$ cd client
+$ npm install
 ```
+
+Go back to the server 
+
+```
+$ cd client
+$ npm install
+```
+
+Go back to the server and run...
+
+```
+$ npm run dev
+```
+
+The app will and automatically start the Node/Express server on port http://localhost:5000/ as well as the client side server on port http://localhost:3000/.
 
 ## Maintainers
 
