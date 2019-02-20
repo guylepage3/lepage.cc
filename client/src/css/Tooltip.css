@@ -4,7 +4,8 @@
   overflow: none;
 }
 
-.tooltip.bs-tooltip-top > .tooltip-inner {
+.tooltip.bs-tooltip-top > .tooltip-inner,
+.tooltip.bs-tooltip-bottom > .tooltip-inner {
   background-color: #000;
   color: #fff;
   border: 1px solid rgba(255,255,255,0.05);
@@ -12,20 +13,24 @@
   border-radius: 8px;
   padding: 32px 40px;
   font-size: 15px;
-  max-width: 310px;
+  max-width: 450px;
+  margin-right: 10px;
   text-align: left;
 }
 
-.tooltip.bs-tooltip-top > .tooltip-inner > div {
+.tooltip.bs-tooltip-top > .tooltip-inner > div,
+.tooltip.bs-tooltip-bottom > .tooltip-inner > div {
   margin-bottom: 8px;
 }
 
-.tooltip.bs-tooltip-top > .tooltip-inner > div > span {
+.tooltip.bs-tooltip-top > .tooltip-inner > div > span,
+.tooltip.bs-tooltip-bottom > .tooltip-inner > div > span {
   display: inline-block;
   margin-bottom: 4px;
 }
 
-.tooltip.bs-tooltip-top > .tooltip-inner > p {
+.tooltip.bs-tooltip-top > .tooltip-inner > p,
+.tooltip.bs-tooltip-bottom > .tooltip-inner > p {
   font-size: 14px;
   margin-bottom: 4px;
   color: #bdbdbd;
@@ -37,10 +42,4 @@
 
 .tooltip.show {
   opacity: 1!important;
-}
-
-@media (min-width: 576px) {
-  .tooltip.bs-tooltip-top > .tooltip-inner {
-    max-width: 450px;
-  }
 }
