@@ -28,8 +28,11 @@ class Subscribe extends Component {
           <div className="card col-md-8">
             <div className="card-body">
               <Div className="text-center mb-4">
-                <p className="lead-md font-weight-bold">
-                  Subscribe.
+                <p className="lead font-weight-bold">
+                  Weekly Newsletter
+                </p>
+                <p>
+                  Subscribe to my weekly newsletter. Get updates, thoughts, news and more...
                 </p>
               </Div>
               <SubscribeForm />
@@ -51,7 +54,7 @@ class Subscribe extends Component {
                   display: 'inline-block'
                 }}
               />
-              .
+              &nbsp;Guy Lepage.
             </div>
           </div>
         </div>

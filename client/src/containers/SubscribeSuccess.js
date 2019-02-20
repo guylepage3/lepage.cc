@@ -45,7 +45,7 @@ class SubscribeSuccess extends Component {
                   display: 'inline-block'
                 }}
               />
-              .
+              &nbsp;Guy Lepage.
             </div>
           </div>
         </div>

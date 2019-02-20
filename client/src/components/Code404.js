@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import CopyrightUpdate from 'copyright-update';
 
 class Code404 extends Component {
   render() {
@@ -32,6 +33,14 @@ class Code404 extends Component {
               </a>
             </p>
           </div>
+        </div>
+        <div className="text-center small letter-space mt-9 mb-4">
+          <CopyrightUpdate 
+            style={{
+              display: 'inline-block'
+            }}
+          />
+          &nbsp;Guy Lepage.
         </div>
       </div>
     );

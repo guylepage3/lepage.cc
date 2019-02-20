@@ -12,7 +12,6 @@ class NoMatch extends Component {
           }}>
         </div>
         <Code404 />
-        <Footer />
       </div>
     );
   }
