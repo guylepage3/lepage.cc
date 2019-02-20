@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Navbar';
+import NavLine from '../components/NavLine';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 
@@ -13,9 +14,10 @@ class Home extends Component {
         <div style={{ backgroundColor: '#000' }}>
           <Navbar 
             style={{
-              zIndex: '20',
+              zIndex: '10',
               backgroundColor: 'transparent'
           }}/>
+          <NavLine />
           <Hero />
           <Footer />
         </div>

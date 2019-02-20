@@ -21,9 +21,7 @@ dd {
 }
 
 .line {
-  height: 1px;
-  width: 100%;
-  margin-top: 53px;
+  display: none;
 }
 
 .quote {
@@ -69,13 +67,37 @@ dd {
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+  .line {
+    position: absolute;
+    display: block;
+    height: 1px;
+    width: 100%;
+    z-index: 1;
+  }
+}
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+  .line {
+    position: absolute;
+    display: block;
+    height: 1px;
+    width: 100%;
+    left: 50%;
+    margin-right: 0;
+    margin-left: -480px;
+  }
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+  .line {
+    left: 50%;
+    margin-right: 0;
+    margin-left: -570px;
+  }
+}
 
 /* Extra Extra small devices devices */
 @media (max-width:348px) {}
