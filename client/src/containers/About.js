@@ -27,7 +27,7 @@ class About extends Component {
             International award-winning senior product and UX/UI designer, marketing expert and entrepreneur with 19+ years experience working on some of the world’s largest brands and most exciting startups.
           </p>
           <p>
-          First hire at Blockstack, a venture backed blockchain startup who has built a new decentralized internet for decentralized applications. I am a former entrepreneur with a passion for business, design and technology as well as a former digital advertising agency business owner and an internationally recognized UX/UI designer. I’ve taken a unique career path progressing from a Newspaper Art Director to Creative Director with ad agencies and tech companies to the pursuit and passion for startups, business, design and technology on a global scale.
+          First hire at <a href="http://blockstack.org" alt="Blockstack" target="_blank">Blockstack</a>, a venture backed blockchain startup who has built a new decentralized internet for decentralized applications. I am a former entrepreneur with a passion for business, design and technology as well as a former digital advertising agency business owner and an internationally recognized UX/UI designer. I’ve taken a unique career path progressing from a Newspaper Art Director to Creative Director with ad agencies and tech companies to the pursuit and passion for startups, business, design and technology on a global scale.
           </p>
           <h3 className="h3-editorial">
             Highlights
@@ -35,20 +35,20 @@ class About extends Component {
           <div>
             <ul>
               <li>
-                Was the first hire at Blockstack, a blockchain startup working closely with the founders and designed and built roughly 30 products, including websites, chrome extensions, native apps, web apps, etc. over a 2.5 yr period.
+                Was the first hire at <a href="http://blockstack.org" alt="Blockstack" target="_blank">Blockstack</a>, a blockchain startup working closely with the founders and designed and built roughly 30 products, including websites, chrome extensions, native apps, web apps, etc. over a 2.5 yr period.
               </li>
               <li>
-                Was one of the core contributors to Blockstack’s $52M ICO and token distribution. VC’s who participated in the ICO include;
+                Was one of the core contributors to <a href="https://venturebeat.com/2017/12/04/blockstack-raises-52-million-to-build-a-parallel-internet-where-you-own-all-your-data/" alt="Blockstack raises $52 million to build a parallel internet where you own all your data" target="_blank">Blockstack’s $52M ICO</a> and token distribution. VC’s who participated in the ICO include;
               </li>
                 <ul>
-                  <li>Union Square Ventures</li>
-                  <li>Foundation Capital</li>
-                  <li>Lux Capital</li>
-                  <li>Winklevoss Capital</li>
-                  <li>Blockchain Capital</li>
-                  <li>Digital Currency Group</li>
-                  <li>Kevin Rose</li>
-                  <li>Qasar Younis former COO of Y Combinator</li>
+                  <li><a href="http://usv.com" alt="Union Square Ventures (USV)" target="_blank">Union Square Ventures (USV)</a></li>
+                  <li><a href="http://foundationcapital.com/" alt="Foundation Capital" target="_blank">Foundation Capital</li>
+                  <li><a href="http://www.luxcapital.com/" alt="Lux Capital" target="_blank">Lux Capital</a></li>
+                  <li><a href="http://winklevosscapital.com/" alt="Winklevoss Capital" target="_blank">Winklevoss Capital</a></li>
+                  <li><a href="http://blockchain.capital/" alt="Blockchain Capital" target="_blank">Blockchain Capital</a></li>
+                  <li><a href="http://dcg.co/" alt="Digital Currency Group" target="_blank">Digital Currency Group</a></li>
+                  <li><a href="http://twitter.com/@kevinrose" alt="Kevin Rose" target="_blank">Kevin Rose</a></li>
+                  <li><a href="http://qasaryounis.com/" alt="Qasar Younis" target="_blank">Qasar Younis former COO of Y Combinator</a></li>
                 </ul>
               <li>
                 Was 1 of 4 core contributors in raising a $4M Series A funding round led by Union Square Ventures. Other investors include;
