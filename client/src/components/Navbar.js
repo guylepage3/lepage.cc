@@ -100,7 +100,7 @@ class Navbar extends Component {
             <ul className="navbar-nav">
               <li className="nav-item d-md-none">
                 <a 
-                  href="/"
+                  href="/home"
                   className="nav-link">
                     Home
                 </a>
