@@ -32,7 +32,7 @@ class SubscribeSuccess extends Component {
                   style={{
                     textDecoration: 'none'
                   }}
-                  href="/" 
+                  href="/home" 
                   role="button"
                   tabIndex="1">
                   Done
