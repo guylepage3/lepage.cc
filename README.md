@@ -3,35 +3,31 @@
     <img src="https://user-images.githubusercontent.com/1711854/46634061-b79fe680-cb1d-11e8-9d83-32f563fa8acc.png" width=135 alt>
   </a>
   <p align="center">
-    Guy Lepage web app
+    Guy Lepage website and portfolio
     <br/>
-    <a href="https://github.com/guylepage3/lepage.cc/issues/new" alt="Report a Bug (Lepage.cc)">
-      <strong>Report bug</strong>
+    <a href="https://lepage.cc" alt="Guy Lepage">
+      <strong>www.lepage.cc</strong>
+    </a>
+    <br/>
+    <br/>
+    <a href="https://github.com/guylepage3" alt="GitHub guylepage3 (Guy Lepage)">
+      <strong>GitHub</strong>
+    </a>
+    &middot;
+    <a href="https://www.npmjs.com/~guylepage3" alt="npm guylepage3 (Guy Lepage)">
+      <strong>npm</strong>
+    </a>
+    &middot;
+    <a href="https://www.linkedin.com/in/guylepage/" alt="Guy Lepage | LinkedIn">
+      <strong>LinkedIn</strong>
+    </a>
+    &middot;
+    <a href="https://medium.com/@guylepage3" alt="Guy Lepage – Medium">
+      <strong>Medium</strong>
     </a>
     &middot;
     <a href="https://goo.gl/forms/2LvYYCg1VViD6FWm2" alt="Contact Guy Lepage">
       <strong>Contact</strong>
-    </a>
-    <br/>
-    <br/>
-    <a href="https://lepage.cc" alt="Guy Lepage">
-      Website
-    </a>
-    &middot;
-    <a href="https://github.com/guylepage3" alt="GitHub guylepage3 (Guy Lepage)">
-      GitHub
-    </a>
-    &middot;
-    <a href="https://www.npmjs.com/~guylepage3" alt="npm guylepage3 (Guy Lepage)">
-      npm
-    </a>
-    &middot;
-    <a href="https://www.linkedin.com/in/guylepage/" alt="Guy Lepage | LinkedIn">
-      LinkedIn
-    </a>
-    &middot;
-    <a href="https://medium.com/@guylepage3" alt="Guy Lepage – Medium">
-      Medium
     </a>
     <br/>
     <br/>
