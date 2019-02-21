@@ -12,7 +12,7 @@ a:hover {
   text-decoration: none;
 }
 
-a.btn.btn-light.btn-block.mx-auto.mb-4:hover {
+.btn-light:hover {
   background-color: rgba(255,255,255,0);
   color: #fff!important;
 }
@@ -42,7 +42,6 @@ a.btn.btn-light.btn-block.mx-auto.mb-4:hover {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
   .footer-brand-img {
     padding: 0;
     width: 100px;

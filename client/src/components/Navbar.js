@@ -70,7 +70,7 @@ class Navbar extends Component {
               />
           </ul>
           <a 
-            href="/"
+            href="/home"
             className="navbar-brand">
             <img 
               src={logo} 
@@ -88,7 +88,7 @@ class Navbar extends Component {
                 d-md-none"
               style={{ height: '47px' }}>
               <a 
-                href="/"
+                href="/home"
                 className="navbar-brand">
                 <img 
                   src={logo} 
@@ -98,13 +98,6 @@ class Navbar extends Component {
               </a>
             </div>
             <ul className="navbar-nav">
-              <li className="nav-item d-md-none">
-                <a 
-                  href="/home"
-                  className="nav-link">
-                    Home
-                </a>
-              </li>
               <li className="nav-item">
                 <a 
                   href="/about"

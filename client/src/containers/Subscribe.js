@@ -45,7 +45,7 @@ class Subscribe extends Component {
                 }}
                 href="/home" 
                 role="button">
-                Back
+                Back to home
               </a>
               <div className="text-center small letter-space mt-9 mb-4">
                 <CopyrightUpdate 
