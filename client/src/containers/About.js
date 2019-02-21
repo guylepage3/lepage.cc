@@ -18,7 +18,7 @@ class About extends Component {
           style={{
             maxWidth: '850px'
           }}>
-          <h1 className="h1-editorial">
+          <h1 className="h1-editorial mb-4b">
             Simple, clean, concise  experiences that keep the user  coming back, time and time again.
           </h1>
           <p>
