@@ -7,7 +7,7 @@ div.row.d-flex.align-items-end > ul.inline-list > li.list-inline-item.mx-2 > a {
 }
 
 a:hover {
-  color: #1d00f7!important;
+  color: #616161!important;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
 }

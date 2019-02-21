@@ -5,14 +5,14 @@ a:hover {
 }
 
 a.text-light:hover, a.text-light:focus {
-  color: #fff!important;
-  background-color: #1d00f7!important;
+  color: #000!important;
+  background-color: #e0e0e0!important;
 }
 
 a.btn.btn-black.btn-block.mx-auto.mb-4:hover {
-  color: #fff!important;
-  background-color: #1d00f7;
-  border-color: #1d00f7;
+  color: #000!important;
+  background-color: transparent;
+  border-color: #000;
 }
 
 html {
