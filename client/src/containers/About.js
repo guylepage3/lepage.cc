@@ -23,7 +23,7 @@ class About extends Component {
               Simple, clean, concise  experiences that keep the user  coming back, time and time again.
             </h1>
             <p>
-              Guy Lepage, is the founder of <a href="http://universe.engineering" alt="Universe Labs" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Universe Labs&nbsp;</a>, a blockchain agnostic, decentralized web accessibility node network. Guy is a senior product UX/UI designer and front-end developer with 19 years of industry experience.
+              Guy Lepage, is the founder of <a href="http://universe.engineering" alt="Universe Labs" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Universe Labs&nbsp;</a>, a blockchain agnostic, decentralized web accessibility node network. Guy is an open source senior product UX/UI designer and front-end developer with 19 years of industry experience.
             </p>
             <h3 className="h3-editorial">
               Bio
