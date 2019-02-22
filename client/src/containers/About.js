@@ -22,7 +22,7 @@ class About extends Component {
             <h1 className="h1-editorial mb-4b">
               Simple, clean, concise  experiences that keep the user  coming back, time and time again.
             </h1>
-            <div className="mb-3">
+            <div className="mb-4">
               <a 
                 href="https://opensource.guide/how-to-contribute"
                 className="btn btn-sm btn-outline-black open-source open-source-outline ml-0">
