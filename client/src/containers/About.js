@@ -24,7 +24,7 @@ class About extends Component {
             </h1>
             <div className="mb-3">
               <a 
-                href="https://github.com/ellerbrock/open-source-badges/">
+                href="https://opensource.guide/how-to-contribute/#why-contribute-to-open-source">
                 <img 
                   src="https://badges.frapsoft.com/os/v3/open-source.svg?v=103"
                   alt="Open Source Love"
