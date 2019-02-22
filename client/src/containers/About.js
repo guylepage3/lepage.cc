@@ -24,12 +24,9 @@ class About extends Component {
             </h1>
             <div className="mb-3">
               <a 
-                href="https://opensource.guide/how-to-contribute/#why-contribute-to-open-source">
-                <img 
-                  src="https://badges.frapsoft.com/os/v3/open-source.svg?v=103"
-                  alt="Open Source Love"
-                  className="navbar-brand-img" 
-                  />
+                href="https://opensource.guide/how-to-contribute"
+                className="btn btn-sm btn-outline-black open-source open-source-outline ml-0">
+                 Open Source <span>❤️</span>
               </a>
             </div>
             <p>

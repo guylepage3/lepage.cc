@@ -4,6 +4,45 @@ a:hover {
   transition: all 0.2s ease-in-out;
 }
 
+.btn {
+  font-size: 14px;
+  font-weight: 700;                    
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  padding: 12px 45px;
+}
+
+.btn-sm {
+  font-size: 13px;
+  font-weight: 700;                    
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  padding: 8px 16px;
+}
+
+.btn-white {
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-white:hover, 
+.btn-white:focus, 
+.btn-white:focus-within,
+.btn-white:active {
+  background-color: rgba(255,255,255,0)!important;
+  color: #fff!important;
+}
+
+.btn-primary:hover {
+  color: #fff!important;
+}
+
+.btn-link:hover {
+  color: rgba(0,0,0,0.5)!important;
+  text-decoration: none;
+}
+
 a.text-light:hover, a.text-light:focus {
   color: #000!important;
   background-color: #e0e0e0!important;
@@ -43,6 +82,24 @@ dd {
   font-size: 80%;
 }
 
+.open-source {
+  font-size: 11px;
+  padding-top: 6px;
+  padding-right: 39px;
+  padding-bottom: 5px;
+}
+
+.open-source > span {
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 50px;
+  font-size: 16px;
+}
+
+.open-source-outline:hover {
+  color: #fff!important;
+}
+
 .fadein {
   animation: fade-in 1s ease-out forwards;
   opacity: 0;
@@ -74,6 +131,20 @@ dd {
 @media (min-width: 576px) {
   .quote {
     font-size: 3rem; /* Reset back to default */
+  }
+
+  .open-source {
+    font-size: 12px;
+    padding-top: 6px;
+    padding-right: 39px;
+    padding-bottom: 5px;
+  }
+  
+  .open-source > span {
+    position: absolute;
+    margin-top: -21px;
+    margin-left: 54px;
+    font-size: 17px;
   }
 }
 
