@@ -25,7 +25,7 @@ class About extends Component {
             <div className="mb-4">
               <a 
                 href="https://opensource.guide/how-to-contribute"
-                className="btn btn-sm btn-outline-black open-source open-source-outline ml-0">
+                className="btn btn-sm btn-black open-source ml-0">
                  Open Source <span>❤️</span>
               </a>
             </div>
