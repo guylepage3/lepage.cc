@@ -13,7 +13,7 @@ class About extends Component {
             backgroundColor: 'transparent'
           }}/>
         <NavLine />
-        <div className="container">
+        <div style={{ marginLeft: '6px', marginRight: '6px' }}>
           <div 
             className="container text-left mb-8 pb-8"
             style={{
