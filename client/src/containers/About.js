@@ -11,32 +11,32 @@ class About extends Component {
           style={{
             zIndex: '10',
             backgroundColor: 'transparent'
-        }}/>
+          }}/>
         <NavLine />
-        <div 
-          className="container text-left mr-auto mb-8 pb-8"
-          style={{
-            maxWidth: '850px'
-          }}>
-          <h1 className="h1-editorial mb-4b">
-            Simple, clean, concise  experiences that keep the user  coming back, time and time again.
-          </h1>
-          <p>
-            Guy Lepage, is the founder of <a href="http://universe.engineering" alt="Universe Labs" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Universe Labs&nbsp;</a>, a startup focused on making the decentralized web more accessible. Guy is a senior product UX/UI designer and front-end developer with 19 years of industry experience.
-          </p>
-          <h3 className="h3-editorial">
-            Bio
-          </h3>
-          <p>
-            International award-winning senior product and UX/UI designer, marketing expert and entrepreneur with 19+ years experience working on some of the world’s largest brands and most exciting startups.
-          </p>
-          <p>
-          First hire at <a href="http://blockstack.org" alt="Blockstack" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Blockstack&nbsp;</a>, a venture backed blockchain startup who has built a new decentralized internet for decentralized applications. Guy is an entrepreneur with a passion for business, design and technology. He is a former digital advertising agency business founder and is an internationally recognized designer. Guy took a non-traditional route and dropped out of College to pursue design and entrepreneurship. His career path has grown from a Newspaper Art Direction, to Creative Director with ad agencies and tech companies, to the pursuit and passion for software startups, design and technology.
-          </p>
-          <h3 className="h3-editorial">
-            Highlights
-          </h3>
-          <div>
+        <div className="container">
+          <div 
+            className="container text-left mb-8 pb-8"
+            style={{
+              maxWidth: '850px'
+            }}>
+            <h1 className="h1-editorial mb-4b">
+              Simple, clean, concise  experiences that keep the user  coming back, time and time again.
+            </h1>
+            <p>
+              Guy Lepage, is the founder of <a href="http://universe.engineering" alt="Universe Labs" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Universe Labs&nbsp;</a>, a startup focused on making the decentralized web more accessible. Guy is a senior product UX/UI designer and front-end developer with 19 years of industry experience.
+            </p>
+            <h3 className="h3-editorial">
+              Bio
+            </h3>
+            <p>
+              International award-winning senior product and UX/UI designer, marketing expert and entrepreneur with 19+ years experience working on some of the world’s largest brands and most exciting startups.
+            </p>
+            <p>
+            First hire at <a href="http://blockstack.org" alt="Blockstack" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Blockstack&nbsp;</a>, a venture backed blockchain startup who has built a new decentralized internet for decentralized applications. Guy is an entrepreneur with a passion for business, design and technology. He is a former digital advertising agency business founder and is an internationally recognized designer. Guy took a non-traditional route and dropped out of College to pursue design and entrepreneurship. His career path has grown from a Newspaper Art Direction, to Creative Director with ad agencies and tech companies, to the pursuit and passion for software startups, design and technology.
+            </p>
+            <h3 className="h3-editorial">
+              Highlights
+            </h3>
             <ul>
               <li style={{ marginBottom: '1rem' }}>
                 Was the first hire at <a href="http://blockstack.org" alt="Blockstack" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Blockstack&nbsp;</a>, a blockchain startup working closely with the founders and designed and built 25+ products, including the world's first decentralized web browser, chrome extensions, native apps, web apps, websites, and more... All completed over a 2.5 yr period.
@@ -88,29 +88,29 @@ class About extends Component {
                 Assisted a Canadian publicly traded technology company in designing a mobile app with over 20 million downloads.
               </li>
             </ul>
+            <h3 className="h3-editorial">
+              Experience
+            </h3>
+            <p>
+              For a detailed list of who I’ve worked with please visit my LinkedIn profile.
+            </p>
+            <div className="subscribe mr-auto">
+              <a
+                className="btn btn-black btn-block mx-auto mb-4"
+                style={{
+                  fontSize: '13px',
+                  fontWeight: '700',
+                  letterSpacing: '.03em',
+                  textTransform: 'uppercase',
+                  padding: '12px 65px'
+                }}
+                href="http://www.linkedin.com/in/guylepage/" 
+                role="button"
+                tabIndex="1">
+                LinkedIn
+              </a>
+            </div>
           </div>
-          <h3 className="h3-editorial">
-            Experience
-          </h3>
-          <p>
-            For a detailed list of who I’ve worked with please visit my LinkedIn profile.
-          </p>
-          <div className="subscribe mr-auto">
-          <a
-            className="btn btn-black btn-block mx-auto mb-4"
-            style={{
-              fontSize: '13px',
-              fontWeight: '700',
-              letterSpacing: '.03em',
-              textTransform: 'uppercase',
-              padding: '12px 65px'
-            }}
-            href="http://www.linkedin.com/in/guylepage/" 
-            role="button"
-            tabIndex="1">
-            LinkedIn
-          </a>
-        </div>
         </div>
         <Footer />
       </div>
