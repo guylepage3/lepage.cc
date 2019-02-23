@@ -2,6 +2,8 @@ const express = require('express');
 const morgan = require('morgan');
 const request = require('request');
 const bodyParser = require('body-parser');
+const exphbs = require('express-handlebars');
+const nodemailer = require('nodemailer');
 const path = require('path');
 const config = require('./config');
 
