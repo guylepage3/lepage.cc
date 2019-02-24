@@ -92,17 +92,10 @@ app.post('/send-email', (req, res) => {
 
   // create reusable transporter object using the default SMTP transport
   let transporter = nodemailer.createTransport({
-    host: 'smtp.gmail.com',
-    port: 465,
-    secure: true,
+    service: 'Gmail'
     auth: {
         user: 'guylepage3@gmail.com',
         pass: `${config.gmailSecret}`
-    // auth: {
-    //     type: 'OAuth2',
-    //     clientId: `${config.googleClientId}`,
-    //     clientSecret: `${config.googleClientSecret}`,
-    //     refreshToken: '1/eNo-EYBcCKiNGvM9jQz13bD122yRCE5_S0zEdXj6fU4'
     }
   });
 
@@ -118,7 +111,7 @@ app.post('/send-email', (req, res) => {
   // send mail with defined transport object
   transporter.sendMail(mailOptions, (error, info) => {
       if (error) {
-          return console.log(error);
+        res.redirect('/email-error');
       }
       else {
         res.redirect('/email-success');

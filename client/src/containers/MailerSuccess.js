@@ -3,7 +3,7 @@ import CopyrightUpdate from 'copyright-update';
 import '../css/Subscribe.css';
 
 // Using a ES6 class component as it contains state.
-class EmailSuccess extends Component {
+class MailerSuccess extends Component {
   render() {
     return (
       <div className="container-fluid pl-0 pr-0">
@@ -61,4 +61,4 @@ class EmailSuccess extends Component {
   }
 }
 
-export default EmailSuccess;
+export default MailerSuccess;

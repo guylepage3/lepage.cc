@@ -8,7 +8,8 @@ import PatternLib from './containers/PatternLib';
 import Subscribe from './containers/Subscribe';
 import SubscribeError from './containers/SubscribeError';
 import SubscribeSuccess from './containers/SubscribeSuccess';
-import EmailSuccess from './containers/EmailSuccess';
+import MailerError from './containers/MailerError';
+import MailerSuccess from './containers/MailerSuccess';
 import {BrowserRouter, Switch, Route } from 'react-router-dom';
 import './css/App.css';
 
@@ -38,7 +39,8 @@ class App extends Component {
             <Route path="/subscribe" component={Subscribe} />
             <Route path="/subscribe-error" component={SubscribeError} />
             <Route path="/subscribe-success" component={SubscribeSuccess} />
-            <Route path="/email-success" component={EmailSuccess} />
+            <Route path="/email-error" component={MailerError} />
+            <Route path="/email-success" component={MailerSuccess} />
             {/* when none of the above match, <NoMatch> will be rendered */}
             <Route component={NoMatch} />
           </Switch>
