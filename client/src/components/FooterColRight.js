@@ -4,14 +4,14 @@ class FooterColRight extends Component {
   state = {
     data : [
       {
-        "id": 40,
+        "id": 1,
         "url": "/about",
         "text": "About",
         "alt": "About"
       },
       {
-        "id": 41,
-        "url": "mailto:guylepage3@gmail.com?subject=Mail from website",
+        "id": 2,
+        "url": "/contact",
         "text": "Contact",
         "alt": "Contact"
       }

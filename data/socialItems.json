@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "href": "https://github.com/guylepage3/",
+    "alt": "GitHub guylepage3 (Guy Lepage)",
+    "icon": "github",
+    "text": "GitHub"
+  },
+  {
+    "id": 1,
+    "href": "https://www.npmjs.com/~guylepage3",
+    "alt": "npm guylepage3 (Guy Lepage)",
+    "icon": "npm",
+    "text": "npm"
+  },
+  {
+    "id": 2,
+    "href": "https://twitter.com/guylepage3",
+    "alt": "Twitter Guy Lepage (@guylepage3)",
+    "icon": "twitter",
+    "text": "Twitter"
+  },
+  {
+    "id": 3,
+    "href": "https://www.linkedin.com/in/guylepage/",
+    "alt": "Guy Lepage | LinkedIn",
+    "icon": "linkedin",
+    "text": "LinkedIn"
+  },
+  {
+    "id": 4,
+    "href": "https://medium.com/@guylepage3",
+    "alt": "Guy Lepage – Medium",
+    "icon": "medium",
+    "text": "Medium"
+  }
+]

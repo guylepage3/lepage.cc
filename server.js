@@ -12,11 +12,13 @@ const app = express();
 // Morgan http logging for debugging in terminal
 app.use(morgan('short'));
 
+// View engine setup
+// app.engine('handlebars', exphbs());
+// app.set('view engine', 'handlebars');
+
 // Bodyparser middleware
 app.use(bodyParser.urlencoded({extended: true}));
-
-// Static path
-app.use(express.static(path.join(__dirname, 'client/build')));
+app.use(bodyParser.json());
 
 // Subscribe route
 app.post('/', (req, res) => {
@@ -67,6 +69,63 @@ app.post('/', (req, res) => {
     }
   });
 });
+
+app.post('/send-email', (req, res) => {
+  const output = `
+  <p>
+    <strong>First name</strong><br/>
+    ${req.body.firstName}
+  </p>
+  <p>
+    <strong>Last name</strong><br/>
+    ${req.body.lastName}
+  </p>
+  <p>
+    <strong>Email</strong><br/>
+    ${req.body.email}
+  </p>
+  <p>
+    <strong>Message</strong><br/>
+    ${req.body.message}
+  </p>
+  `;
+
+  // create reusable transporter object using the default SMTP transport
+  let transporter = nodemailer.createTransport({
+    host: 'smtp.gmail.com',
+    port: 465,
+    secure: true,
+    auth: {
+        user: 'guylepage3@gmail.com',
+        pass: `${config.gmailSecret}`
+    // auth: {
+    //     type: 'OAuth2',
+    //     clientId: `${config.googleClientId}`,
+    //     clientSecret: `${config.googleClientSecret}`,
+    //     refreshToken: '1/eNo-EYBcCKiNGvM9jQz13bD122yRCE5_S0zEdXj6fU4'
+    }
+  });
+
+  // setup email data with unicode symbols
+  let mailOptions = {
+    from: '"Guy Lepage 📬" <guylepage3@gmail.com>', // sender address
+    to: "guylepage3@gmail.com", // list of receivers
+    subject: "New email from lepage.cc", // Subject line
+    text: "New email from lepage.cc", // plain text body
+    html: output // html body
+  };
+
+  // send mail with defined transport object
+  transporter.sendMail(mailOptions, (error, info) => {
+      if (error) {
+        res.redirect('/subscribe-error');
+      }
+      res.redirect('/email-success');
+  });
+});
+
+// Static path
+app.use(express.static(path.join(__dirname, 'client/build')));
 
 //Production mode
 if(process.env.NODE_ENV === 'production') {

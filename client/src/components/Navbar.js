@@ -107,7 +107,7 @@ class Navbar extends Component {
               </li>
               <li className="nav-item">
                 <a 
-                  href="https://goo.gl/forms/2LvYYCg1VViD6FWm2"
+                  href="/contact"
                   className="nav-link">
                    Contact
                 </a>

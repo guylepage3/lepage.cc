@@ -5,15 +5,15 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/guylepage3/lepage.cc.git"
+    "url": "http://github.com/guylepage3/lepage.cc.git"
   },
   "homepage": ".",
   "bugs": {
-    "url": "https://github.com/guylepage3/lepage.cc/issues/new"
+    "url": "http://github.com/guylepage3/lepage.cc/issues/new"
   },
   "author": "Guy Lepage <guylepage3@gmail.com> (http://lepage.cc)",
   "contributors": {
-    "url": "https://github.com/papriika/papriika.com/graphs/contributors"
+    "url": "http://github.com/papriika/papriika.com/graphs/contributors"
   },
   "private": true,
   "main": "server.js",

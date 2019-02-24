@@ -108,8 +108,7 @@ class Footer extends Component {
                     padding: '12px 45px'
                   }}
                   href="/subscribe" 
-                  role="button"
-                  tabIndex="1">
+                  role="button">
                   Subscribe
                 </a>
               </div>
