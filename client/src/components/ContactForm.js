@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class ContactForm extends Component {
   render() {
     return (
-      <form action="/" method="POST">
+      <form action="/send" method="POST">
         <div className="form-group">
           <label htmlFor="firstName">
             First name 

@@ -70,7 +70,7 @@ app.post('/', (req, res) => {
   });
 });
 
-app.post('/', (req, res) => {
+app.post('/send', (req, res) => {
   const output = `
   <p>
     <strong>First name</strong><br/>
