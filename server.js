@@ -120,7 +120,9 @@ app.post('/send-email', (req, res) => {
       if (error) {
           return console.log(error);
       }
-      res.redirect('/email-success');
+      else {
+        res.redirect('/email-success');
+      }
   });
 });
 
