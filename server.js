@@ -98,9 +98,6 @@ app.post('/send-email', (req, res) => {
     auth: {
         user: 'guylepage3@gmail.com',
         pass: `${config.gmailSecret}`
-    },
-    tls:{
-      rejectUnauthorized: false
     }
   });
 
