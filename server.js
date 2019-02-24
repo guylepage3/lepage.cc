@@ -70,7 +70,7 @@ app.post('/', (req, res) => {
   });
 });
 
-app.post('/send-email', (req, res) => {
+app.post('/', (req, res) => {
   const output = `
   <p>
     <strong>First name</strong><br/>
@@ -92,7 +92,9 @@ app.post('/send-email', (req, res) => {
 
   // create reusable transporter object using the default SMTP transport
   let transporter = nodemailer.createTransport({
-    service: 'Gmail'
+    host: 'smtp.gmail.com',
+    port: 465,
+    secure: true,
     auth: {
         user: 'guylepage3@gmail.com',
         pass: `${config.gmailSecret}`
@@ -113,7 +115,6 @@ app.post('/send-email', (req, res) => {
       if (error) {
         res.redirect('/email-error');
       }
-      else {
         res.redirect('/email-success');
       }
   });
