@@ -15,6 +15,23 @@ app.use(morgan('short'));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
+// Static path
+app.use(express.static(path.join(__dirname, 'client/build')));
+
+//Production mode
+if(process.env.NODE_ENV === 'production') {
+  app.use(express.static(path.join(__dirname, 'client/build')));
+  //
+  app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname = 'client', 'build', 'index.html'));
+  })
+}
+
+//Build mode
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname+'/client/public/index.html'));
+})
+
 // Subscribe route
 app.post('/', (req, res) => {
   const { firstName, lastName, email } = req.body;
@@ -118,23 +135,6 @@ app.post('/send-email', (req, res) => {
       res.redirect('/email-success');
   });
 });
-
-// Static path
-app.use(express.static(path.join(__dirname, 'client/build')));
-
-//Production mode
-if(process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(__dirname, 'client/build')));
-  //
-  app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname = 'client', 'build', 'index.html'));
-  })
-}
-
-//Build mode
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname+'/client/public/index.html'));
-})
 
 //Server setup
 const PORT = process.env.PORT || 5000;
