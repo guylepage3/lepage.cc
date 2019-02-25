@@ -13,8 +13,8 @@ const app = express();
 app.use(morgan('short'));
 
 // View engine setup
-// app.engine('handlebars', exphbs());
-// app.set('view engine', 'handlebars');
+app.engine('handlebars', exphbs());
+app.set('view engine', 'handlebars');
 
 // Bodyparser middleware
 app.use(bodyParser.urlencoded({extended: true}));
