@@ -123,7 +123,7 @@ app.post('/send-email', (req, res) => {
   // send mail with defined transport object
   transporter.sendMail(mailOptions, (error, info) => {
       if (error) {
-        res.redirect('/email-error');
+          return console.log(error);
       }
       res.redirect('/email-success');
   });
