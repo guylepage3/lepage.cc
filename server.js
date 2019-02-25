@@ -13,7 +13,6 @@ app.use(morgan('short'));
 
 // Bodyparser middleware
 app.use(bodyParser.urlencoded({extended: true}));
-app.use(bodyParser.json());
 
 // Subscribe route
 app.post('/', (req, res) => {
@@ -62,58 +61,6 @@ app.post('/', (req, res) => {
         res.redirect('/subscribe-error');
       }
     }
-  });
-});
-
-app.post('/send-email', (req, res) => {
-  const output = `
-  <p>
-    <strong>First name</strong><br/>
-    ${req.body.firstName}
-  </p>
-  <p>
-    <strong>Last name</strong><br/>
-    ${req.body.lastName}
-  </p>
-  <p>
-    <strong>Email</strong><br/>
-    ${req.body.email}
-  </p>
-  <p>
-    <strong>Message</strong><br/>
-    ${req.body.message}
-  </p>
-  `;
-
-  // create reusable transporter object using the default SMTP transport
-  let transporter = nodemailer.createTransport({
-    host: 'smtp.gmail.com',
-    port: 465,
-    secure: true,
-    auth: {
-        user: 'guylepage3@gmail.com',
-        pass: `${config.gmailSecret}`
-    }
-  });
-
-  // setup email data with unicode symbols
-  let mailOptions = {
-    from: '"Guy Lepage 📬" <guylepage3@gmail.com>', // sender address
-    to: "guylepage3@gmail.com", // list of receivers
-    subject: "New email from lepage.cc", // Subject line
-    text: "New email from lepage.cc", // plain text body
-    html: output // html body
-  };
-
-  // send mail with defined transport object
-  transporter.sendMail(mailOptions, (error, info) => {
-      if (error) {
-        return console.log(error);
-      }
-      console.log('Message sent: %s', info.messageId);   
-      console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
-      
-      res.redirect('/email-success');
   });
 });
 
