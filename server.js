@@ -15,23 +15,6 @@ app.use(morgan('short'));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
-// Static path
-app.use(express.static(path.join(__dirname, 'client/build')));
-
-//Production mode
-if(process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(__dirname, 'client/build')));
-  //
-  app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname = 'client', 'build', 'index.html'));
-  })
-}
-
-//Build mode
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname+'/client/public/index.html'));
-})
-
 // Subscribe route
 app.post('/', (req, res) => {
   const { firstName, lastName, email } = req.body;
@@ -61,7 +44,7 @@ app.post('/', (req, res) => {
   const postData = JSON.stringify(data);
 
   const options = {
-    url: 'https://us20.api.mailchimp.com/3.0/lists/f385ecfd91',
+    url: 'https://us11.api.mailchimp.com/3.0/lists/30fdd4ddda',
     method: 'POST',
     headers: {
       Authorization: `auth ${config.mailchimpAPI}`,
@@ -80,10 +63,6 @@ app.post('/', (req, res) => {
       }
     }
   });
-});
-
-app.get('/', (req, res) => {
-  res.render('contact');
 });
 
 app.post('/send-email', (req, res) => {
@@ -112,13 +91,13 @@ app.post('/send-email', (req, res) => {
     port: 465,
     secure: true,
     auth: {
-        type: 'OAuth2',
         user: 'guylepage3@gmail.com',
-        clientId: `${config.googleClientId}`,
-        clientSecret: `${config.googleClientSecret}`,
-        refreshToken: `${config.googleRefreshToken}`,
-        accessToken: `${config.googleAccessToken}`,
-        expires: 1484314697598
+        pass: `${config.gmailSecret}`
+    // auth: {
+    //     type: 'OAuth2',
+    //     clientId: `${config.googleClientId}`,
+    //     clientSecret: `${config.googleClientSecret}`,
+    //     refreshToken: '1/eNo-EYBcCKiNGvM9jQz13bD122yRCE5_S0zEdXj6fU4'
     }
   });
 
@@ -129,19 +108,33 @@ app.post('/send-email', (req, res) => {
     subject: "New email from lepage.cc", // Subject line
     text: "New email from lepage.cc", // plain text body
     html: output // html body
-  };  
+  };
 
   // send mail with defined transport object
   transporter.sendMail(mailOptions, (error, info) => {
-    if (error) {
-        return console.log(error);
+      if (error) {
+        res.redirect('/subscribe-error');
       }
-      console.log('Message sent: %s', info.messageId);   
-      console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
-
       res.redirect('/email-success');
   });
 });
+
+// Static path
+app.use(express.static(path.join(__dirname, 'client/build')));
+
+//Production mode
+if(process.env.NODE_ENV === 'production') {
+  app.use(express.static(path.join(__dirname, 'client/build')));
+  //
+  app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname = 'client', 'build', 'index.html'));
+  })
+}
+
+//Build mode
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname+'/client/public/index.html'));
+})
 
 //Server setup
 const PORT = process.env.PORT || 5000;
