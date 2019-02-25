@@ -2,7 +2,6 @@ const express = require('express');
 const morgan = require('morgan');
 const request = require('request');
 const bodyParser = require('body-parser');
-const nodemailer = require('nodemailer');
 const path = require('path');
 const config = require('./config');
 
@@ -13,6 +12,9 @@ app.use(morgan('short'));
 
 // Bodyparser middleware
 app.use(bodyParser.urlencoded({extended: true}));
+
+// Static path
+app.use(express.static(path.join(__dirname, 'client/build')));
 
 // Subscribe route
 app.post('/', (req, res) => {
@@ -63,9 +65,6 @@ app.post('/', (req, res) => {
     }
   });
 });
-
-// Static path
-app.use(express.static(path.join(__dirname, 'client/build')));
 
 //Production mode
 if(process.env.NODE_ENV === 'production') {
