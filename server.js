@@ -93,11 +93,6 @@ app.post('/send-email', (req, res) => {
     auth: {
         user: 'guylepage3@gmail.com',
         pass: `${config.gmailSecret}`
-    // auth: {
-    //     type: 'OAuth2',
-    //     clientId: `${config.googleClientId}`,
-    //     clientSecret: `${config.googleClientSecret}`,
-    //     refreshToken: '1/eNo-EYBcCKiNGvM9jQz13bD122yRCE5_S0zEdXj6fU4'
     }
   });
 
@@ -113,8 +108,11 @@ app.post('/send-email', (req, res) => {
   // send mail with defined transport object
   transporter.sendMail(mailOptions, (error, info) => {
       if (error) {
-        res.redirect('/subscribe-error');
+        return console.log(error);
       }
+      console.log('Message sent: %s', info.messageId);   
+      console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
+      
       res.redirect('/email-success');
   });
 });
