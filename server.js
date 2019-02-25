@@ -82,6 +82,10 @@ app.post('/', (req, res) => {
   });
 });
 
+app.get('/', (req, res) => {
+  res.render('contact');
+});
+
 app.post('/send-email', (req, res) => {
   const output = `
   <p>
@@ -125,13 +129,16 @@ app.post('/send-email', (req, res) => {
     subject: "New email from lepage.cc", // Subject line
     text: "New email from lepage.cc", // plain text body
     html: output // html body
-  };
+  };  
 
   // send mail with defined transport object
   transporter.sendMail(mailOptions, (error, info) => {
-      if (error) {
-        res.redirect('/email-error');
+    if (error) {
+        return console.log(error);
       }
+      console.log('Message sent: %s', info.messageId);   
+      console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
+
       res.redirect('/email-success');
   });
 });
