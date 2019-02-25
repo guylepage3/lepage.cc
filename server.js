@@ -2,7 +2,6 @@ const express = require('express');
 const morgan = require('morgan');
 const request = require('request');
 const bodyParser = require('body-parser');
-const exphbs = require('express-handlebars');
 const nodemailer = require('nodemailer');
 const path = require('path');
 const config = require('./config');
@@ -11,10 +10,6 @@ const app = express();
 
 // Morgan http logging for debugging in terminal
 app.use(morgan('short'));
-
-// View engine setup
-app.engine('handlebars', exphbs());
-app.set('view engine', 'handlebars');
 
 // Bodyparser middleware
 app.use(bodyParser.urlencoded({extended: true}));
@@ -96,8 +91,13 @@ app.post('/send-email', (req, res) => {
     port: 465,
     secure: true,
     auth: {
+        type: 'OAuth2',
         user: 'guylepage3@gmail.com',
-        pass: `${config.gmailSecret}`
+        clientId: `${config.googleClientId}`,
+        clientSecret: `${config.googleClientSecret}`,
+        refreshToken: `${config.googleRefreshToken}`,
+        accessToken: `${config.googleAccessToken}`,
+        expires: 1484314697598
     }
   });
 
