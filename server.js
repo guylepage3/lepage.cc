@@ -15,11 +15,26 @@ app.use(morgan('short'));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
+// Static path
+app.use(express.static(path.join(__dirname, 'client/build')));
+
+//Production mode
+if(process.env.NODE_ENV === 'production') {
+  app.use(express.static(path.join(__dirname, 'client/build')));
+  //
+  app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname = 'client', 'build', 'index.html'));
+  })
+}
+
+//Build mode
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname+'/client/public/index.html'));
+})
+
 // Subscribe route
 app.post('/', (req, res) => {
   const { firstName, lastName, email } = req.body;
-  // console.log(req.body);
-  // res.send('Hello, Guy');
 
   // Validation
   if (!email) {
@@ -93,11 +108,6 @@ app.post('/send-email', (req, res) => {
     auth: {
         user: 'guylepage3@gmail.com',
         pass: `${config.gmailSecret}`
-    // auth: {
-    //     type: 'OAuth2',
-    //     clientId: `${config.googleClientId}`,
-    //     clientSecret: `${config.googleClientSecret}`,
-    //     refreshToken: '1/eNo-EYBcCKiNGvM9jQz13bD122yRCE5_S0zEdXj6fU4'
     }
   });
 
@@ -113,28 +123,13 @@ app.post('/send-email', (req, res) => {
   // send mail with defined transport object
   transporter.sendMail(mailOptions, (error, info) => {
       if (error) {
-        res.redirect('/subscribe-error');
+        res.redirect('/email-error');
       }
       res.redirect('/email-success');
   });
 });
 
-// Static path
-app.use(express.static(path.join(__dirname, 'client/build')));
 
-//Production mode
-if(process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(__dirname, 'client/build')));
-  //
-  app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname = 'client', 'build', 'index.html'));
-  })
-}
-
-//Build mode
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname+'/client/public/index.html'));
-})
 
 //Server setup
 const PORT = process.env.PORT || 5000;
