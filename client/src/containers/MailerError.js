@@ -21,8 +21,11 @@ class MailerError extends Component {
                 <p className="lead-md font-weight-bold">
                   :(&nbsp;&nbsp;Sorry
                 </p>
+                <p>
+                  Something went wrong. Please go back and try again.
+                </p>
                 <p className="mb-4b">
-                  Something went wrong. Please go back and make sure all fields are filled out correctly.
+                  Alternatively, you can try <a href="https://goo.gl/forms/oEBFuBGfWll33Wp73" alt="Guy Lepage Contact (Google Form)" className="bg-black text-light mx-1">&nbsp;here&nbsp;</a>.
                 </p>
                 <a
                   className="btn btn-primary btn-subscribe mx-auto"
@@ -30,7 +33,7 @@ class MailerError extends Component {
                     textDecoration: 'none',
                     maxWidth: '280px'
                   }}
-                  href="/subscribe" 
+                  href="/contact" 
                   role="button"
                   tabIndex="1">
                   Back
