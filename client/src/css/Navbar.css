@@ -142,7 +142,7 @@ button.navbar-toggler {
   .navbar-brand {
     position: absolute;
     left: 50%;
-    margin-left: -55px;
+    margin-left: -57px;
     margin-right: 0;
     display: block;
     z-index: 100;
@@ -150,7 +150,7 @@ button.navbar-toggler {
 
   .navbar-brand-img {
     padding: 0;
-    width: 110px;
+    width: 115px;
   }
 
   .nav-link {

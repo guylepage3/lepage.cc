@@ -35,7 +35,7 @@ class Subscribe extends Component {
                   A Creative's Lens
                 </h3>
                 <p>
-                  A Creative's Lens is a weekly newsletter update from a creative entrepreneur. Updates, on weekly progress, conversations, thoughts, news, insights and more...
+                  A Creative's Lens is a weekly newsletter providing updates, weekly progress, conversations, thoughts, news, insights and more...
                 </p>
               </Div>
               <SubscribeForm />
