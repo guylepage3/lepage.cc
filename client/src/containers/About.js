@@ -42,7 +42,7 @@ class About extends Component {
             First hire at <a href="http://blockstack.org" alt="Blockstack" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Blockstack&nbsp;</a>, a venture backed blockchain startup who has built a new decentralized internet for decentralized applications. Guy is an entrepreneur with a passion for business, design and technology. He is a former digital advertising agency business founder and is an internationally recognized designer. Guy took a non-traditional route and dropped out of College to pursue design and entrepreneurship. His career path has grown from a Newspaper Art Direction, to Creative Director with ad agencies and tech companies, to the pursuit and passion for software startups, design and technology.
             </p>
             <h3 className="h3-editorial">
-              Highlights
+              Recent Highlights
             </h3>
             <ul>
               <li style={{ marginBottom: '1rem' }}>
