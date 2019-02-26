@@ -8,7 +8,7 @@ const Div = styled.div`
   text-align: center;
 
   @media (min-width: 768px) {
-    text-align: left;
+    text-align: left!important;
   }
 `;
 
@@ -29,13 +29,13 @@ class Subscribe extends Component {
             <div className="card-body">
               <Div className="text-center mb-4">
                 <p className="lead font-weight-bold">
-                  Subscribe to my newsletter
+                  Subscribe to
                 </p>
-                <h3 className="">
+                <h3>
                   A Creative's Lens
                 </h3>
                 <p>
-                  A Creative's Lens is a weekly newsletter providing updates, weekly progress, conversations, thoughts, news, insights and more...
+                  A weekly newsletter by Guy Lepage providing updates, progress, thoughts, insights news, conversations and more...
                 </p>
               </Div>
               <SubscribeForm />
