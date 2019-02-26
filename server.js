@@ -68,7 +68,7 @@ app.post('/', (req, res) => {
   });
 });
 
-app.post('/contact', (req, res) => {
+app.post('/send-email', (req, res) => {
   const output = `
   <p>
     <strong>First name</strong><br/>
@@ -115,10 +115,15 @@ app.post('/contact', (req, res) => {
 
   // send mail with defined transport object
   transporter.sendMail(mailOptions, (error, info) => {
-      if (error) {
-        res.redirect('/subscribe-error');
+      if(err) {
+      res.redirect('/email-error');
+    } else {
+      if(response.statusCode === 200) {
+        res.redirect('/email-success');
+      } else {
+        res.redirect('/email-error');
       }
-      res.redirect('/email-success');
+    }
   });
 });
 
