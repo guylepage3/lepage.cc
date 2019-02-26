@@ -2,6 +2,7 @@ const express = require('express');
 const morgan = require('morgan');
 const request = require('request');
 const bodyParser = require('body-parser');
+const nodemailer = require('nodemailer');
 const path = require('path');
 const config = require('./config');
 
@@ -12,6 +13,7 @@ app.use(morgan('short'));
 
 // Bodyparser middleware
 app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.json());
 
 // Static path
 app.use(express.static(path.join(__dirname, 'client/build')));
@@ -63,6 +65,60 @@ app.post('/', (req, res) => {
         res.redirect('/subscribe-error');
       }
     }
+  });
+});
+
+app.post('/contact', (req, res) => {
+  const output = `
+  <p>
+    <strong>First name</strong><br/>
+    ${req.body.firstName}
+  </p>
+  <p>
+    <strong>Last name</strong><br/>
+    ${req.body.lastName}
+  </p>
+  <p>
+    <strong>Email</strong><br/>
+    ${req.body.email}
+  </p>
+  <p>
+    <strong>Message</strong><br/>
+    ${req.body.message}
+  </p>
+  `;
+
+  // create reusable transporter object using the default SMTP transport
+  let transporter = nodemailer.createTransport({
+    host: 'smtp.gmail.com',
+    port: 465,
+    secure: true,
+    auth: {
+        user: 'guylepage3@gmail.com',
+        pass: `${config.gmailSecret}`
+    // auth: {
+    //     type: 'OAuth2',
+    //     clientId: `${config.googleClientId}`,
+    //     clientSecret: `${config.googleClientSecret}`,
+    //     refreshToken: '1/eNo-EYBcCKiNGvM9jQz13bD122yRCE5_S0zEdXj6fU4'
+    }
+  });
+
+  // setup email data with unicode symbols
+  let mailOptions = {
+    from: '"Guy Lepage 📬" <guylepage3@gmail.com>', // sender address
+    to: "guylepage3@gmail.com", // list of receivers
+    subject: "New email from lepage.cc", // Subject line
+    text: "New email from lepage.cc", // plain text body
+    html: output // html body
+  };
+
+  // send mail with defined transport object
+  transporter.sendMail(mailOptions, (error, info) => {
+      if (error) {
+        res.redirect('/subscribe-error');
+      }
+      res.redirect('/email-success');
   });
 });
 
