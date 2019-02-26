@@ -114,8 +114,8 @@ app.post('/send-email', (req, res) => {
   };
 
   // send mail with defined transport object
-  transporter.sendMail(mailOptions, (error, info) => {
-      if(err) {
+  transporter.sendMail(mailOptions, (error, response, body) => {
+      if(error) {
       res.redirect('/email-error');
     } else {
       if(response.statusCode === 200) {
