@@ -112,7 +112,7 @@ class Navbar extends Component {
                    Contact
                 </a>
               </li>
-              <li className="nav-item d-md-none mb-4">
+              <li className="nav-item mb-4 mb-sm-0">
                 <a 
                   href="/subscribe"
                   className="btn btn-sm btn-outline-black nav-button">

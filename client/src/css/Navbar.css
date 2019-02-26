@@ -120,11 +120,7 @@ button.navbar-toggler {
 }
 
 .nav-button {
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: .03em;
-  text-transform: uppercase;
-  padding: 12px;
+  padding: 16px!important;
   margin-top: 16px;
   margin-left: 0;
   width: 100%;
@@ -184,7 +180,7 @@ button.navbar-toggler {
   }
 
   .navbar-nav {
-    margin-top: -1px;
+    margin-top: 0;
     margin-bottom: 0; /* Resets margin on navbar dropdown */
     padding: 0; /* Resets padding on navbar dropdown */
     height: auto; /* Resets vh on small device dropdown */
@@ -192,8 +188,8 @@ button.navbar-toggler {
   }
   .nav-button {
     width: auto;
-    padding: 8px 16px;
-    margin-top: 1px;
+    padding: 10px 16px!important;
+    margin-top: 0;
     margin-left: 16px;
   }
 }

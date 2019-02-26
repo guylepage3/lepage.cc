@@ -118,7 +118,7 @@ class Footer extends Component {
           <div className="mb-4">
             <a 
               href="https://opensource.guide/how-to-contribute"
-              className="btn btn-sm btn-white open-source ml-0">
+              className="btn btn-white btn-open-source ml-0">
                Open Source <span role="img" aria-label="heart">❤️</span>
             </a>
           </div>

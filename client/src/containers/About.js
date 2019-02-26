@@ -25,7 +25,7 @@ class About extends Component {
             <div className="mb-4">
               <a 
                 href="https://opensource.guide/how-to-contribute"
-                className="btn btn-sm btn-black open-source ml-0">
+                className="btn btn-black btn-open-source ml-0">
                  Open Source <span role="img" aria-label="heart">❤️</span>
               </a>
             </div>
@@ -105,10 +105,6 @@ class About extends Component {
               <a
                 className="btn btn-black btn-block mx-auto mb-4"
                 style={{
-                  fontSize: '13px',
-                  fontWeight: '700',
-                  letterSpacing: '.03em',
-                  textTransform: 'uppercase',
                   padding: '12px 65px'
                 }}
                 href="http://www.linkedin.com/in/guylepage/" 
