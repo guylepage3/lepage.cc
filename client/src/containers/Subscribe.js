@@ -42,7 +42,6 @@ class Subscribe extends Component {
               <a
                 className="btn btn-link btn-subscribe btn-block mx-auto"
                 style={{
-                  textDecoration: 'none',
                   maxWidth: '280px',
                   marginTop: '16px'
                 }}
