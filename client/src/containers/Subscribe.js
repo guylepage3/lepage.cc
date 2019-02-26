@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import CopyrightUpdate from 'copyright-update';
 import SubscribeForm from '../components/SubscribeForm';
+import logo from './../img/guylepage-logo-wordmark.svg';
 import '../css/Subscribe.css';
 
 const Div = styled.div`
@@ -9,6 +10,15 @@ const Div = styled.div`
 
   @media (min-width: 768px) {
     text-align: left!important;
+  }
+`;
+
+const Img = styled.img`
+  width: 110px;
+  margin-left: -8px;
+
+  @media (min-width: 768px) {
+    width: 150px;
   }
 `;
 
@@ -28,17 +38,27 @@ class Subscribe extends Component {
           <div className="card col-md-8">
             <div className="card-body">
               <Div className="text-center mb-4">
-                <p className="lead font-weight-bold">
+                <a 
+                  href="/home">
+                  <Img 
+                    src={logo} 
+                    alt="Guy Lepage Logo"
+                    className="mb-4c"
+                    />
+                </a>
+                {/*<p className="lead font-weight-bold">
                   Subscribe to
+                </p>*/}
+                <p className="lead font-weight-bold">
+                  Subscribe to "A Creative's Lens".
                 </p>
-                <h3>
-                  A Creative's Lens
-                </h3>
-                <p>
+                <p className="mb-4c">
                   A weekly newsletter by Guy Lepage providing updates, progress, thoughts, insights news, conversations and more...
                 </p>
               </Div>
-              <SubscribeForm />
+              <SubscribeForm 
+                className="subscribe-form"
+                />
               <a
                 className="btn btn-link btn-subscribe btn-block mx-auto"
                 style={{

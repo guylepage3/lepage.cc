@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class SubscribeForm extends Component {
   render() {
     return (
-      <form action="/" method="POST">
+      <form action="/" method="POST" className={this.props.className}>
         <div className="form-group">
           <label htmlFor="firstName">
             First name 
