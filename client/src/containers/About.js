@@ -30,7 +30,7 @@ class About extends Component {
               </a>
             </div>
             <p>
-              Guy Lepage, is the founder of <a href="http://universe.engineering" alt="Universe Labs" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Universe Labs&nbsp;</a>, a blockchain agnostic, decentralized web accessibility node network. Guy is an open source product UX/UI designer and front-end developer with 19 years of industry experience.
+              Guy Lepage, is the founder of <a href="http://universe.engineering" alt="Universe Labs" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Universe Labs&nbsp;</a>, a blockchain agnostic, decentralized web accessibility node network. He also is the founder of <a href="http://papriika.com" alt="Papriika Hotel Club" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Papriika.com&nbsp;</a>, an Open source decentralized hotel booking app. Guy is an open source product UX/UI designer and front-end developer with 19 years of industry experience.
             </p>
             <h3 className="h3-editorial">
               Bio
