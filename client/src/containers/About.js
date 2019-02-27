@@ -80,9 +80,6 @@ class About extends Component {
                 Was a key contributor in building a community of blockchain developers from 0 to 13,000 community members.
               </li>
               <li style={{ marginBottom: '1rem' }}>
-                Guy sits on the Board of Advisors to <a href="https://news.net-cents.com/2018/03/21/blockstacks-guy-lepage-joins-netcents-technologys-board-advisors/" alt="NetCents Technology" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;NetCents Technology&nbsp;</a>, a publicly traded tech company trading in <a href="https://www.bloomberg.com/quote/NC:CN" alt="NC:Canadian Sec Stock Quote - NetCents Technology Inc - Bloomberg Markets" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Canada&nbsp;</a> and <a href="https://www.bloomberg.com/quote/26N:GR" alt="26N:Frankfurt Stock Quote - NetCents Technology Inc - Bloomberg Markets" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Germany&nbsp;</a>.
-              </li>
-              <li style={{ marginBottom: '1rem' }}>
                 Designed a the worlds first decentralized web browser that was a <a href="https://twitter.com/guylepage3/status/889857953980964864" alt="Blockstack. A reinvention of the Internet for better privacy" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;finalist in the 2017 INDEX awards&nbsp;</a>.
               </li>
               <li style={{ marginBottom: '1rem' }}>
