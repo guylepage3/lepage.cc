@@ -51,6 +51,17 @@
     
       gtag('config', 'UA-127230405-1');
     </script>
+
+    <!-- Mailchimp subscribe pop-up -->
+    <!-- Added custom timeout function -->
+    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+    <script type="text/javascript">
+      setTimeout(function(){
+      window.dojoRequire(["mojo/signup-forms/Loader"], 
+        function(L) { L.start({"baseUrl":"mc.us20.list-manage.com","uuid":"a087c1b9b12141252b4491337","lid":"f385ecfd91","uniqueMethods":true}) })
+    }, 12000);
+    </script>
+
     <title>Guy Lepage</title>
   </head>
   <body>
