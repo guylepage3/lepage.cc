@@ -50,7 +50,7 @@ class Subscribe extends Component {
                   Subscribe to
                 </p>*/}
                 <p className="lead font-weight-bold">
-                  Subscribe to receive weekly project updates.
+                  Subscribe to receive weekly updates on current projects and more.
                 </p>
                 <p className="mb-4c">
                   Get weekly updates on project progress, thoughts, insights news, conversations and more...
