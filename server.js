@@ -50,7 +50,7 @@ app.post('/', (req, res) => {
   const postData = JSON.stringify(data);
 
   const options = {
-    url: 'https://us20.api.mailchimp.com/3.0/lists/f385ecfd91',
+    url: 'https://us20.api.mailchimp.com/3.0/lists/56f8dd491c',
     method: 'POST',
     headers: {
       Authorization: `auth ${config.mailchimpAPI}`,
@@ -97,7 +97,7 @@ app.post('/send-email', (req, res) => {
     port: 465,
     secure: true,
     auth: {
-        user: 'guylepage3@gmail.com',
+        user: `${config.gmailMailer}`,
         pass: `${config.gmailSecret}`
     // auth: {
     //     type: 'OAuth2',
