@@ -50,10 +50,10 @@ class Subscribe extends Component {
                   Subscribe to
                 </p>*/}
                 <p className="lead font-weight-bold">
-                  Subscribe to "A Creative's Lens".
+                  Subscribe to receive weekly project updates.
                 </p>
                 <p className="mb-4c">
-                  A weekly newsletter by Guy Lepage providing updates, progress, thoughts, insights news, conversations and more...
+                  Get weekly updates on project progress, thoughts, insights news, conversations and more...
                 </p>
               </Div>
               <SubscribeForm 

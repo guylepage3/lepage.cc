@@ -50,7 +50,7 @@ app.post('/', (req, res) => {
   const postData = JSON.stringify(data);
 
   const options = {
-    url: 'https://us20.api.mailchimp.com/3.0/lists/56f8dd491c',
+    url: 'https://us20.api.mailchimp.com/3.0/lists/f385ecfd91',
     method: 'POST',
     headers: {
       Authorization: `auth ${config.mailchimpAPI}`,
