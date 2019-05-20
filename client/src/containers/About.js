@@ -46,7 +46,7 @@ class About extends Component {
             </h3>
             <ul>
               <li style={{ marginBottom: '1rem' }}>
-                Was the first hire at <a href="http://blockstack.org" alt="Blockstack" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Blockstack&nbsp;</a>, a blockchain startup working closely with the founders and designed and built 25+ products, including the world's first decentralized web browser, chrome extensions, native apps, web apps, websites, and more... All completed over a 2.5 yr period.
+                Was the first hire at <a href="http://blockstack.org" alt="Blockstack" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Blockstack&nbsp;</a>, a blockchain startup working closely with the founders and designed and built 25+ products, including the <a href="https://github.com/blockstack/blockstack-browser/graphs/contributors" alt="Blockstack" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Blockstack Browser</a>, chrome extensions, native apps, web apps, websites, and more... All completed over a 2.5 yr period.
               </li>
               <li style={{ marginBottom: '1rem' }}>
                 Was one of the core contributors to <a href="https://venturebeat.com/2017/12/04/blockstack-raises-52-million-to-build-a-parallel-internet-where-you-own-all-your-data/" alt="Blockstack raises $52 million to build a parallel internet where you own all your data" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Blockstack’s $52M ICO&nbsp;</a> and token distribution. VC’s who participated in the ICO include;
