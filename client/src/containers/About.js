@@ -71,7 +71,7 @@ class About extends Component {
                 Was a key contributor in building a community of blockchain developers from 0 to 13,000 community members.
               </li>
               <li style={{ marginBottom: '1rem' }}>
-                Designer and 1 of 2 developers to build the stand alone <a href="https://github.com/blockstack/blockstack-browser/graphs/contributors" alt="Blockstack Browser" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Blockstack Browser & intial variations of the current Blockstack Web Browser&nbsp;</a> that was a <a href="https://twitter.com/guylepage3/status/889857953980964864" alt="Blockstack. A reinvention of the Internet for better privacy" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;finalist in the 2017 INDEX awards&nbsp;</a>.
+                Designer and 1 of 2 developers to build the stand alone Blockstack Browser & intial variations of the current Blockstack Web Browser that was a <a href="https://twitter.com/guylepage3/status/889857953980964864" alt="Blockstack. A reinvention of the Internet for better privacy" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;finalist in the 2017 INDEX awards&nbsp;</a>. <a href="https://github.com/blockstack/blockstack-browser/graphs/contributors" alt="Blockstack Browser" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Link to Blockstack Browser code&nbsp;</a>.
               </li>
               <li style={{ marginBottom: '1rem' }}>
                 Part of the New York and Silicon Valley tech startup community.
