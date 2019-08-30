@@ -103,8 +103,8 @@ dd {
 /* Heart */
 .btn-open-source > span {
   position: absolute;
-  margin-top: -16px;
-  margin-left: 48px;
+  margin-top: -2px;
+  margin-left: 6px;
   font-size: 16px;
 }
 
@@ -155,8 +155,8 @@ dd {
   .btn-open-source > span {
     font-size: 17px;
     position: absolute;
-    margin-top: -17px;
-    margin-left: 52px;
+    margin-top: -2px;
+    margin-left: 8px;
     
   }
 }
