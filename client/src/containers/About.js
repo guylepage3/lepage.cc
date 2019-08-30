@@ -37,7 +37,7 @@ class About extends Component {
             </h3>
             <ul>
               <li style={{ marginBottom: '1rem' }}>
-                Was the first hire at <a href="http://blockstack.org" alt="Blockstack" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Blockstack&nbsp;</a>, a blockchain startup working closely with the founders and designed and assisted in building over 25 products, including the <a href="https://github.com/blockstack/blockstack-browser/graphs/contributors" alt="Blockstack Browser" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Blockstack Browser&nbsp;</a>, chrome extensions, native apps, web apps, websites, and more... Completed over a 2 yr period.
+                Was the first hire at <a href="http://blockstack.org" alt="Blockstack" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Blockstack&nbsp;</a>, a blockchain startup. Guy worked closely with the founders, designed and assisted in building over 25 products, including the <a href="https://github.com/blockstack/blockstack-browser/graphs/contributors" alt="Blockstack Browser" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Blockstack Browser&nbsp;</a>, chrome extensions, native apps, web apps, websites, and more... All completed over a 2 yr period.
               </li>
               <li style={{ marginBottom: '1rem' }}>
                 Was one of the core contributors to <a href="https://venturebeat.com/2017/12/04/blockstack-raises-52-million-to-build-a-parallel-internet-where-you-own-all-your-data/" alt="Blockstack raises $52 million to build a parallel internet where you own all your data" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Blockstack’s $52M ICO&nbsp;</a> and token distribution. VC’s who participated in the ICO include;
@@ -65,13 +65,13 @@ class About extends Component {
                   <li><a href="https://twitter.com/naval" alt="Naval Ravikant" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Naval Ravikant&nbsp;</a> (earlier investor)</li>
                 </ul>
               <li style={{ marginBottom: '1rem' }}>
-                Assisted in growing the core blockchain user base from 35,000 to 75,000 users.
+                Assisted in growing Blockstack's core blockchain user base from 35,000 to 75,000 users.
               </li>
               <li style={{ marginBottom: '1rem' }}>
                 Was a key contributor in building a community of blockchain developers from 0 to 13,000 community members.
               </li>
               <li style={{ marginBottom: '1rem' }}>
-                Designer and 1 of 2 developers to build the stand alone Blockstack Browser & initial variations of the current Blockstack Web Browser that was a <a href="https://twitter.com/guylepage3/status/889857953980964864" alt="Blockstack. A reinvention of the Internet for better privacy" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;finalist in the 2017 INDEX awards&nbsp;</a>. <a href="https://github.com/blockstack/blockstack-browser/graphs/contributors" alt="Blockstack Browser" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;Link to Blockstack Browser code&nbsp;</a>.
+                Designer and 1 of 2 developers to build the stand alone Blockstack Browser & initial variations of the current Blockstack Web Browser that was a <a href="https://twitter.com/guylepage3/status/889857953980964864" alt="Blockstack. A reinvention of the Internet for better privacy" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;finalist in the 2017 INDEX awards&nbsp;</a>. <a href="https://github.com/blockstack/blockstack-browser/graphs/contributors" alt="Blockstack Browser" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp;› Link to Blockstack Browser code&nbsp;</a>.
               </li>
               <li style={{ marginBottom: '1rem' }}>
                 Part of the New York and Silicon Valley tech startup community.
@@ -81,6 +81,9 @@ class About extends Component {
               </li>
               <li style={{ marginBottom: '1rem' }}>
                 Assisted a Canadian publicly traded technology company in designing a mobile app with over 20 million downloads.
+              </li>
+              <li style={{ marginBottom: '1rem' }}>
+                Guy has won multiple art director and interactive design awards including, <a href="https://www.linkedin.com/in/guylepage/detail/treasury/position:33407171/?entityUrn=urn%3Ali%3Afs_treasuryMedia%3A(ACoAAACb1zIB9vl4eHGtAFrK6N_ukPQxAD0Hb_E%2C1553550404780)&section=position%3A33407171&treasuryCount=2" alt="LOTUS Award, Interactive, Best Website, www.elevatorstrategy.com 2004" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp; LOTUS Award (Vancouver, Canada), Interactive, Best Website, 2004</a> and <a href="https://www.linkedin.com/in/guylepage/" alt="New York Festivals, Best Brand Development 2005" target="_blank" rel="noopener noreferrer" className="bg-black text-light mx-1">&nbsp; New York Festivals, Best Brand Development 2005</a>.
               </li>
             </ul>
             <h3 className="h3-editorial">
