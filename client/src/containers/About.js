@@ -56,7 +56,7 @@ class About extends Component {
                   <li><a href="http://qasaryounis.com/" alt="Qasar Younis" target="_blank" rel="noopener noreferrer" className="bg-black text-light px-1">Qasar Younis</a> former COO of Y Combinator</li>
                 </ul>
               <li style={{ marginBottom: '1rem' }}>
-                Assisted in the raising of a <a href="https://techcrunch.com/2017/01/05/blockstack-formerly-called-onename-just-raised-4-million/" alt="Blockstack, formerly called Onename, just raised $4 million" target="_blank" rel="noopener noreferrer" className="bg-black text-light px-1">$4M Series A</a> funding round led by Union Square Ventures (USV). Other investors included;
+                Assisted in the raising of a <a href="https://techcrunch.com/2017/01/05/blockstack-formerly-called-onename-just-raised-4-million/" alt="Blockstack, formerly called Onename, just raised $4 million" target="_blank" rel="noopener noreferrer" className="bg-black text-light px-1">$4M&nbsp;Series&nbsp;A</a> funding round led by Union Square Ventures (USV). Other investors included;
               </li>
                 <ul style={{ marginTop: '0!important', marginBottom: '1rem' }}>
                   <li>Lux Capital</li>
