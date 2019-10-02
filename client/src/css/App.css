@@ -103,17 +103,17 @@ dd {
   font-size: 11px;
   line-height: 1.25;
   padding-top: 6px;
-  padding-right: 28px;
-  padding-bottom: 6px;
-  padding-left: 8px;
+  padding-right: 12px;
+  padding-bottom: 10px;
+  padding-left: 15px;
 }
 
 /* Heart */
 .btn-open-source > span {
-  position: absolute;
-  margin-top: -2px;
+  position: relative;
+  top: 3px;
   margin-left: 6px;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 /* Actions */
@@ -154,17 +154,17 @@ dd {
   .btn-open-source {
     font-size: 12px;
     padding-top: 8px;
-    padding-right: 32px;
-    padding-bottom: 8px;
+    padding-right: 16px;
+    padding-bottom: 11px;
     padding-left: 16px;
   }
   
   /* Heart */
   .btn-open-source > span {
-    font-size: 17px;
-    position: absolute;
-    margin-top: -2px;
-    margin-left: 8px;
+    font-size: 16px;
+    position: relative;
+    top: 3px;
+    margin-left: 5px;
     
   }
 }
