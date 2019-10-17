@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/guylepage3
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://lepage.cc
+  * I am guylepage3 (https://keybase.io/guylepage3) on keybase.
+  * I have a public key ASAZhAmNfc8ZwwpOGYw7rNo8WFjeoj8Rr-2iIMM4aIe5Gwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101461aacd2e78a693b15d1adfd45a68ca9b47f9dad79592a5aa74441e728c5861d0a",
+      "host": "keybase.io",
+      "kid": "01201984098d7dcf19c30a4e198c3bacda3c5858dea23f11afeda220c3386887b91b0a",
+      "uid": "865426e114c43947ad26027bd4260b19",
+      "username": "guylepage3"
+    },
+    "merkle_root": {
+      "ctime": 1571337050,
+      "hash": "e588a7c46909ba92d0e7438af4ecd622e7fd14a58d7f2ce9f1cc4a9298015d75e86be18c984942705f2826209670474b830e6dd35b48922c46d3f2143f16ba9d",
+      "hash_meta": "51de0f3bf4883e1187db98b1c6611abbc4fabef36c2fe412900795640cbba0d0",
+      "seqno": 8200114
+    },
+    "service": {
+      "entropy": "E0hS2JFkTe5f6cdKT+jrRi9X",
+      "hostname": "lepage.cc",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.6.0"
+  },
+  "ctime": 1571337060,
+  "expire_in": 504576000,
+  "prev": "237fa2fce8e7f90cc7ce724af7a1ee5988e8adb67ea54af1e44d7eaa040b4e13",
+  "seqno": 65,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgGYQJjX3PGcMKThmMO6zaPFhY3qI/Ea/toiDDOGiHuRsKp3BheWxvYWTESpcCQcQgI3+i/Ojn+QzHznJK96HuWYjorbZ+pUrx5E1+qgQLThPEILmDuRjlWEn4S2pvmLU5nVVX/wGBGn91OpxpMxwl5aQ2AgHCo3NpZ8RAaM5ByWlyI+cCkPMw9qE2XbbkN8X5me9n8py4r6XcGf1IQHMWoq1L8YlWu2jJ6Aeahn+WJiFn2Vp/K7Q77D+3DahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIM6qFQW36QTT5j4ptnS3lrxQQR9p3b9bOsMsjZ4rhGS3o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/guylepage3
+
+==================================================================
