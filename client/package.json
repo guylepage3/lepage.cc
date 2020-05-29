@@ -33,7 +33,7 @@
     "@fortawesome/free-brands-svg-icons": "^5.13.0",
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/react-fontawesome": "^0.1.9",
-    "@universelabs/meta": "^1.11.0",
+    "@universelabs/meta": "^1.12.0",
     "bootstrap": "^4.5.0",
     "copyright-update": "^1.8.0",
     "jquery": "^3.5.1",
