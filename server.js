@@ -1,5 +1,5 @@
-const sslRedirect = require('heroku-ssl-redirect');
-const express = require('express');
+import sslRedirect from 'heroku-ssl-redirect';
+import express from 'express';
 const morgan = require('morgan');
 const request = require('request');
 const bodyParser = require('body-parser');
