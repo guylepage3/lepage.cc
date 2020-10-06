@@ -9,7 +9,13 @@ const config = require('./config');
 
 const app = express();
 
-app.use(sslRedirect());
+app.use(sslRedirect([
+  'other'
+  'development',
+  'production',
+  'build',
+  'env'
+  ]));
 
 // Morgan http logging for debugging in terminal
 app.use(morgan('short'));
